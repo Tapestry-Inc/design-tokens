@@ -1,0 +1,65 @@
+{{> section-heading title='Viewport'}}
+
+<style type="text/css">
+  .signal {
+    width: 98%;
+    display: flex;
+    height: 35px;
+    border-radius: 5px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
+  
+<table>
+  <thead>
+    <td class="heading-identifier">Identifier</td>
+    <td class="heading-value center">Value</td>
+    <td class="heading-example center">Example</td>
+  </thead>
+  <tbody>
+    {{#each viewport}}
+      <tr class="font">
+        <td class="identifier">
+          <ul>
+            <li><span>CSS</span> <code>{{ attributes.identity.css.customProperty }}</code></li>
+            <li><span>SCSS</span> <code>{{ attributes.identity.css.scssVariable }}</code></li>
+          </ul>
+        </td>
+        <td class="value"><pre>{{ value }} /*{{ comment }}*/</pre></td>
+        <td class="example">
+          {{#with attributes.identity}}
+
+          <style type="text/css">
+            .{{name}}-fail {
+              color: #fff;
+              display: inline-block;
+            }
+            .{{name}}-pass {
+              display: none
+            }
+            @media {{ ../value }} {
+              .{{name}}-signal {
+                background-color: lightgreen;
+              }
+              .{{name}}-fail {
+                display: none;
+              }
+              .{{name}}-pass {
+                display: inline-block
+              }
+            }
+          </style>
+
+          <div class='signal {{name}}-signal'>
+              <span class='{{name}}-pass'>Matches</span>
+              <span class='{{name}}-fail'>Does not Match</span>
+          </div>
+
+          {{/with}}
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</t

@@ -128,6 +128,15 @@ module.exports = brands.map((brand) => [
                             },
                         },
                     },
+                    {
+                        destination: 'viewport.json',
+                        format: 'json/properties',
+                        filter: {
+                            attributes: {
+                                category: 'viewport',
+                            },
+                        },
+                    },
                 ],
             },
         },
