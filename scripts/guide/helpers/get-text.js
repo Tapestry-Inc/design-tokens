@@ -9,7 +9,7 @@ module.exports = (attrs) => {
             return 'This is a Headline';
 
         case 'body':
-            return 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.';
+            return 'Tapestry is a global house of brands powered by optimism, innovation, and inclusivity. We believe true luxury is a freedom of expression that ignites confidence and authenticity. At Tapestry, anyone from anywhere can have the best idea, and with hard work and dedication, anything is possible.';
 
         case 'eyebrow':
             return 'Eyebrow Text';
@@ -21,6 +21,6 @@ module.exports = (attrs) => {
             return 'Badge Text';
 
         default:
-            return 'Lorem ipsum dolor sit amet';
+            return 'We are a global house of brands.';
     }
 };

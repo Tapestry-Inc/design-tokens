@@ -1,8 +1,8 @@
 {
   "font": {
     "face": {
-      "sans-serif": {
-        "book": {
+      "primary": {
+        "normal": {
           "family": {
             "value": "FuturaBT-Book"
           },
@@ -63,8 +63,8 @@
           }
         }
       },
-      "serif": {
-        "regular": {
+      "secondary": {
+        "normal": {
           "family": {
             "value": "HeldaneText-Regular"
           },
