@@ -7,6 +7,9 @@
         },
         "medium": {
           "value": "{font.face.sans-serif.medium.family.value}, Helvetica, Arial, sans-serif"
+        },
+        "bold": {
+          "value": "{font.face.sans-serif.bold.family.value}, Helvetica, Arial, sans-serif"
         }
       },
       "serif": {

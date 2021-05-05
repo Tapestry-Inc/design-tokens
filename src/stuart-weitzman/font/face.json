@@ -41,6 +41,26 @@
           "woff2": {
             "value": "https://assets.stuartweitzman.com/na/fonts/FuturaBT-Medium.woff2"
           }
+        },
+        "bold": {
+          "family": {
+            "value": "FuturaBT-Bold"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["FuturaBT-Bold"]
+          },
+          "woff2": {
+            "value": "https://assets.stuartweitzman.com/na/fonts/FuturaBT-Bold.woff2"
+          }
         }
       },
       "serif": {

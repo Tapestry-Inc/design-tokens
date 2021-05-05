@@ -94,7 +94,7 @@
         },
         "badge": {
           "xs": {
-            "font-family": { "value": "{font.family.sans-serif.medium.value}" },
+            "font-family": { "value": "{font.family.sans-serif.bold.value}" },
             "font-size": { "value": "{size.font.9.value}" },
             "letter-spacing": { "value": "{size.letter-spacing.m.value}" },
             "line-height": { "value": "{size.line-height.xs.value}" },
