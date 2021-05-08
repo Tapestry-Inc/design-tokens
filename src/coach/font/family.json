@@ -1,17 +1,17 @@
 {
   "font": {
     "family": {
-      "sans-serif": {
-        "roman": {
-          "value": "{font.face.sans-serif.roman.family.value}, Helvetica, Arial, sans-serif"
+      "primary": {
+        "normal": {
+          "value": "{font.face.primary.normal.family.value}, Helvetica, Arial, sans-serif"
         },
         "bold": {
-          "value": "{font.face.sans-serif.bold.family.value}, Helvetica, Arial, sans-serif"
+          "value": "{font.face.primary.bold.family.value}, Helvetica, Arial, sans-serif"
         }
       },
-      "serif": {
-        "regular": {
-          "value": "{font.face.serif.regular.family.value}, serif"
+      "secondary": {
+        "normal": {
+          "value": "{font.face.secondary.normal.family.value}, serif"
         }
       }
     }

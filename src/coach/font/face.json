@@ -1,8 +1,8 @@
 {
   "font": {
     "face": {
-      "sans-serif": {
-        "roman": {
+      "primary": {
+        "normal": {
           "family": {
             "value": "HelveticaLTPro-Roman"
           },
@@ -43,8 +43,8 @@
           }
         }
       },
-      "serif": {
-        "regular": {
+      "secondary": {
+        "normal": {
           "family": {
             "value": "BemboMTPro-Regular"
           },
