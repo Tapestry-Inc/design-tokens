@@ -29,13 +29,13 @@
           },
           "xl": {
             "font-family": { "value": "{font.family.sans-serif.bold.value}" },
-            "font-size": { "value": "{size.font.42.value}" },
+            "font-size": { "value": "{size.font.45.value}" },
             "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
             "line-height": { "value": "{size.line-height.xs.value}" }
           },
           "2xl": {
             "font-family": { "value": "{font.family.sans-serif.bold.value}" },
-            "font-size": { "value": "{size.font.54.value}" },
+            "font-size": { "value": "{size.font.60.value}" },
             "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
             "line-height": { "value": "{size.line-height.xs.value}" }
           }
@@ -127,13 +127,13 @@
           },
           "xl": {
             "font-family": { "value": "{font.family.serif.regular.value}" },
-            "font-size": { "value": "{size.font.42.value}" },
+            "font-size": { "value": "{size.font.45.value}" },
             "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
             "line-height": { "value": "{size.line-height.xs.value}" }
           },
           "2xl": {
             "font-family": { "value": "{font.family.serif.regular.value}" },
-            "font-size": { "value": "{size.font.50.value}" },
+            "font-size": { "value": "{size.font.60.value}" },
             "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
             "line-height": { "value": "{size.line-height.xs.value}" }
           }
