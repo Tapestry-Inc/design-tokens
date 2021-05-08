@@ -5,12 +5,12 @@ module.exports = (tag) => {
     const check = chalk.bold.green('✔︎  ');
     const minus = chalk.bold.red('- ');
 
-    const log = (msg) => console.info(`${msg}`);
-    log.warn = (msg) => console.warn(`WARN: ${msg}`);
-    log.error = (msg) => console.error(`ERROR: ${msg}`);
-    log.tag = (msg) => console.info(`${prefix}${msg}`);
-    log.add = (msg) => console.info(`${check}${msg}`);
-    log.remove = (msg) => console.info(`${minus}${msg}`);
+    const log = (msg, ...msgs) => console.info(`${msg}`, ...msgs);
+    log.warn = (msg, ...msgs) => console.warn(`WARN: ${msg}`, ...msgs);
+    log.error = (msg, ...msgs) => console.error(`ERROR: ${msg}`, ...msgs);
+    log.tag = (msg, ...msgs) => console.info(`${prefix}${msg}`, ...msgs);
+    log.add = (msg, ...msgs) => console.info(`${check}${msg}`, ...msgs);
+    log.remove = (msg, ...msgs) => console.info(`${minus}${msg}`, ...msgs);
 
     return log;
 };

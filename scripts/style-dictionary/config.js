@@ -138,6 +138,16 @@ module.exports = brands.map((brand) => [
                         },
                     },
                     {
+                        destination: 'spacing.json',
+                        format: 'json/properties',
+                        filter: {
+                            attributes: {
+                                category: 'size',
+                                type: 'spacing',
+                            },
+                        },
+                    },
+                    {
                         destination: 'viewport.json',
                         format: 'json/properties',
                         filter: {
