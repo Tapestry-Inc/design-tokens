@@ -13,7 +13,7 @@ const getType = (name) => {
         if (type) acuum = type.type;
 
         return acuum;
-    }, 'undefined');
+    }, `undefined (update required: ${paths.scripts.tailwind}/selector-map.js)`);
 };
 const createProperty = (selector, decls) => {
     const name = selector.replace(/^\./, '');

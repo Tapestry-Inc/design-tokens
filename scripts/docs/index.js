@@ -92,9 +92,10 @@ brands.forEach(async (brand, index) => {
     icon.forEach((props) => {
         const filePath = `${paths.build.root}${brand}/${props.value}`;
         const isVideoIcon = props.attributes.item === 'video';
+        const needsDarkerBG = isVideoIcon;
 
         props.svg = {
-            background: isVideoIcon ? '#7e7e7e' : 'white',
+            background: needsDarkerBG ? 'darker' : 'lighter',
             source: fs.readFileSync(filePath, { encoding: 'utf8' }),
         };
     });
