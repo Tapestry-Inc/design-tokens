@@ -13,6 +13,7 @@ yarn-error.log*
 # ------------------
 .vs/
 .vscode/
+.cloc-excluded-files
 .tm_properties
 *.sublime-project
 *.sublime-workspace

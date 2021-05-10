@@ -3,6 +3,8 @@ const fs = require('fs-extra');
 const chalk = require('chalk');
 const globby = require('globby');
 const { optimize, extendDefaultPlugins } = require('svgo');
+const { paths } = require('../../../constants');
+const log = require(`${paths.scripts.lib}log`)();
 
 const svgOptimize = (src, relPath, absPath) => {
     const className = `icon-${relPath.replace(/\//g, '-').replace('.svg', '')}`;
@@ -40,9 +42,8 @@ const copy = (dictionary, config) => {
             });
         });
 
-        console.info(
+        log.add(
             [
-                chalk.bold.green('✔︎  '),
                 `from: ${dirPath}`,
                 `\n${chalk.hidden('   ')}`,
                 `to:${chalk.hidden('   ')}${config.buildPath}`,
@@ -53,7 +54,7 @@ const copy = (dictionary, config) => {
 
 const clear = (dictionary, config) => {
     fs.emptyDirSync(config.buildPath);
-    console.info(`${chalk.bold.red('- ')}${config.buildPath}`);
+    log.remove(`${config.buildPath}`);
 };
 
 module.exports = {

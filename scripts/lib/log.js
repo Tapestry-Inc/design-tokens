@@ -1,6 +1,6 @@
 const chalk = require('chalk');
 
-module.exports = (tag) => {
+module.exports = (tag = '') => {
     const prefix = chalk.bold(`\n[${tag.toUpperCase()}] `);
     const check = chalk.bold.green('✔︎  ');
     const minus = chalk.bold.red('- ');
