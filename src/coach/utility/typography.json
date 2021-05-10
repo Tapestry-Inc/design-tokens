@@ -29,7 +29,7 @@
           },
           "xl": {
             "font-family": { "value": "{font.family.primary.bold.value}" },
-            "font-size": { "value": "{size.font.45.value}" },
+            "font-size": { "value": "{size.font.46.value}" },
             "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
             "line-height": { "value": "{size.line-height.xs.value}" }
           },
