@@ -31,6 +31,7 @@ module.exports = {
             lib: resolve('scripts/lib'),
             changelog: resolve('scripts/changelog'),
             docs: resolve('scripts/docs'),
+            tailwind: resolve('scripts/tailwind'),
             styleDictionary: resolve('scripts/style-dictionary'),
             filters: resolve('scripts/style-dictionary/filters'),
             transforms: resolve('scripts/style-dictionary/transforms'),

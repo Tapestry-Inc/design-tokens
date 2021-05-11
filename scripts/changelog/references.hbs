@@ -1,5 +1,5 @@
 {{~#each references}}
-  {{#if @root.linkReferences~}}
+  {{~#if @root.linkReferences~}}
     [
     {{~#if this.owner}}
       {{~this.owner}}/
@@ -13,17 +13,16 @@
         {{~#if this.owner}}
           {{~this.owner}}/
         {{~/if}}
-        {{~this.repository}}
+        {{~this.repository}}/
       {{~else}}
         {{~#if @root.owner}}
           {{~@root.owner}}/
         {{~/if}}
-        {{~@root.repository}}
+        {{~@root.repository}}/
       {{~/if}}
     {{~else}}
-      {{~@root.repoUrl}}
+      {{~@root.repoUrl}}/
     {{~/if}}
-    /
     {{~@root.issue}}/{{this.issue}})
   {{~else}}
     {{~#if this.owner}}

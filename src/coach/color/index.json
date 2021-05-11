@@ -4,7 +4,6 @@
       "value": "#000001"
     },
     "neutral": {
-      "base": { "value": "#333333" },
       "dark": { "value": "#333333" }
     },
     "error": {

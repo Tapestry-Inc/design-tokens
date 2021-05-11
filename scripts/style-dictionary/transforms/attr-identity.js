@@ -3,11 +3,18 @@
  * @param {object} prop - A property object.
  * @returns {string}
  */
+// [TODO] Refactor this to remove all attribute specifics into some sort of config. This is a bit of a monster.
 const getPrefix = ({ category, type }) => {
     if (category === 'color') return category;
     if (category === 'font') return category;
     if (type === 'icon') return type;
     if (category === 'utility') return type;
+
+    if (category === 'effect') {
+        if (type === 'box') return 'shadow';
+        if (type === 'drop') return 'drop-shadow';
+        else return type;
+    }
 
     if (category === 'size') {
         if (type === 'font') return 'text';
@@ -23,13 +30,15 @@ const getPrefix = ({ category, type }) => {
  * @param {array} path - The property object's `path` array.
  * @returns {string}
  */
-const normalizeName = (attributes, path) => {
-    const isSingleName = path.length < 3;
-    const isSizeName = attributes.category === 'size';
-    const isIconName = attributes.type === 'icon';
-    const isFamilyName = attributes.type === 'family';
-    const isFaceName = attributes.type === 'face';
-    const isUtilityName = attributes.category === 'utility';
+const normalizeName = ({ category, type, item }, path) => {
+    const isSingleName = path.length <= 2;
+    const isSizeName = category === 'size';
+    const isIconName = type === 'icon';
+    const isFamilyName = type === 'family';
+    const isFaceName = type === 'face';
+    const isUtilityName = category === 'utility';
+    const isShadowName =
+        (type === 'box' || type === 'drop') && item === 'shadow';
 
     // Remove category and type from name
     if (isIconName || isFamilyName || isFaceName || isUtilityName) {
@@ -37,7 +46,7 @@ const normalizeName = (attributes, path) => {
     }
 
     // Use last word
-    if (isSingleName || isSizeName) {
+    if (isSingleName || isShadowName || isSizeName) {
         return path[path.length - 1];
     }
 

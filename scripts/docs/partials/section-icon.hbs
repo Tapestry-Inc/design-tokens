@@ -42,6 +42,12 @@
       padding: 0;
       position: absolute;
     }
+    .icons .bg-lighter {
+      background-color: white;
+    }
+     .icons .bg-darker {
+      background-color: #7e7e7e;
+    }
     .icons .identifier {
       text-align: center;
     }
@@ -67,7 +73,7 @@
     {{#each this}}
       <li class="example">
         <div class="icon-wrapper">
-          <div class="icon fill" style="background-color: {{svg.background}};">
+          <div class="icon fill bg-{{svg.background}}">
             {{{svg.source}}}
           </div>
         </div>
