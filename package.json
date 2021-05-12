@@ -2,18 +2,25 @@
   "name": "@tapestry-inc/design-tokens",
   "version": "0.0.0-development",
   "description": "Tapestry Design Tokens",
+  "author": "Tapestry, Inc.",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "https://github.com/Tapestry-Inc/design-tokens.git"
   },
+  "contributors": [
+    {
+      "name": "Ryan Fitzer"
+    }
+  ],
   "scripts": {
-    "build": "npm run tokens && npm run tailwind && node scripts/pkg",
-    "cdn": "npm run guide && node scripts/cdn",
-    "test": "echo '[ToDo] Setup testing framework!'",
-    "guide": "node scripts/guide",
+    "build": "npm run tokens && npm run tailwind && npm run pkg && npm run docs",
+    "cdn": "node scripts/cdn",
+    "docs": "node scripts/docs",
+    "pkg": "node scripts/pkg",
     "tailwind": "node scripts/tailwind",
     "tokens": "node scripts/style-dictionary",
+    "test": "echo '[ToDo] Setup testing framework!'",
     "prepare": "husky install"
   },
   "devDependencies": {
@@ -22,6 +29,7 @@
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "autoprefixer": "^10.2.5",
+    "chalk": "^4.1.1",
     "conventional-changelog-eslint": "^3.0.9",
     "eslint": "^7.21.0",
     "eslint-config-prettier": "^8.1.0",
@@ -35,6 +43,7 @@
     "prettier": "2.2.1",
     "semantic-release": "^17.4.2",
     "style-dictionary": "^3.0.0-rc.6",
+    "svgo": "^2.3.0",
     "tailwindcss": "^2.0.4"
   }
 }

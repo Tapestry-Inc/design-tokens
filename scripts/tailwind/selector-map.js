@@ -1,6 +1,17 @@
 var rSize = '(xs|s|m|l|xl|\\dxl)';
 var rLevel = '(primary|secondary)';
 
+/* 
+Selector array: Objects are ordered by most-to-least specific match.
+    
+    // The `key` name can be anything (not used used in any business logic), but should match the top-level classname prefix for easier understanding.
+    key: [
+        {
+            type: 'css property' // Should match the declared css property.
+            matcher: RegEx // Should match the classname prefix.
+        }
+    ]
+*/
 module.exports = {
     bg: [
         {
@@ -30,6 +41,18 @@ module.exports = {
         {
             type: 'letter-spacing',
             matcher: /^letter-spacing-/,
+        },
+    ],
+    shadow: [
+        {
+            type: 'box-shadow',
+            matcher: /^shadow-/,
+        },
+    ],
+    'drop-shadow': [
+        {
+            type: 'drop-shadow',
+            matcher: /^drop-shadow-/,
         },
     ],
     text: [

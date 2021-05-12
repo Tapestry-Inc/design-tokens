@@ -2,9 +2,9 @@ const { readFileSync } = require('fs-extra');
 const { paths } = require('./constants');
 
 // https://semantic-release.gitbook.io/semantic-release/usage/configuration
+// Dry Run: `NPM_TOKEN=blah npx semantic-release --dry-run`
 module.exports = {
-    // dryRun: true,
-    branches: ['main'],
+    branches: ['main', { name: 'next', prerelease: true }],
     plugins: [
         [
             // https://github.com/semantic-release/commit-analyzer#readme
@@ -50,6 +50,14 @@ module.exports = {
                             `${paths.scripts.changelog}references.hbs`,
                             'utf8'
                         ),
+                    },
+                    transform: (commit) => {
+                        const ignore = ['Upgrade', 'Docs', 'Build', 'Chore'];
+
+                        commit.changelog = { ...commit.changelog };
+                        commit.changelog.ignore = ignore.includes(commit.tag);
+
+                        return commit;
                     },
                 },
             },

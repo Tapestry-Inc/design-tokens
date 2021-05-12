@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>{{ brand }}® Design Tokens | Tapestry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="font-face.css">
+  <link rel="stylesheet" href="variables.css">
+  <link rel="stylesheet" href="utilities.css">
+  {{> styles.css}}
+  {{> tabs.css}}
+</head>
+<body>
+
+  <header>
+    <h1>{{ brand }}<sup>®</sup> Design Tokens</h1>
+    <p>version <code>{{ version }}</code> | <a href="https://github.com/Tapestry-Inc/design-tokens/blob/v{{ version }}/CHANGELOG.md
+" target="_blank">changelog</a></p>
+  </header>
+
+
+  <main>
+    
+    {{~> assets}}
+
+    <div class="tabs">
+      
+      <div role="tablist" aria-label="Design Tokens Documentation">
+        
+        <button id="vars" aria-controls="vars-tab" role="tab" aria-selected="true">Variables</button>
+
+        <button id="classes" aria-controls="classes-tab" role="tab" aria-selected="false" tabindex="-1">Classes</button>
+
+        <button id="icons" aria-controls="icons-tab" role="tab" aria-selected="false" tabindex="-1">Icons</button>
+
+      </div>
+
+      <div id="vars-tab" aria-labelledby="vars" tabindex="0" role="tabpanel">
+
+        {{~> heading level=2 title='Variables'}}
+
+        {{~> section
+            ctx=vars.color
+            title='Color'
+            example='bg-color'
+        }}
+        
+        {{~> section
+            ctx=vars.font-family
+            title='Font Family'
+            example='font-family'
+        }}
+
+        {{~> section
+            ctx=vars.font-size
+            title='Font Size'
+            example='font-size'
+            original-value='true'
+        }}
+
+        {{~> section
+            ctx=vars.letter-spacing
+            title='Letter Spacing'
+            example='letter-spacing'
+            original-value='true'
+        }}
+
+        {{~> section
+            ctx=vars.line-height
+            title='Line Height'
+            example='line-height'
+        }}
+
+        {{~> section
+            ctx=vars.shadow
+            title='Box Shadow'
+            example='box-shadow'
+        }}
+
+        {{~> section
+            ctx=vars.viewport
+            title='Viewport'
+            example='viewport'
+        }}
+
+        {{~> section
+            ctx=vars.spacing
+            title='Spacing'
+            example='spacing'
+            original-value='true'
+        }}
+
+      </div>
+
+      <div id="classes-tab" aria-labelledby="classes" tabindex="0" role="tabpanel">
+
+        {{~> heading level=2 title='Classes'}}
+
+        {{~> section
+            util='true'
+            ctx=classes.background-color
+            title='Background Color'
+            example='bg-color'
+        }}
+
+        {{~> section
+            util='true'
+            ctx=classes.border-color
+            title='Border Color'
+            example='border-color'
+        }}
+
+        {{~> section
+            util='true'
+            ctx=classes.font-family
+            title='Font Family'
+            example='font-family'
+        }}
+
+        {{~> section
+            util='true'
+            ctx=classes.font-size
+            title='Font Size'
+            example='font-size'
+        }}
+
+        {{~> section
+            util='true'
+            ctx=classes.letter-spacing
+            title='Letter Spacing'
+            example='letter-spacing'
+        }}
+
+        {{~> section
+            util='true'
+            ctx=classes.line-height
+            title='Line Height'
+            example='line-height'
+        }}
+
+        {{~> section
+            util='true'
+            ctx=classes.text-color
+            title='Text Color'
+            example='text-color'
+        }}
+
+        {{~> section
+            util='true'
+            ctx=classes.box-shadow
+            title='Box Shadow'
+            example='box-shadow'
+        }}
+
+        {{~> section
+            util='true'
+            ctx=classes.typography
+            title='Typography'
+            example='typography'
+        }}
+
+      </div>
+
+      <div id="icons-tab" aria-labelledby="icons" tabindex="0" role="tabpanel">
+
+        {{~> heading level=2 title='Icons'}}
+
+        {{~> section-icon
+            ctx=icons
+        }}
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <p class="text-primary-body-m center">© 2021 Tapestry, Inc. TAPESTRY, COACH, KATE SPADE, STUART WEITZMAN and corresponding logos/designs are trademarks owned by subsidiaries of Tapestry, Inc.</p>
+  </footer>
+  
+  {{> tabs.js }}
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "asset": {
+    "icon": {
+      "object": {
+        "shipping": { "value": "shipping.svg" },
+        "gift": { "value": "gift.svg" }
+      }
+    }
+  }
+}

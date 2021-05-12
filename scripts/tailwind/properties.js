@@ -2,7 +2,7 @@ const fs = require('fs-extra');
 const { paths } = require('../../constants');
 const selectorMap = require('./selector-map');
 
-const attrKeys = ['item', 'subitem', 'state', 'substate'];
+const attrKeys = ['category', 'type', 'item', 'subitem', 'state', 'substate'];
 
 const getType = (name) => {
     const prefixes = Object.values(selectorMap);
@@ -13,13 +13,15 @@ const getType = (name) => {
         if (type) acuum = type.type;
 
         return acuum;
-    }, 'undefined');
+    }, `undefined (update required: ${paths.scripts.tailwind}/selector-map.js)`);
 };
 const createProperty = (selector, decls) => {
     const name = selector.replace(/^\./, '');
     const path = name.split('-');
+    const [category, type] = ['utility', getType(name)];
+    const attrVals = [category, type].concat(path);
 
-    const attrs = path.reduce((acuum, value, index) => {
+    const attrs = attrVals.reduce((acuum, value, index) => {
         acuum[attrKeys[index]] = value;
         return acuum;
     }, {});
@@ -29,8 +31,6 @@ const createProperty = (selector, decls) => {
             name,
             value: decls.join(';\n'),
             attributes: {
-                category: 'utility',
-                type: getType(name),
                 ...attrs,
                 identity: {
                     prefix: path[0],
@@ -38,14 +38,14 @@ const createProperty = (selector, decls) => {
                     classname: name,
                 },
             },
-            path,
+            path: attrVals,
         },
     };
 };
 
 const createPropertiesJSON = (brand, data) => {
     const result = {};
-    const destPath = `${paths.build.root}${brand}/properties/css-utilities.json`;
+    const destPath = `${paths.build.root}${brand}/properties/utility.json`;
 
     data.root.walkRules(function (rule) {
         const decls = [];

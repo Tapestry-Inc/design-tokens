@@ -1,0 +1,36 @@
+{{> heading level=2 title='Assets'}}
+
+<style>
+  .assets {
+    padding: 0;
+    font-size: 18px;
+    list-style: none;
+  }
+  .assets .group {
+    margin-top: 10px;
+  }
+  .assets details summary { 
+      cursor: pointer;
+  }
+</style>
+
+<ul class="assets">
+  {{#each assets as | asset |}}
+    {{#if asset.[0]}}
+      <li class="group">
+        <details>
+          <summary>Token data</summary>
+            <ul>
+              {{#each asset as | prop |}}
+                <li><a href="{{prop.path}}" target="_blank"><code>{{prop.path}}</code></a></li>
+              {{/each}}
+            </ul>
+          </details>
+      </li>
+    {{else}}
+      <li>
+        {{asset.desc}}: <a href="{{asset.path}}" target="_blank"><code>{{asset.path}}</code></a>
+      </li>
+    {{/if}}
+  {{/each}}
+</ul>

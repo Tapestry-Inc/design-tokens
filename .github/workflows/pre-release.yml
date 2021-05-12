@@ -1,0 +1,56 @@
+name: Pre-Release
+
+on:
+  push:
+    branches:
+      - next
+
+jobs:
+  prerelease:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Setup Node Environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+
+      - name: Run Build
+        run: |
+          npm ci
+          npm test
+          npm run build
+
+      # Docs: https://github.com/codfish/semantic-release-action#readme
+      - name: Publish NPM Package
+        id: package
+        uses: codfish/semantic-release-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          NPM_TOKEN: ${{ secrets.GH_PAT }}
+          NODE_AUTH_TOKEN: ${{ secrets.GH_PAT }}
+
+      - name: Create Distribution
+        if: ${{ steps.package.outputs.new-release-published == 'true' }}
+        run: npm run cdn
+        env:
+          NODE_PKG_VERSION: ${{ steps.package.outputs.release-version }}
+
+      # Docs: https://github.com/sebastianpopp/ftp-action#readme
+      # `lftp` options: https://lftp.yar.ru/lftp-man.html
+      - name: FTP Assets to CDN
+        uses: sebastianpopp/ftp-action@releases/v2
+        if: ${{ steps.package.outputs.new-release-published == 'true' }}
+        with:
+          options: --verbose --overwrite --asci --transfer-all --no-perms --parallel=5
+          localDir: ./dist
+          remoteDir: ./design-tokens/next
+          host: ${{ secrets.FTP_ADDRESS }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}

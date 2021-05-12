@@ -22,6 +22,12 @@ module.exports = module.exports = brands.map((brand) => {
                 colors: {
                     ...parseProperties(props, { category: 'color' }),
                 },
+                boxShadow: {
+                    ...parseProperties(props, {
+                        category: 'effect',
+                        type: 'box',
+                    }),
+                },
                 fontFamily: {
                     ...parseProperties(props, { type: 'family' }),
                 },
@@ -43,6 +49,7 @@ module.exports = module.exports = brands.map((brand) => {
             corePlugins: [
                 'backgroundColor',
                 'borderColor',
+                'boxShadow',
                 'fontFamily',
                 'fontSize',
                 'textColor',

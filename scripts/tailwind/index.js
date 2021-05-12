@@ -9,6 +9,7 @@ const postcssImport = require('postcss-import');
 const configs = require('./config');
 const { paths } = require('../../constants');
 const createJSON = require('./properties');
+const log = require(`${paths.scripts.lib}log`)('tailwind');
 
 // Build each brand
 configs.forEach(async ([brand, config]) => {
@@ -25,13 +26,9 @@ configs.forEach(async ([brand, config]) => {
             to: destPath,
         })
         .then((result) => {
-            console.info(
-                `\n[tailwind] Building ${brand
-                    .replace('-', ' ')
-                    .toUpperCase()}\n`
-            );
+            log.tag(`Building ${brand.replace('-', ' ').toUpperCase()}\n`);
             fs.writeFileSync(destPath, result.css);
             createJSON(brand, result);
-            console.info(`✔︎ ${destPath}`);
+            log.add(destPath);
         });
 });

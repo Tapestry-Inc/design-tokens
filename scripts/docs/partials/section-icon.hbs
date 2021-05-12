@@ -1,0 +1,89 @@
+<style>
+  @media screen and (min-width: 0) {
+    section[data-section="Icons"] {
+      --example-width: 200px;
+      --example-height: 200px;
+      --box-height: 220px;
+      margin-bottom: 25px;
+      padding-bottom: 25px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    section[data-section="Icons"] .path {
+      padding-left: 15px;
+      font-size: 1.125rem;
+    }
+    section[data-section="Icons"] .path code {
+      color: rgb(9, 65, 207);
+    }
+    .icons {
+      display: grid;
+      grid-gap: 20px;
+      padding: 0 15px;
+      grid-template-columns: repeat(auto-fill, minmax(var(--example-width), 1fr));
+    }
+    .icons li {
+      display: flex;
+      width: var(--example-width);
+      height: var(--box-height);
+      padding: 0 0 14px 0;
+      flex-direction: column;
+      border: 1px solid #e5e5e5;
+      justify-content: space-between;
+    }
+    .icons .icon-wrapper {
+      width: var(--example-width);
+      height: var(--example-height);
+      position: relative;
+    }
+    .icons .fill {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0;
+      position: absolute;
+    }
+    .icons .bg-lighter {
+      background-color: white;
+    }
+     .icons .bg-darker {
+      background-color: #7e7e7e;
+    }
+    .icons .identifier {
+      text-align: center;
+    }
+    .icons .identifier code {
+      font-size: 18px;
+    }
+  }
+</style>
+
+{{#each ctx }}
+
+<section data-section="Icons">
+
+  {{> heading
+      level=3
+      title=(capitalize @key)
+  }}
+
+  <p class="path">Path: <code>icon/{{@key}}/*</code></p>
+
+  <ul class="icons">
+    
+    {{#each this}}
+      <li class="example">
+        <div class="icon-wrapper">
+          <div class="icon fill bg-{{svg.background}}">
+            {{{svg.source}}}
+          </div>
+        </div>
+        <p class="identifier"><code>{{original.value}}</code></p>
+      </li>
+
+    {{/each}}
+
+  </ul>
+
+</section>
+
+{{/each}}

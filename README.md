@@ -1,107 +1,65 @@
 # Design Tokens
 
-This project contains design tokens for each Tapestry brand and publishes assets derived from these tokens to a CDN (Akamai), as well as an NPM package to the Github Packages registry.
+This project contains design tokens for [Tapestry](https://www.tapestry.com/) brands. Assets derived from these tokens are published as an NPM package to the Github Packages Registry, as well as to a CDN.
 
 Each brand's token documentation can be viewed at:
 
-- Coach: https://assets.tapestry.com/ux/design-tokens/coach/index.html
-- Kate Spade: https://assets.tapestry.com/ux/design-tokens/kate-spade/index.html
-- Stuart Weitzman: https://assets.tapestry.com/ux/design-tokens/stuart-weitzman/index.html
+- Coach: <https://assets.tapestry.com/ux/design-tokens/coach/index.html>
+- Stuart Weitzman: <https://assets.tapestry.com/ux/design-tokens/stuart-weitzman/index.html>
 
-## Assets
+## Installation
 
-Each brand contains the same files. Directory/file naming convention uses [kebab-case](<https://en.wikipedia.org/wiki/Naming_convention_(programming)#Delimiter-separated_words>).
+### NPM
 
-```
-└── <brand>
-    ├── font-face.css
-    ├── _variables.scss
-    ├── variables.css
-    ├── utilities.css
-    └── properties
-        ├── index.json
-        ├── color.json
-        ├── font-family.json
-        ├── font-size.json
-        ├── letter-spacing.json
-        ├── line-height.json
-        └── ...
-```
+All brands are contained in a single package.
+See the Github Package Registry requirements for [installing a package](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package) into your project.
 
-### CSS
-
-- Custom properties
-- `@font-face` rules
-- Utility classes: classes for applying tokens values to your HTML.
-
-#### Utility Classes
-
-Included in each brand's assets is a tiny `utilities.css` (<1K minified/gzipped) that uses [tailwindcss](https://tailwindcss.com/docs) to generate utility classes based on the available tokens. These utilities are **limited** to the following [core plugins](https://tailwindcss.com/docs/configuration#core-plugins):
-
-| Core Plugin       | Class Prefix      | Example Class     |
-| ----------------- | ----------------- | ----------------- |
-| `backgroundColor` | `bg-[color]`      | `bg-primary`      |
-| `borderColor`     | `border-[color]`  | `border-primary`  |
-| `textColor`       | `text-[color]`    | `text-primary`    |
-| `fontFamily`      | `font-[family]`   | `font-sans-serif` |
-| `fontSize`        | `text-[px]`       | `text-16`         |
-| `letterSpacing`   | `tracking-[size]` | `tracking-xl`     |
-| `lineHeight`      | `leading-[size]`  | `leading-xs`      |
-
-### SCSS
-
-- Variables (same as CSS)
-
-### JSON
-
-- Metadata for every token. Useful for generating documentation ([example](https://assets.tapestry.com/ux/design-tokens/stuart-weitzman/index.html)).
-
-## Usage
-
-### NPM Package
-
-Since this repo currently private, there are special requirements needed in order to install the package from the [Github Packages](https://docs.github.com/en/packages/learn-github-packages/about-github-packages) registry:
-
-- A Github account
-- Membership of the repo with `read` permissions
-- A [personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) with the `read:packages` scope enabled.
-- Proper [NPM configuration](https://docs.github.com/en/packages/guides/configuring-npm-for-use-with-github-packages#installing-a-package)
-
-Once these steps have been completed you can install the package:
-
-```
+```shell
 npm install @tapestry-inc/design-tokens
 ```
 
-Once installed, you can import the assets as needed. It is expected that your module bundler and/or your CSS processor is configured to import/build CSS assets into your application.
+Use the following path structure for importing files:
+
+```
+@tapestry-inc/design-tokens/<brand>/<file>
+```
 
 ### CDN
 
-All assets are available on a CDN. The current version for each brand is located in the root directory. You can also access a specific version by appending the version number as a directory to the root.
+The current version for each brand is located in the root directory. You can also access a specific version by appending the version number to the root as a directory.
 
-Root URL: https://assets.tapestry.com/ux/design-tokens
+Root URL: `https://assets.tapestry.com/ux/design-tokens`
 
 URL structure for the current version:
 
 ```
-<root-url>/<brand>/*
+<root-url>/<brand>/<file>
 ```
 
 URL structure for a specific version:
 
 ```
-<root-url>/<x.x.x>/<brand>/*
+<root-url>/<x.x.x>/<brand>/<file>
 ```
+
+## Usage
+
+Each brand contains the same files. Directory/file naming conventions use [kebab-case](<https://en.wikipedia.org/wiki/Naming_convention_(programming)#Delimiter-separated_words>).
+
+- `variables.css`/`_variables.scss`: CSS & SCSS variables.
+- `custom-media.css: `[Custom media query variables](https://drafts.csswg.org/mediaqueries-5/#custom-mq)
+- `font-face.css`: `@font-face` rules.
+- `utilities.css`: A tiny set of utility classes based on the available tokens (~1K minified/gzipped).
 
 ## Development
 
 Development within this codebase requires experience with the following tools:
 
 - [Style Dictionary](https://amzn.github.io/style-dictionary/): Build system for design tokens.
-- [PostCSS](https://postcss.org/): A tool for transforming CSS.
-- [tailwindcss](https://tailwindcss.com/docs): Customizable CSS utility framework.
-- [Handlebars](https://handlebarsjs.com/): HTML templating.
-- [semantic-release](https://semantic-release.gitbook.io/semantic-release/): Automated version management and package publishing.
+- [PostCSS](https://postcss.org/): CSS transforming tool required by Tailwind CSS.
+- [Tailwind CSS](https://tailwindcss.com/docs): PostCSS plugin for creating the custom CSS utilities.
+- [Handlebars](https://handlebarsjs.com/): HTML templating system used for documentation site.
+- [Semantic Release](https://semantic-release.gitbook.io/semantic-release/): Automates the version management and package publishing.
 - [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions): GitHub's CI/CD automation tool.
 
 ### NPM Commands
@@ -111,11 +69,31 @@ Development within this codebase requires experience with the following tools:
 
 ### Tokens
 
-This is the core of this codebase, a collection of JSON files that organize each brand's styles into a semantic hierarchy. Everything one needs to know can be found in Style Dictionary's [documentation](https://amzn.github.io/style-dictionary/#/README).
+A collection of JSON files that organize each brand's styles into a semantic hierarchy and enable multiple types of assets via [Style Dictionary](https://amzn.github.io/style-dictionary/#/README).
 
-### Publishing
+#### Editing a Token
 
-The release process is managed by [Semantic Release](https://semantic-release.gitbook.io/semantic-release/). New releases are published based on the `<Type>` tag in the commit messages when a the `main` branch receives a push/merge. See `release.config.js` for configuration.
+[ToDo]
+
+#### Adding a New Token Category/Type/Item
+
+[ToDo]
+
+### Release
+
+The release process is managed by [Semantic Release](https://semantic-release.gitbook.io/semantic-release/). Stable releases are published as an NPM package and CDN distribution based on the `<Type>` tag in the commit messages when a PR is merged into the `main` branch. See `release.config.js` for configuration.
+
+#### Pre-Release
+
+A pre-release can be published by merging a pull-request into the `next` branch. All of the same commit message rules still apply.
+
+The NPM package can be installed by appending the `@next` to the package name:
+
+```
+npm install @tapestry-inc/design-tokens@next
+```
+
+The CDN distribution is available in the `next` directory at the CDN root URL.
 
 #### Commit Message Conventions
 

@@ -1,0 +1,80 @@
+{
+  "asset": {
+    "icon": {
+      "video": {
+        "volume": { "value": "volume.svg" },
+        "play": { "value": "play.svg" },
+        "play-cta": { "value": "play-cta.svg" },
+        "pause": { "value": "pause.svg" },
+        "option": { "value": "option.svg" },
+        "mute": { "value": "mute.svg" },
+        "fullscreen": { "value": "fullscreen.svg" }
+      },
+      "utility": {
+        "close": { "value": "close.svg" },
+        "chevron-up": { "value": "chevron-up.svg" },
+        "chevron-right": { "value": "chevron-right.svg" },
+        "chevron-left": { "value": "chevron-left.svg" },
+        "chevron-down": { "value": "chevron-down.svg" },
+        "caret-up": { "value": "caret-up.svg" },
+        "caret-right": { "value": "caret-right.svg" },
+        "caret-left": { "value": "caret-left.svg" },
+        "caret-down": { "value": "caret-down.svg" }
+      },
+      "social": {
+        "youtube": { "value": "youtube.svg" },
+        "weibo": { "value": "weibo.svg" },
+        "wechat": { "value": "wechat.svg" },
+        "twitter": { "value": "twitter.svg" },
+        "tiktok": { "value": "tiktok.svg" },
+        "snapchat": { "value": "snapchat.svg" },
+        "pinterest": { "value": "pinterest.svg" },
+        "mail": { "value": "mail.svg" },
+        "instagram": { "value": "instagram.svg" },
+        "facebook": { "value": "facebook.svg" }
+      },
+      "review": {
+        "thumb-up": { "value": "thumb-up.svg" },
+        "thumb-down": { "value": "thumb-down.svg" },
+        "star": { "value": "star.svg" },
+        "star-75": { "value": "star-75.svg" },
+        "star-50": { "value": "star-50.svg" },
+        "star-25": { "value": "star-25.svg" }
+      },
+      "object": {
+        "store": { "value": "store.svg" },
+        "phone": { "value": "phone.svg" },
+        "package": { "value": "package.svg" },
+        "email": { "value": "email.svg" },
+        "credit card": { "value": "credit-card.svg" },
+        "call": { "value": "call.svg" },
+        "calendar": { "value": "calendar.svg" }
+      },
+      "navigation": {
+        "search": { "value": "search.svg" },
+        "location": { "value": "location.svg" },
+        "hamburger": { "value": "hamburger.svg" },
+        "favorite": { "value": "favorite.svg" },
+        "favorite-fill": { "value": "favorite-fill.svg" },
+        "edit": { "value": "edit.svg" },
+        "bag": { "value": "bag.svg" },
+        "bag-3digit": { "value": "bag-3digit.svg" },
+        "account": { "value": "account.svg" }
+      },
+      "form": {
+        "success": { "value": "success.svg" },
+        "info": { "value": "info.svg" },
+        "error": { "value": "error.svg" }
+      },
+      "flag": {
+        "usa": { "value": "usa.svg" },
+        "canada": { "value": "canada.svg" }
+      },
+      "compare": {
+        "selected": { "value": "selected.svg" },
+        "inactive": { "value": "inactive.svg" },
+        "default": { "value": "default.svg" }
+      }
+    }
+  }
+}

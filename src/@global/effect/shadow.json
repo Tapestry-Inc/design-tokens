@@ -1,0 +1,26 @@
+{
+  "effect": {
+    "box": {
+      "shadow": {
+        "l": {
+          "value": "-6px 0px 10px -3px rgba(0, 0, 0, 0.1)"
+        },
+        "t": {
+          "value": "0px -6px 10px -3px rgba(0, 0, 0, 0.1)"
+        },
+        "r": {
+          "value": "6px 0px 10px -3px rgba(0, 0, 0, 0.1)"
+        },
+        "b": {
+          "value": "0px 6px 10px -3px rgba(0, 0, 0, 0.1)"
+        },
+        "ltr": {
+          "value": "0px -5px 10px -1px rgba(0, 0, 0, 0.1),\n-6px 0px 10px -5px rgba(0, 0, 0, 0.1),\n6px 0px 10px -5px rgba(0, 0, 0, 0.1)"
+        },
+        "ltrb": {
+          "value": "0px 0px 20px 3px rgba(0, 0, 0, 0.35)"
+        }
+      }
+    }
+  }
+}

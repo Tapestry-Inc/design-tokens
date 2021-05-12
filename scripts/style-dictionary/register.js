@@ -10,10 +10,18 @@ const jsonProperties = require('./formats/json-properties');
 const sizeUnitless = require('./transforms/size-unitless');
 const nameKabab = require('./transforms/name-kabab');
 const capitalize = require('./transforms/capitalize');
+const iconPath = require('./transforms/icon-path');
 const attrIdentity = require('./transforms/attr-identity');
+const svgOptimize = require('./actions/svg-optimize');
 
 module.exports = {
-    Action: [],
+    Action: [
+        {
+            name: 'svg-optimize',
+            do: svgOptimize.copy,
+            undo: svgOptimize.clear,
+        },
+    ],
     Filter: [],
     Format: [
         {
@@ -31,6 +39,11 @@ module.exports = {
     ],
     Template: [],
     Transform: [
+        {
+            name: 'path/asset/icon',
+            type: 'value',
+            transformer: iconPath,
+        },
         {
             name: 'attribute/identity',
             type: 'attribute',
@@ -66,7 +79,7 @@ module.exports = {
             ],
         },
         {
-            name: 'json-custom',
+            name: 'json-properties',
             transforms: [
                 'attribute/cti',
                 'attribute/identity',
@@ -74,6 +87,7 @@ module.exports = {
                 'size/pxToRem',
                 'size/line-height/unitless',
                 'color/css',
+                'path/asset/icon',
             ],
         },
     ],
