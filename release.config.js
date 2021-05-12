@@ -4,7 +4,7 @@ const { paths } = require('./constants');
 // https://semantic-release.gitbook.io/semantic-release/usage/configuration
 // Dry Run: `NPM_TOKEN=blah npx semantic-release --dry-run`
 module.exports = {
-    branches: ['main'],
+    branches: ['main', { name: 'next', prerelease: true }],
     plugins: [
         [
             // https://github.com/semantic-release/commit-analyzer#readme

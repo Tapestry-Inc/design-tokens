@@ -2,11 +2,17 @@
   "name": "@tapestry-inc/design-tokens",
   "version": "0.0.0-development",
   "description": "Tapestry Design Tokens",
+  "author": "Tapestry, Inc.",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "https://github.com/Tapestry-Inc/design-tokens.git"
   },
+  "contributors": [
+    {
+      "name": "Ryan Fitzer"
+    }
+  ],
   "scripts": {
     "build": "npm run tokens && npm run tailwind && npm run pkg && npm run docs",
     "cdn": "node scripts/cdn",
