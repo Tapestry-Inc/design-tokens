@@ -7,8 +7,8 @@ const checkAttr = require('./filters/check-attr');
 module.exports = brands.map((brand) => [
     brand,
     {
-        include: [`${paths.src.root}@global/**/*.json`],
-        source: [`${paths.src.root}${brand}/**/*.json`],
+        include: [`${paths.src.root}global/**/*.json`],
+        source: [`${paths.src.brands}${brand}/**/*.json`],
         platforms: {
             'CSS variables': {
                 transformGroup: 'css-custom',
@@ -180,8 +180,8 @@ module.exports = brands.map((brand) => [
             'Icon optimize': {
                 buildPath: `${paths.build.root}${brand}/icon/`,
                 source: [
-                    `${paths.src.root}@global/asset/icon/`,
-                    `${paths.src.root}${brand}/asset/icon/`,
+                    `${paths.src.root}global/asset/icon/`,
+                    `${paths.src.brands}${brand}/asset/icon/`,
                 ],
                 actions: ['svg-optimize'],
             },
