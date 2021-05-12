@@ -95,7 +95,7 @@
         "badge": {
           "xs": {
             "font-family": { "value": "{font.family.primary.bold.value}" },
-            "font-size": { "value": "{size.font.9.value}" },
+            "font-size": { "value": "{size.font.10.value}" },
             "letter-spacing": { "value": "{size.letter-spacing.m.value}" },
             "line-height": { "value": "{size.line-height.xs.value}" },
             "text-transform": { "value": "uppercase" }
