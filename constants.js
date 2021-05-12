@@ -1,12 +1,17 @@
 const path = require('path');
 const pkg = require('./package.json');
+const globby = require('globby');
 
 const root = path.resolve(__dirname);
 const resolve = (part) => path.normalize(`${path.resolve(root, part)}/`);
 const pkgVersion = process.env.NODE_PKG_VERSION || pkg.version;
 
 module.exports = {
-    brands: ['coach', 'stuart-weitzman'],
+    brands: globby.sync('**', {
+        deep: 1,
+        cwd: 'src/brands',
+        onlyFiles: false,
+    }),
     namespace: {
         prefix: 'dt',
         global: 'DT',
@@ -38,6 +43,7 @@ module.exports = {
         },
         src: {
             root: resolve('src'),
+            brands: resolve('src/brands'),
         },
     },
 };
