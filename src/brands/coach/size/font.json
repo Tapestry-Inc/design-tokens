@@ -3,22 +3,17 @@
     "font": {
       "8": { "value": "8px" },
       "10": { "value": "10px" },
-      "11": { "value": "11px" },
       "12": { "value": "12px" },
       "14": { "value": "14px" },
       "16": { "value": "16px" },
-      "18": { "value": "18px" },
       "20": { "value": "20px" },
       "24": { "value": "24px" },
       "26": { "value": "26px" },
       "28": { "value": "28px" },
       "30": { "value": "30px" },
       "32": { "value": "32px" },
-      "40": { "value": "40px" },
       "42": { "value": "42px" },
-      "46": { "value": "46px" },
-      "50": { "value": "50px" },
-      "54": { "value": "54px" },
+      "44": { "value": "44px" },
       "60": { "value": "60px" }
     }
   }
