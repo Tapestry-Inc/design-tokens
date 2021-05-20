@@ -1,0 +1,8 @@
+{
+  "asset": {
+    "logo": {
+      "favicon": { "value": "favicon.svg" },
+      "type": { "value": "type.svg" }
+    }
+  }
+}

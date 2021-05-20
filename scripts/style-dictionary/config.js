@@ -185,6 +185,11 @@ module.exports = brands.map((brand) => [
                 ],
                 actions: ['svg-optimize'],
             },
+            'Logo optimize': {
+                buildPath: `${paths.build.root}${brand}/logo/`,
+                source: [`${paths.src.brands}${brand}/asset/logo/`],
+                actions: ['svg-optimize'],
+            },
         },
     },
 ]);

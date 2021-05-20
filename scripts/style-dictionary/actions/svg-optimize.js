@@ -29,7 +29,7 @@ const svgOptimize = (src, relPath, absPath) => {
 
 const copy = (dictionary, config) => {
     config.source.forEach((dirPath) => {
-        const svgPaths = globby.sync(`${dirPath}*/**`);
+        const svgPaths = globby.sync(`${dirPath}**`);
 
         svgPaths.forEach((svgPath) => {
             const relPath = path.relative(dirPath, svgPath);
