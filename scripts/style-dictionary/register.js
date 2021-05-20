@@ -13,6 +13,7 @@ const capitalize = require('./transforms/capitalize');
 const iconPath = require('./transforms/icon-path');
 const attrIdentity = require('./transforms/attr-identity');
 const svgOptimize = require('./actions/svg-optimize');
+const quoteURL = require('./transforms/quote-url');
 
 module.exports = {
     Action: [
@@ -39,6 +40,11 @@ module.exports = {
     ],
     Template: [],
     Transform: [
+        {
+            name: 'value/quote-url',
+            type: 'value',
+            transformer: quoteURL,
+        },
         {
             name: 'path/asset/icon',
             type: 'value',
@@ -73,6 +79,7 @@ module.exports = {
                 'attribute/cti',
                 'attribute/identity',
                 'name/identity/kabab',
+                'value/quote-url',
                 'size/pxToRem',
                 'size/line-height/unitless',
                 'color/css',
