@@ -19,6 +19,7 @@ module.exports = brands.map((brand) => [
                         destination: `variables.css`,
                         filter: checkAttr([
                             ['type', 'face', false],
+                            ['type', 'track', false],
                             ['category', 'viewport', false],
                             ['category', 'utility', false],
                             ['category', 'asset', false],
@@ -65,6 +66,7 @@ module.exports = brands.map((brand) => [
                         destination: `_variables.scss`,
                         filter: checkAttr([
                             ['type', 'face', false],
+                            ['type', 'track', false],
                             ['category', 'utility', false],
                             ['category', 'asset', false],
                         ]),
