@@ -1,0 +1,9 @@
+# Docs: https://github.com/browserslist/browserslist#readme
+# Supported Browsers: `npx browserslist`
+
+# Configuration
+last 2 versions
+not dead
+not ie 11           # Internet Explorer
+not op_mini all     # Opera Mini
+not op_mob >= 0     # Opera Mobile

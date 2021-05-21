@@ -5,6 +5,8 @@
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
   <title>{{ brand }}® Design Tokens | Tapestry</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="logo/favicon.svg">
+  <link rel="mask-icon" href="logo/favicon.svg" color="#000">
   <link rel="stylesheet" href="font-face.css">
   <link rel="stylesheet" href="variables.css">
   <link rel="stylesheet" href="utilities.css">
@@ -32,6 +34,8 @@
         <button id="classes" aria-controls="classes-tab" role="tab" aria-selected="false" tabindex="-1">Classes</button>
 
         <button id="icons" aria-controls="icons-tab" role="tab" aria-selected="false" tabindex="-1">Icons</button>
+
+        <button id="logos" aria-controls="logos-tab" role="tab" aria-selected="false" tabindex="-1">Logos</button>
 
       </div>
 
@@ -167,6 +171,16 @@
 
         {{~> section-icon
             ctx=icons
+        }}
+
+      </div>
+
+      <div id="logos-tab" aria-labelledby="logos" tabindex="0" role="tabpanel">
+
+        {{~> heading level=2 title='Logos'}}
+
+        {{~> section-logo
+            ctx=logos
         }}
 
       </div>

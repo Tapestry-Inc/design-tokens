@@ -1,9 +1,9 @@
 <style>
   @media screen and (min-width: 0) {
     section[data-section="Icons"] {
-      --example-width: 200px;
-      --example-height: 200px;
-      --box-height: 220px;
+      --example-icon-width: 200px;
+      --example-icon-height: 200px;
+      --box-icon-height: 220px;
       margin-bottom: 25px;
       padding-bottom: 25px;
       border-bottom: 1px solid #e5e5e5;
@@ -22,13 +22,13 @@
       display: grid;
       grid-gap: 20px;
       padding: 0 15px;
-      grid-template-columns: repeat(auto-fill, minmax(var(--example-width), 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(var(--example-icon-width), 1fr));
     }
 
     .icons li {
       display: flex;
-      width: var(--example-width);
-      height: var(--box-height);
+      width: var(--example-icon-width);
+      height: var(--box-icon-height);
       padding: 0 0 14px 0;
       flex-direction: column;
       border: 1px solid #e5e5e5;
@@ -36,8 +36,8 @@
     }
 
     .icons .icon-wrapper {
-      width: var(--example-width);
-      height: var(--example-height);
+      width: var(--example-icon-width);
+      height: var(--example-icon-height);
       position: relative;
     }
 

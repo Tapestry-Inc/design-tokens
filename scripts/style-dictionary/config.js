@@ -126,6 +126,7 @@ module.exports = brands.map((brand) => [
                         filter: {
                             attributes: {
                                 category: 'asset',
+                                type: 'icon',
                             },
                         },
                     },
@@ -146,6 +147,16 @@ module.exports = brands.map((brand) => [
                             attributes: {
                                 category: 'size',
                                 type: 'line-height',
+                            },
+                        },
+                    },
+                    {
+                        destination: 'logo.json',
+                        format: 'json/properties',
+                        filter: {
+                            attributes: {
+                                category: 'asset',
+                                type: 'logo',
                             },
                         },
                     },

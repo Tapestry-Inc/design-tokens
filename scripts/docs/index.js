@@ -87,11 +87,9 @@ brands.forEach(async (brand, index) => {
         return accum;
     }, {});
 
-    Object.keys(data).forEach((key) => log.add(`parsed ${key} section`));
+    const { utility, icon, logo, ...vars } = data;
 
-    const { utility, icon, ...vars } = data;
-
-    icon.forEach((props) => {
+    const addSVGMeta = (props) => {
         const filePath = `${paths.build.root}${brand}/${props.value}`;
         const isVideoIcon = props.attributes.item === 'video';
         const needsDarkerBG = isVideoIcon;
@@ -100,7 +98,9 @@ brands.forEach(async (brand, index) => {
             background: needsDarkerBG ? 'darker' : 'lighter',
             source: fs.readFileSync(filePath, { encoding: 'utf8' }),
         };
-    });
+
+        return props;
+    };
 
     const classes = groupByAttr(utility, 'type');
 
@@ -108,11 +108,17 @@ brands.forEach(async (brand, index) => {
 
     const renderPage = handlebars.compile(page);
 
+    icon.forEach(addSVGMeta);
+    logo.forEach(addSVGMeta);
+
+    Object.keys(data).forEach((key) => log.add(`parsed ${key} section`));
+
     fs.writeFileSync(
         destPath,
         renderPage({
             vars,
             icons,
+            logos: logo,
             classes,
             version: pkg.version,
             assets: listAssets(index),

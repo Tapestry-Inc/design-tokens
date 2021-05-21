@@ -8,6 +8,7 @@ const getPrefix = ({ category, type }) => {
     if (category === 'color') return category;
     if (category === 'font') return category;
     if (type === 'icon') return type;
+    if (type === 'logo') return type;
     if (category === 'utility') return type;
 
     if (category === 'effect') {
@@ -34,6 +35,7 @@ const normalizeName = ({ category, type, item }, path) => {
     const isSingleName = path.length <= 2;
     const isSizeName = category === 'size';
     const isIconName = type === 'icon';
+    const isLogoName = type === 'logo';
     const isFamilyName = type === 'family';
     const isFaceName = type === 'face';
     const isUtilityName = category === 'utility';
@@ -41,7 +43,13 @@ const normalizeName = ({ category, type, item }, path) => {
         (type === 'box' || type === 'drop') && item === 'shadow';
 
     // Remove category and type from name
-    if (isIconName || isFamilyName || isFaceName || isUtilityName) {
+    if (
+        isLogoName ||
+        isIconName ||
+        isFamilyName ||
+        isFaceName ||
+        isUtilityName
+    ) {
         return path.slice(2).join('-');
     }
 
@@ -63,10 +71,11 @@ module.exports = ({ attributes, path }) => {
     const prefix = getPrefix(attributes);
     const name = normalizeName(attributes, path);
     const isIcon = attributes.type === 'icon';
+    const isLogo = attributes.type === 'logo';
     const isFontFace = attributes.type === 'face';
     const isFontTrack = attributes.type === 'track';
     const isUtility = attributes.category === 'utility';
-    const noIdent = isIcon || isFontFace || isFontTrack || isUtility;
+    const noIdent = isLogo || isIcon || isFontFace || isFontTrack || isUtility;
 
     if (noIdent) {
         return {

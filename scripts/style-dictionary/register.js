@@ -10,7 +10,7 @@ const jsonProperties = require('./formats/json-properties');
 const sizeUnitless = require('./transforms/size-unitless');
 const nameKabab = require('./transforms/name-kabab');
 const capitalize = require('./transforms/capitalize');
-const iconPath = require('./transforms/icon-path');
+const assetPath = require('./transforms/asset-path');
 const attrIdentity = require('./transforms/attr-identity');
 const svgOptimize = require('./actions/svg-optimize');
 const quoteURL = require('./transforms/quote-url');
@@ -46,9 +46,9 @@ module.exports = {
             transformer: quoteURL,
         },
         {
-            name: 'path/asset/icon',
+            name: 'value/path/asset',
             type: 'value',
-            transformer: iconPath,
+            transformer: assetPath,
         },
         {
             name: 'attribute/identity',
@@ -94,7 +94,7 @@ module.exports = {
                 'size/pxToRem',
                 'size/line-height/unitless',
                 'color/css',
-                'path/asset/icon',
+                'value/path/asset',
             ],
         },
     ],

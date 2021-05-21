@@ -1,0 +1,84 @@
+<style>
+  @media screen and (min-width: 0) {
+    section[data-section="Logos"] {
+      --example-logo-width: 325px;
+      --example-logo-height: 325px;
+      --box-logo-height: 200px;
+      margin-bottom: 25px;
+      padding-bottom: 25px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    section[data-section="Logos"] .path {
+      padding-left: 15px;
+      font-size: 1.125rem;
+    }
+
+    section[data-section="Logos"] .path code {
+      color: rgb(9, 65, 207);
+    }
+
+    .logos {
+      display: grid;
+      grid-gap: 20px;
+      padding: 0 15px;
+      grid-template-columns: repeat(auto-fill, minmax(var(--example-logo-width), 1fr));
+    }
+
+    .logos li {
+      display: flex;
+      width: var(--example-logo-width);
+      height: var(--box-logo-height);
+      padding: 0 0 14px 0;
+      flex-direction: column;
+      border: 1px solid #e5e5e5;
+      justify-content: space-between;
+    }
+
+    .logos .logo-wrapper {
+      width: var(--example-logo-width);
+      height: var(--example-logo-height);
+      position: relative;
+    }
+
+    .logos .fill {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0;
+      position: absolute;
+    }
+
+    .logos .bg-lighter {
+      background-color: white;
+    }
+
+    .logos .bg-darker {
+      background-color: #7e7e7e;
+    }
+
+    .logos .identifier {
+      text-align: center;
+    }
+
+    .logos .identifier code {
+      font-size: 18px;
+    }
+  }
+</style>
+
+<section data-section="Logos">
+  <p class="path">Path: <code>logo/*</code></p>
+  <ul class="logos">
+    {{#each ctx}}
+      <li class="example">
+        <div class="logo-wrapper">
+          <div class="logo fill bg-{{svg.background}}">
+            {{{svg.source}}}
+          </div>
+        </div>
+        <p class="identifier"><code>{{original.value}}</code></p>
+      </li>
+    {{/each}}
+  </ul>
+</section>
