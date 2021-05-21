@@ -34,7 +34,7 @@ const getSources = (props) => {
  */
 module.exports = ({ dictionary }) => {
     const trackURL = dictionary.properties.font.track.url.value;
-    const track = trackURL ? `@import url(${trackURL});\n` : '';
+    const track = trackURL ? `@import url("${trackURL}");\n` : '';
 
     const fonts = Object.values(dictionary.properties.font.face)
         .map((group) => {

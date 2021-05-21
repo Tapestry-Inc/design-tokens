@@ -46,7 +46,7 @@ module.exports = {
             transformer: quoteURL,
         },
         {
-            name: 'value/path/asset',
+            name: 'asset/path',
             type: 'value',
             transformer: assetPath,
         },
@@ -94,7 +94,7 @@ module.exports = {
                 'size/pxToRem',
                 'size/line-height/unitless',
                 'color/css',
-                'value/path/asset',
+                'asset/path',
             ],
         },
     ],

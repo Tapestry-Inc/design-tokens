@@ -1,4 +1,4 @@
-const urlRegex = require('url-regex');
+const urlRegex = require('url-regex-safe');
 
 /**
  * Quote URLs
@@ -6,7 +6,7 @@ const urlRegex = require('url-regex');
  * @returns {string}
  */
 module.exports = ({ value }) => {
-    if (urlRegex().test(value)) return `'${value}'`;
+    if (!urlRegex({ strict: true }).test(value)) return value;
 
-    return value;
+    return `'${value}'`;
 };
