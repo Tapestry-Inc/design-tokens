@@ -6,6 +6,7 @@ const fs = require('fs-extra');
 const { brands, paths } = require('../../constants');
 const pluginLineHeight = require('./plugins/line-height');
 const pluginLetterSpacing = require('./plugins/letter-spacing');
+const pluginBorderRadius = require('./plugins/border-radius');
 const pluginUtilityTypography = require('./plugins/utility-typography');
 const parseProperties = require('./helpers/parse-properties');
 
@@ -62,6 +63,9 @@ module.exports = module.exports = brands.map((brand) => {
 
             // https://tailwindcss.com/docs/plugins
             plugins: [
+                pluginBorderRadius(
+                    parseProperties(props, { type: 'border-radius' })
+                ),
                 pluginLineHeight(
                     parseProperties(props, { type: 'line-height' })
                 ),

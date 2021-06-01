@@ -73,6 +73,19 @@ module.exports = brands.map((brand) => [
                     },
                 ],
             },
+            'Icon optimize': {
+                buildPath: `${paths.build.root}${brand}/icon/`,
+                source: [
+                    `${paths.src.root}global/asset/icon/`,
+                    `${paths.src.brands}${brand}/asset/icon/`,
+                ],
+                actions: ['svg-optimize'],
+            },
+            'Logo optimize': {
+                buildPath: `${paths.build.root}${brand}/logo/`,
+                source: [`${paths.src.brands}${brand}/asset/logo/`],
+                actions: ['svg-optimize'],
+            },
             'Token properties': {
                 buildPath: `${paths.build.root}${brand}/properties/`,
                 transformGroup: 'json-properties',
@@ -88,6 +101,15 @@ module.exports = brands.map((brand) => [
                             attributes: {
                                 category: 'effect',
                                 type: 'box',
+                            },
+                        },
+                    },
+                    {
+                        destination: 'border-radius.json',
+                        format: 'json/properties',
+                        filter: {
+                            attributes: {
+                                type: 'border-radius',
                             },
                         },
                     },
@@ -189,19 +211,6 @@ module.exports = brands.map((brand) => [
                         },
                     },
                 ],
-            },
-            'Icon optimize': {
-                buildPath: `${paths.build.root}${brand}/icon/`,
-                source: [
-                    `${paths.src.root}global/asset/icon/`,
-                    `${paths.src.brands}${brand}/asset/icon/`,
-                ],
-                actions: ['svg-optimize'],
-            },
-            'Logo optimize': {
-                buildPath: `${paths.build.root}${brand}/logo/`,
-                source: [`${paths.src.brands}${brand}/asset/logo/`],
-                actions: ['svg-optimize'],
             },
         },
     },

@@ -50,6 +50,12 @@
         }}
 
         {{~> section
+            ctx=vars.border-radius
+            title='Border Radius'
+            example='border-radius'
+        }}
+
+        {{~> section
             ctx=vars.font-family
             title='Font Family'
             example='font-family'
@@ -82,16 +88,16 @@
         }}
 
         {{~> section
-            ctx=vars.viewport
-            title='Viewport'
-            example='viewport'
-        }}
-
-        {{~> section
             ctx=vars.spacing
             title='Spacing'
             example='spacing'
             original-value='true'
+        }}
+
+        {{~> section
+            ctx=vars.viewport
+            title='Viewport'
+            example='viewport'
         }}
 
       </div>
@@ -112,6 +118,13 @@
             ctx=classes.border-color
             title='Border Color'
             example='border-color'
+        }}
+
+        {{~> section
+            util='true'
+            ctx=vars.border-radius
+            title='Border Radius'
+            example='border-radius'
         }}
 
         {{~> section
