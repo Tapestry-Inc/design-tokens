@@ -94,11 +94,6 @@ module.exports = ({ attributes, path }) => {
                 css: `--${prefix}-${name}`,
                 scss: `$${prefix}-${name}`,
             },
-            // [TODO] Deprecate
-            css: {
-                customProperty: `--${prefix}-${name}`,
-                scssVariable: `$${prefix}-${name}`,
-            },
         },
     };
 };

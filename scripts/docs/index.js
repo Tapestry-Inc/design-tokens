@@ -126,5 +126,5 @@ brands.forEach(async (brand, index) => {
         })
     );
 
-    log.add(`Built ${destPath}`);
+    log.add(`Built file://${destPath}`);
 });

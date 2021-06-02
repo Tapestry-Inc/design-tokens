@@ -8,6 +8,7 @@ const fontFace = require('./formats/css-font-face');
 const customMedia = require('./formats/css-custom-media');
 const jsonProperties = require('./formats/json-properties');
 const sizeUnitless = require('./transforms/size-unitless');
+const sizePXtoEM = require('./transforms/px-to-em');
 const nameKabab = require('./transforms/name-kabab');
 const capitalize = require('./transforms/capitalize');
 const assetPath = require('./transforms/asset-path');
@@ -71,6 +72,12 @@ module.exports = {
             matcher: checkAttr('type', 'line-height'),
             transformer: sizeUnitless,
         },
+        {
+            name: 'size/pxToEm',
+            type: 'value',
+            matcher: checkAttr('type', 'breakpoint'),
+            transformer: sizePXtoEM,
+        },
     ],
     TransformGroup: [
         {
@@ -81,6 +88,7 @@ module.exports = {
                 'name/identity/kabab',
                 'value/quote-url',
                 'size/pxToRem',
+                'size/pxToEm',
                 'size/line-height/unitless',
                 'color/css',
             ],
@@ -92,6 +100,7 @@ module.exports = {
                 'attribute/identity',
                 'name/identity/kabab',
                 'size/pxToRem',
+                'size/pxToEm',
                 'size/line-height/unitless',
                 'color/css',
                 'asset/path',

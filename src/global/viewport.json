@@ -1,24 +1,19 @@
 {
   "viewport": {
     "xs": {
-      "value": "screen and (min-width: 0)",
-      "comment": "0px"
+      "value": "screen and (min-width: {size.breakpoint.xs.value})"
     },
     "s": {
-      "value": "screen and (min-width: 34em)",
-      "comment": "544px"
+      "value": "screen and (min-width: {size.breakpoint.s.value})"
     },
     "m": {
-      "value": "screen and (min-width: 48.0625em)",
-      "comment": "769px"
+      "value": "screen and (min-width: {size.breakpoint.m.value})"
     },
     "l": {
-      "value": "screen and (min-width: 62em)",
-      "comment": "992px"
+      "value": "screen and (min-width: {size.breakpoint.l.value})"
     },
     "xl": {
-      "value": "screen and (min-width: 75em)",
-      "comment": "1200px"
+      "value": "screen and (min-width: {size.breakpoint.xl.value})"
     }
   }
 }

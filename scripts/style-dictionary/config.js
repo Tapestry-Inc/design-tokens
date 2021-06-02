@@ -44,7 +44,7 @@ module.exports = brands.map((brand) => [
             },
             'CSS @custom-media': {
                 buildPath: `${paths.build.root}${brand}/`,
-                transforms: ['attribute/cti', 'name/cti/kebab'],
+                transforms: ['attribute/cti', 'size/pxToEm', 'name/cti/kebab'],
                 files: [
                     {
                         format: 'css/custom-media',
@@ -95,21 +95,20 @@ module.exports = brands.map((brand) => [
                         format: 'json/properties',
                     },
                     {
-                        destination: 'shadow.json',
-                        format: 'json/properties',
-                        filter: {
-                            attributes: {
-                                category: 'effect',
-                                type: 'box',
-                            },
-                        },
-                    },
-                    {
                         destination: 'border-radius.json',
                         format: 'json/properties',
                         filter: {
                             attributes: {
                                 type: 'border-radius',
+                            },
+                        },
+                    },
+                    {
+                        destination: 'breakpoint.json',
+                        format: 'json/properties',
+                        filter: {
+                            attributes: {
+                                type: 'breakpoint',
                             },
                         },
                     },
@@ -179,6 +178,16 @@ module.exports = brands.map((brand) => [
                             attributes: {
                                 category: 'asset',
                                 type: 'logo',
+                            },
+                        },
+                    },
+                    {
+                        destination: 'shadow.json',
+                        format: 'json/properties',
+                        filter: {
+                            attributes: {
+                                category: 'effect',
+                                type: 'box',
                             },
                         },
                     },

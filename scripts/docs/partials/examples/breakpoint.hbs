@@ -1,0 +1,19 @@
+{{#*inline "style"}}
+  .{{name}}-fail { color: #fff; display: inline-block; }
+  .{{name}}-pass { display: none }
+  @media screen and (min-width: {{value}}) {
+  .{{name}}-signal { background-color: lightgreen; }
+  .{{name}}-fail { display: none; }
+  .{{name}}-pass { display: inline-block }
+  }
+{{/inline}}
+<style type="text/css">{{>style}}</style>
+
+<div class="signal {{name}}-signal">
+  <span class="{{name}}-pass">
+    Matches: <code>{{name}}</code>
+  </span>
+  <span class="{{name}}-fail">
+    Does not match: <s><code>{{name}}</code></s>
+  </span>
+</div>
