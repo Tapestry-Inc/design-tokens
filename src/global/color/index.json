@@ -10,8 +10,7 @@
       "dark": { "value": "#2e2e2e" }
     },
     "error": {
-      "primary": { "value": "#dd191f" },
-      "secondary": { "value": "#ffeef0" }
+      "primary": { "value": "#dd191f" }
     },
     "inactive": { "value": "#d8d8d8" },
     "scrim": {
@@ -19,12 +18,10 @@
       "dark": { "value": "rgba(0, 0, 0, 0.8)" }
     },
     "standout": {
-      "primary": { "value": "#001489" },
-      "secondary": { "value": "#edf4ff" }
+      "primary": { "value": "#001489" }
     },
     "success": {
-      "primary": { "value": "#22863a" },
-      "secondary": { "value": "#F0FFF4" }
+      "primary": { "value": "#22863a" }
     }
   }
 }

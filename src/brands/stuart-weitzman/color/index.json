@@ -2,6 +2,15 @@
   "color": {
     "cool": {
       "grey": { "value": "#f5f7f8" }
+    },
+    "error": {
+      "secondary": { "value": "#ffeef0" }
+    },
+    "standout": {
+      "secondary": { "value": "#edf4ff" }
+    },
+    "success": {
+      "secondary": { "value": "#F0FFF4" }
     }
   }
 }
