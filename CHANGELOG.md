@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.0.0](https://github.com/Tapestry-Inc/design-tokens/compare/v1.2.0...v2.0.0)
+
+2021-06-03
+
+- Breaking: Remove error/success/standout-secondary colors (SW-only) from Coach. ([94d962b](https://github.com/Tapestry-Inc/design-tokens/commit/94d962b)) (Ryan Fitzer)
+
 ## [v1.2.0](https://github.com/Tapestry-Inc/design-tokens/compare/v1.1.0...v1.2.0)
 
 2021-06-01
