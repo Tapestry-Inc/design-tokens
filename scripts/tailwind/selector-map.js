@@ -1,5 +1,6 @@
-var rSize = '(xs|s|m|l|xl|\\dxl)';
-var rLevel = '(primary|secondary)';
+const rSize = '(xs|s|m|l|xl|\\dxl)';
+const rLevel = '(primary|secondary)';
+const rColon = '\\\\:';
 
 /* 
 Selector array: Objects are ordered by most-to-least specific match.
@@ -12,6 +13,7 @@ Selector array: Objects are ordered by most-to-least specific match.
         }
     ]
 */
+
 module.exports = {
     bg: [
         {
@@ -61,12 +63,18 @@ module.exports = {
     ],
     text: [
         {
-            type: 'font-size',
-            matcher: /^text-\d{1,2}$/,
+            type: 'typography-responsive',
+            matcher: new RegExp(
+                `^${rSize}${rColon}text-${rLevel}-(.+)-${rSize}`
+            ),
         },
         {
             type: 'typography',
             matcher: new RegExp(`^text-${rLevel}-(.+)-${rSize}`),
+        },
+        {
+            type: 'font-size',
+            matcher: /^text-\d{1,2}$/,
         },
         {
             type: 'text-color',

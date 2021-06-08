@@ -14,21 +14,31 @@ const log = require(`${paths.scripts.lib}log`)('tailwind');
 // Build each brand
 configs.forEach(async ([brand, config]) => {
     const tailwindFilePath = `${paths.src.brands}${brand}/tailwind.css`;
-    const destPath = `${paths.build.root}${brand}/utilities.css`;
-
+    const destPathCSS = `${paths.build.root}${brand}/utilities.css`;
+    const destPathConfig = `${paths.build.root}${brand}/properties/tailwind.json`;
     const css = fs.readFileSync(tailwindFilePath, 'utf8');
+
+    const { plugins, ...configOptions } = config;
 
     fs.ensureDirSync(`${paths.build.root}${brand}`);
 
     postcss([postcssImport, tailwindcss(config), autoprefixer])
         .process(css, {
             from: tailwindFilePath,
-            to: destPath,
+            to: destPathCSS,
         })
         .then((result) => {
             log.tag(`Building ${brand.replace('-', ' ').toUpperCase()}\n`);
-            fs.writeFileSync(destPath, result.css);
+
+            fs.writeFileSync(destPathCSS, result.css);
+
             createJSON(brand, result);
-            log.add(destPath);
+
+            fs.writeFileSync(
+                destPathConfig,
+                JSON.stringify(configOptions, null, 2)
+            );
+
+            log.add(destPathCSS);
         });
 });

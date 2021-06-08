@@ -59,6 +59,11 @@ const groupByAttr = (props, attr) =>
 
 brands.forEach(async (brand, index) => {
     const displayBrand = brand.replace('-', ' ').toUpperCase();
+    const tailwindConfig = require(path.join(
+        paths.build.root,
+        brand,
+        'properties/tailwind.json'
+    ));
     const destPath = path.join(paths.build.root, brand, 'index.html');
     const propsPath = path.join(paths.build.root, brand, 'properties/');
     const propsExist = await fs.pathExists(propsPath);
@@ -121,6 +126,7 @@ brands.forEach(async (brand, index) => {
             logos: logo,
             classes,
             version: pkg.version,
+            viewports: Object.keys(tailwindConfig.theme.screens),
             assets: listAssets(index),
             brand: capitalize(brand.split('-')),
         })

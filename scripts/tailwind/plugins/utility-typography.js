@@ -13,6 +13,8 @@ module.exports = (props) => {
             utils[key][prop] = value;
         });
 
-        addUtilities(utils);
+        addUtilities(utils, {
+            variants: ['responsive'],
+        });
     };
 };
