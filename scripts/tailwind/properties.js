@@ -54,7 +54,7 @@ const createPropertiesJSON = (brand, data) => {
             decls.push(`${prop}: ${value}`);
         });
 
-        Object.assign(result, createProperty(rule.selector, decls, 'temp'));
+        Object.assign(result, createProperty(rule.selector, decls));
     });
 
     fs.writeFileSync(destPath, JSON.stringify(result, null, 2));

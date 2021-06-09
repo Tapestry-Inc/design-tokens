@@ -104,6 +104,15 @@ module.exports = brands.map((brand) => [
                         },
                     },
                     {
+                        destination: 'border-width.json',
+                        format: 'json/properties',
+                        filter: {
+                            attributes: {
+                                type: 'border-width',
+                            },
+                        },
+                    },
+                    {
                         destination: 'breakpoint.json',
                         format: 'json/properties',
                         filter: {

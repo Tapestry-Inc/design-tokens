@@ -1,0 +1,12 @@
+{
+  "size": {
+    "border-width": {
+      "xs": {
+        "value": ".5px"
+      },
+      "s": {
+        "value": "1px"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<div class="bg-grid fill">
+  <div 
+  {{#if variable}}
+    class="border-width-none"
+    style="border-width: var({{variable}}); position: absolute; border-style: solid; width: 100%; height: 100%;"
+  {{/if}}
+  {{#if classname}}
+    class="border-width-none {{classname}}"
+    style="position: absolute; border-style: solid; width: 100%; height: 100%;"
+  {{/if}}
+  ></div>
+</div>

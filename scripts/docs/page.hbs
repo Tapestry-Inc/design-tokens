@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/svg+xml" href="logo/favicon.svg">
   <link rel="mask-icon" href="logo/favicon.svg" color="#000">
+  {{> styles.css}}
+  {{> tabs.css}}
   <link rel="stylesheet" href="font-face.css">
   <link rel="stylesheet" href="variables.css">
   <link rel="stylesheet" href="utilities.css">
-  {{> styles.css}}
-  {{> tabs.css}}
 </head>
 
 <body>
@@ -53,6 +53,14 @@
             ctx=vars.border-radius
             title='Border Radius'
             example='border-radius'
+            original-value='true'
+        }}
+
+        {{~> section
+            ctx=vars.border-width
+            title='Border Width'
+            example='border-width'
+            original-value='true'
         }}
 
         {{~> section
@@ -129,9 +137,16 @@
 
         {{~> section
             util='true'
-            ctx=vars.border-radius
+            ctx=classes.border-radius
             title='Border Radius'
             example='border-radius'
+        }}
+
+        {{~> section
+            util='true'
+            ctx=classes.border-width
+            title='Border Width'
+            example='border-width'
         }}
 
         {{~> section

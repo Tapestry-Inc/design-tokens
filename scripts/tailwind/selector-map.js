@@ -1,4 +1,5 @@
-const rSize = '(xs|s|m|l|xl|\\dxl)';
+const rSize = '(none|xs|s|m|l|xl|\\dxl|full)';
+const rSide = '(l|t|r|b)';
 const rLevel = '(primary|secondary)';
 const rColon = '\\\\:';
 
@@ -25,6 +26,10 @@ module.exports = {
         {
             type: 'border-radius',
             matcher: /^border-radius-/,
+        },
+        {
+            type: 'border-width',
+            matcher: new RegExp(`^border(-${rSide})?-${rSize}$`),
         },
         {
             type: 'border-color',

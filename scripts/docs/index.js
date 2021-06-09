@@ -92,7 +92,7 @@ brands.forEach(async (brand, index) => {
         return accum;
     }, {});
 
-    const { utility, icon, logo, ...vars } = data;
+    const { utility, icon, logo, tailwind, ...vars } = data;
 
     const addSVGMeta = (props) => {
         const filePath = `${paths.build.root}${brand}/${props.value}`;
