@@ -46,7 +46,7 @@
         "phone": { "value": "phone.svg" },
         "package": { "value": "package.svg" },
         "email": { "value": "email.svg" },
-        "credit card": { "value": "credit-card.svg" },
+        "credit-card": { "value": "credit-card.svg" },
         "call": { "value": "call.svg" },
         "calendar": { "value": "calendar.svg" }
       },

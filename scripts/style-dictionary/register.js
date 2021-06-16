@@ -12,7 +12,7 @@ const sizePXtoEM = require('./transforms/px-to-em');
 const nameKabab = require('./transforms/name-kabab');
 const capitalize = require('./transforms/capitalize');
 const assetPath = require('./transforms/asset-path');
-const attrIdentity = require('./transforms/attr-identity');
+const identity = require('./transforms/identity');
 const svgOptimize = require('./actions/svg-optimize');
 const quoteURL = require('./transforms/quote-url');
 
@@ -54,7 +54,7 @@ module.exports = {
         {
             name: 'attribute/identity',
             type: 'attribute',
-            transformer: attrIdentity,
+            transformer: identity,
         },
         {
             name: 'name/identity/capitalize',
