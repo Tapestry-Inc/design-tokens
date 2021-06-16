@@ -1,8 +1,14 @@
 const config = require('../identity.config');
 
+const varsPrefix = {
+    css: '--',
+    scss: '$',
+    '@custom-media': '--',
+};
+
 /**
  * Creates an options object with default fallbacks.
- * @param {object} attributes - A property's `attributes` object.
+ * @param {object} attributes - A token's `attributes` object.
  * @returns {object}
  */
 const getOptions = (attributes) => {
@@ -11,7 +17,11 @@ const getOptions = (attributes) => {
         prefix: type,
         nameStart: 'item',
         exports: {
-            vars: true,
+            vars: {
+                css: true,
+                scss: true,
+                '@custom-media': false,
+            },
         },
     };
 
@@ -20,6 +30,19 @@ const getOptions = (attributes) => {
     const options = config[category][type] || config[category].default;
 
     return Object.assign(defaults, options || {});
+};
+
+/**
+ * Creates the `vars` object.
+ * @param {object} varTypes - The token's `exports.vars` config object.
+ * @param {string} varName - The token's variable name.
+ * @returns {object}
+ */
+const getVariables = (varTypes, varName) => {
+    return Object.keys(varsPrefix).reduce((accum, key) => {
+        if (varTypes[key]) accum[key] = `${varsPrefix[key]}${varName}`;
+        return accum;
+    }, {});
 };
 
 /**
@@ -47,8 +70,7 @@ module.exports = ({ attributes, path }) => {
             prefix,
             name,
             vars: {
-                css: `--${varName}`,
-                scss: `$${varName}`,
+                ...getVariables(exports.vars, varName),
             },
         },
     };

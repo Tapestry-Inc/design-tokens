@@ -1,6 +1,6 @@
 /*
  * Configuration for generating the identity values of a token.
- * Defaults:
+ * @example: Defaults
  * ```
  * {
  *   $category: {
@@ -15,9 +15,13 @@
  *       nameStart: {string},
  *
  *       // Which types of identifiers are exported.
- *       // Currently, `vars` (CSS and SCSS variable names) is the only option and defaults to `true`
+ *       // Currently, `vars` is the only property and defaults to the props/values below.
  *       exports: {
- *         vars: {boolean},
+ *         vars: {
+ *           css: {boolean}, // true
+ *           scss: {boolean}, // true
+ *           '@custom-media': {boolean}, // false
+ *         },
  *       },
  *      }
  *    }
@@ -83,6 +87,12 @@ module.exports = {
         default: {
             prefix: 'viewport',
             nameStart: 'type',
+            exports: {
+                vars: {
+                    scss: true,
+                    '@custom-media': true,
+                },
+            },
         },
     },
 };
