@@ -13,10 +13,9 @@ const log = require(`${paths.scripts.lib}log`)('tailwind');
 
 // Build each brand
 configs.forEach(async ([brand, config]) => {
-    const tailwindFilePath = `${paths.src.brands}${brand}/tailwind.css`;
     const destPathCSS = `${paths.build.root}${brand}/utilities.css`;
     const destPathConfig = `${paths.build.root}${brand}/properties/tailwind.json`;
-    const css = fs.readFileSync(tailwindFilePath, 'utf8');
+    const css = `@import 'tailwindcss/utilities';`;
 
     const { plugins, ...configOptions } = config;
 
@@ -24,7 +23,7 @@ configs.forEach(async ([brand, config]) => {
 
     postcss([postcssImport, tailwindcss(config), autoprefixer])
         .process(css, {
-            from: tailwindFilePath,
+            from: `${paths.src.brands}${brand}/`,
             to: destPathCSS,
         })
         .then((result) => {
