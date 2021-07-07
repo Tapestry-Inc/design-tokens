@@ -1,0 +1,190 @@
+{
+  "utility": {
+    "typography": {
+      "primary": {
+        "display": {
+          "xs": {
+            "font-family": { "value": "{font.family.primary.bold.value}" },
+            "font-size": { "value": "{size.font.16.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.s.value}" }
+          },
+          "s": {
+            "font-family": { "value": "{font.family.primary.bold.value}" },
+            "font-size": { "value": "{size.font.20.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.s.value}" }
+          },
+          "m": {
+            "font-family": { "value": "{font.family.primary.bold.value}" },
+            "font-size": { "value": "{size.font.26.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.xs.value}" }
+          },
+          "l": {
+            "font-family": { "value": "{font.family.primary.bold.value}" },
+            "font-size": { "value": "{size.font.30.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.xs.value}" }
+          },
+          "xl": {
+            "font-family": { "value": "{font.family.primary.bold.value}" },
+            "font-size": { "value": "{size.font.44.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.xs.value}" }
+          },
+          "2xl": {
+            "font-family": { "value": "{font.family.primary.bold.value}" },
+            "font-size": { "value": "{size.font.60.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.xs.value}" }
+          }
+        },
+        "body": {
+          "xs": {
+            "font-family": { "value": "{font.family.primary.normal.value}" },
+            "font-size": { "value": "{size.font.8.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.l.value}" },
+            "line-height": { "value": "{size.line-height.2xl.value}" },
+            "text-transform": { "value": "uppercase" }
+          },
+          "s": {
+            "font-family": { "value": "{font.family.primary.normal.value}" },
+            "font-size": { "value": "{size.font.12.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.xl.value}" }
+          },
+          "m": {
+            "font-family": { "value": "{font.family.primary.normal.value}" },
+            "font-size": { "value": "{size.font.14.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.xl.value}" }
+          },
+          "l": {
+            "font-family": { "value": "{font.family.primary.normal.value}" },
+            "font-size": { "value": "{size.font.16.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.l.value}" }
+          }
+        },
+        "eyebrow": {
+          "m": {
+            "font-family": { "value": "{font.family.primary.normal.value}" },
+            "font-size": { "value": "{size.font.10.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.l.value}" },
+            "line-height": { "value": "{size.line-height.l.value}" },
+            "text-transform": { "value": "uppercase" }
+          },
+          "l": {
+            "font-family": { "value": "{font.family.primary.normal.value}" },
+            "font-size": { "value": "{size.font.12.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xl.value}" },
+            "line-height": { "value": "{size.line-height.xs.value}" },
+            "text-transform": { "value": "uppercase" }
+          }
+        },
+        "cta": {
+          "xs": {
+            "font-family": { "value": "{font.family.primary.normal.value}" },
+            "font-size": { "value": "{size.font.10.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xl.value}" },
+            "line-height": { "value": "{size.line-height.l.value}" },
+            "text-transform": { "value": "uppercase" }
+          },
+          "s": {
+            "font-family": { "value": "{font.family.primary.normal.value}" },
+            "font-size": { "value": "{size.font.12.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xl.value}" },
+            "line-height": { "value": "{size.line-height.xs.value}" },
+            "text-transform": { "value": "uppercase" }
+          },
+          "m": {
+            "font-family": { "value": "{font.family.primary.normal.value}" },
+            "font-size": { "value": "{size.font.14.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xl.value}" },
+            "line-height": { "value": "{size.line-height.xs.value}" },
+            "text-transform": { "value": "uppercase" }
+          }
+        },
+        "label": {
+          "m": {
+            "font-family": { "value": "{font.family.primary.bold.value}" },
+            "font-size": { "value": "{size.font.12.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.l.value}" },
+            "line-height": { "value": "{size.line-height.l.value}" },
+            "text-transform": { "value": "uppercase" }
+          }
+        },
+        "badge": {
+          "xs": {
+            "font-family": { "value": "{font.family.primary.bold.value}" },
+            "font-size": { "value": "{size.font.10.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.l.value}" },
+            "line-height": { "value": "{size.line-height.l.value}" },
+            "text-transform": { "value": "uppercase" }
+          }
+        }
+      },
+      "secondary": {
+        "display": {
+          "xs": {
+            "font-family": { "value": "{font.family.secondary.normal.value}" },
+            "font-size": { "value": "{size.font.20.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.s.value}" },
+            "line-height": { "value": "{size.line-height.s.value}" }
+          },
+          "s": {
+            "font-family": { "value": "{font.family.secondary.normal.value}" },
+            "font-size": { "value": "{size.font.24.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.s.value}" },
+            "line-height": { "value": "{size.line-height.s.value}" }
+          },
+          "m": {
+            "font-family": { "value": "{font.family.secondary.normal.value}" },
+            "font-size": { "value": "{size.font.28.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.xs.value}" }
+          },
+          "l": {
+            "font-family": { "value": "{font.family.secondary.normal.value}" },
+            "font-size": { "value": "{size.font.32.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.xs.value}" }
+          },
+          "xl": {
+            "font-family": { "value": "{font.family.secondary.normal.value}" },
+            "font-size": { "value": "{size.font.44.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.xs.value}" }
+          },
+          "2xl": {
+            "font-family": { "value": "{font.family.secondary.normal.value}" },
+            "font-size": { "value": "{size.font.60.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.xs.value}" }
+          }
+        },
+        "body": {
+          "s": {
+            "font-family": { "value": "{font.family.secondary.normal.value}" },
+            "font-size": { "value": "{size.font.14.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.xl.value}" }
+          },
+          "m": {
+            "font-family": { "value": "{font.family.secondary.normal.value}" },
+            "font-size": { "value": "{size.font.16.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.xl.value}" }
+          },
+          "l": {
+            "font-family": { "value": "{font.family.secondary.normal.value}" },
+            "font-size": { "value": "{size.font.20.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.xs.value}" },
+            "line-height": { "value": "{size.line-height.xl.value}" }
+          }
+        }
+      }
+    }
+  }
+}

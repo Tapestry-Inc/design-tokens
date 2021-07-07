@@ -6,12 +6,37 @@ const root = path.resolve(__dirname);
 const resolve = (part) => path.normalize(`${path.resolve(root, part)}/`);
 const pkgVersion = process.env.NPM_PKG_VERSION || pkg.version;
 
-module.exports = {
-    brands: globby.sync('**', {
+const createBrands = (brandsPath, buildPath) => {
+    const brands = globby.sync('**', {
         deep: 1,
-        cwd: 'src/brands',
+        cwd: brandsPath,
         onlyFiles: false,
-    }),
+    });
+
+    return brands.reduce((accum, brand) => {
+        const themes = globby.sync('**', {
+            deep: 1,
+            cwd: `${constants.paths.src.brands}${brand}`,
+            onlyFiles: false,
+        });
+
+        accum[brand] = {};
+
+        themes.forEach((theme) => {
+            accum[brand][theme] = {
+                src: `${constants.paths.src.brands}${brand}/${theme}/`,
+                build:
+                    theme === 'default'
+                        ? `${constants.paths.build.root}${brand}/`
+                        : `${constants.paths.build.root}${brand}/themes/${theme}/`,
+            };
+        });
+
+        return accum;
+    }, {});
+};
+
+const constants = {
     namespace: {
         prefix: 'dt',
         global: 'DT',
@@ -47,3 +72,10 @@ module.exports = {
         },
     },
 };
+
+constants.brands = createBrands(
+    constants.paths.src.brands,
+    constants.paths.src.build
+);
+
+module.exports = constants;
