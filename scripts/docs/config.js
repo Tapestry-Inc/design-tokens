@@ -7,20 +7,20 @@ const globby = require('globby');
 const handlebars = require('handlebars');
 const { paths } = require('../../constants');
 
-const enc = { encoding: 'utf8' };
+const fsOptions = { encoding: 'utf8' };
 const partialsPath = `${paths.scripts.docs}partials/`;
 const helpersPath = `${paths.scripts.docs}helpers/`;
 
 const partials = globby.sync('**', { cwd: partialsPath }).map((file) => {
     const { name } = path.parse(file);
-    return [name, fs.readFileSync(`${partialsPath}${file}`, enc)];
+    return [name, fs.readFileSync(`${partialsPath}${file}`, fsOptions)];
 });
 
 const helpers = fs
-    .readdirSync(helpersPath, enc)
+    .readdirSync(helpersPath, fsOptions)
     .map((file) => [
         file.replace('.js', ''),
-        require(`${helpersPath}${file}`, enc),
+        require(`${helpersPath}${file}`, fsOptions),
     ]);
 
 // Register partials

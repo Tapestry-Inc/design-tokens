@@ -9,7 +9,7 @@ const createConfig = (brand, theme, { src, build }) => {
 
     const config = {
         include: [`${paths.src.root}global/**/*.json`],
-        source: [`${src}/**/*.json`],
+        source: [`${src}**/*.json`],
     };
 
     if (!isDefaultTheme) {
