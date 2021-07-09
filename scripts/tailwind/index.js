@@ -6,38 +6,46 @@ const postcss = require('postcss');
 const tailwindcss = require('tailwindcss');
 const autoprefixer = require('autoprefixer');
 const postcssImport = require('postcss-import');
-const configs = require('./config');
-const { paths } = require('../../constants');
+const createConfig = require('./config');
+const { brands, paths } = require('../../constants');
 const createJSON = require('./properties');
 const log = require(`${paths.scripts.lib}log`)('tailwind');
 
-// Build each brand
-configs.forEach(async ([brand, config]) => {
-    const destPathCSS = `${paths.build.root}${brand}/utilities.css`;
-    const destPathConfig = `${paths.build.root}${brand}/properties/tailwind.json`;
-    const css = `@import 'tailwindcss/utilities';`;
+// Build each brand's themes
+Object.keys(brands).forEach((brand) => {
+    Object.keys(brands[brand]).forEach(async (theme) => {
+        const { build } = brands[brand][theme];
 
-    const { plugins, ...configOptions } = config;
+        const config = createConfig(build);
+        const { plugins, ...configOptions } = config;
+        const destPathCSS = `${build}utilities.css`;
+        const destPathConfig = `${build}properties/tailwind.json`;
+        const css = `@import 'tailwindcss/utilities';`;
 
-    fs.ensureDirSync(`${paths.build.root}${brand}`);
+        fs.ensureDirSync(build);
 
-    postcss([postcssImport, tailwindcss(config), autoprefixer])
-        .process(css, {
-            from: `${paths.src.brands}${brand}/`,
-            to: destPathCSS,
-        })
-        .then((result) => {
-            log.tag(`Building ${brand.replace('-', ' ').toUpperCase()}\n`);
+        postcss([postcssImport, tailwindcss(config), autoprefixer])
+            .process(css, {
+                from: build,
+                to: destPathCSS,
+            })
+            .then((result) => {
+                log.tag(
+                    `${brand.replace('-', ' ').toUpperCase()}: ${theme
+                        .replace('-', ' ')
+                        .toUpperCase()}`
+                );
 
-            fs.writeFileSync(destPathCSS, result.css);
+                fs.writeFileSync(destPathCSS, result.css);
 
-            createJSON(brand, result);
+                createJSON(brand, result);
 
-            fs.writeFileSync(
-                destPathConfig,
-                JSON.stringify(configOptions, null, 2)
-            );
+                fs.writeFileSync(
+                    destPathConfig,
+                    JSON.stringify(configOptions, null, 2)
+                );
 
-            log.add(destPathCSS);
-        });
+                log.add(destPathCSS);
+            });
+    });
 });
