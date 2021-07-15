@@ -64,4 +64,4 @@ Development within this codebase requires experience with the following tools:
 - [Semantic Release](https://semantic-release.gitbook.io/semantic-release/): Automates the version management and package publishing.
 - [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions): GitHub's CI/CD automation tool.
 
-For more info read the docs on [adding new tokens](docs/adding-new-tokens.md) and the [development/release process](docs/development.md).
+For more info, read the docs on [adding new tokens](docs/adding-new-tokens.md) and the [development/release process](docs/development.md).
