@@ -1,5 +1,23 @@
 # Adding New Tokens
 
+## New Brands or Themes
+
+### Brands
+
+To add a new brand is as simple as duplicating the directory of another brand and then making edits.
+
+## Themes
+
+Similar to adding a new brand, adding another theme to a brand can be done by duplicating the brand's `default` theme and then editing.
+
+The build process will locate all of a brand's non-default theme's in the `themes` directory. For example, importing the `variables.css` file from a hypothetical theme named `summer` would look like the following:
+
+```css
+@import url(<brand>/themes/summer/variables.css);
+```
+
+## Individual Tokens
+
 Tokens are classified using the `category`, `type`, and `item` (CTI) nomenclature. See Style Dictionary's [CTI documentation](https://amzn.github.io/style-dictionary/#/tokens?id=category-type-item) for more information.
 
 Adding to existing set of tokens, for example: another color or font, is straight forward, since the `category` and `type` already exist. Adding a **new** `type` or `category` may require updates to configurations and adding examples to the generated documentation.
