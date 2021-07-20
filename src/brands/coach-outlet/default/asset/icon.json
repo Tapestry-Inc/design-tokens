@@ -1,0 +1,32 @@
+{
+  "asset": {
+    "icon": {
+      "utility": {
+        "zoom": { "value": "zoom.svg" },
+        "plus": { "value": "plus.svg" },
+        "minus": { "value": "minus.svg" }
+      },
+      "object": {
+        "shipping": { "value": "shipping.svg" },
+        "return": { "value": "return.svg" },
+        "repair": { "value": "repair.svg" },
+        "pickup": { "value": "pickup.svg" },
+        "offer": { "value": "offer.svg" },
+        "lock": { "value": "lock.svg" },
+        "gift": { "value": "gift.svg" },
+        "gift-card": { "value": "gift-card.svg" },
+        "early-access": { "value": "early-access.svg" },
+        "customer-care": { "value": "customer-care.svg" },
+        "create": { "value": "create.svg" },
+        "community": { "value": "community.svg" },
+        "chat": { "value": "chat.svg" },
+        "care": { "value": "care.svg" },
+        "birthday": { "value": "birthday.svg" },
+        "authenticity": { "value": "authenticity.svg" }
+      },
+      "navigation": {
+        "profile": { "value": "profile.svg" }
+      }
+    }
+  }
+}

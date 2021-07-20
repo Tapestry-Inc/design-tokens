@@ -1,0 +1,19 @@
+{
+  "font": {
+    "family": {
+      "primary": {
+        "normal": {
+          "value": "{font.face.primary.normal.family.value}, Helvetica, Arial, sans-serif"
+        },
+        "bold": {
+          "value": "{font.face.primary.bold.family.value}, Helvetica, Arial, sans-serif"
+        }
+      },
+      "secondary": {
+        "normal": {
+          "value": "{font.face.secondary.normal.family.value}, serif"
+        }
+      }
+    }
+  }
+}
