@@ -3,6 +3,10 @@
  * @param {object} prop - A property object.
  * @returns {number}
  */
-module.exports = (prop) => {
-    return parseFloat(prop.original.value, 10);
+module.exports = ({ original }) => {
+    const result = parseFloat(original.value, 10);
+
+    if (Number.isNaN(result)) return original.value;
+
+    return result;
 };

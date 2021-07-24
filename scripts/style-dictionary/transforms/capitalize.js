@@ -12,5 +12,5 @@ module.exports = (text, delimiter = '', start = 0) => {
         return part.charAt(0).toUpperCase() + part.slice(1);
     });
 
-    return typeof delimiter !== 'undefined' ? result.join(delimiter) : result;
+    return result.join(delimiter);
 };

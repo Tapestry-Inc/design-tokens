@@ -29,7 +29,7 @@ const getOptions = (attributes) => {
 
     const options = config[category][type] || config[category].default;
 
-    return Object.assign(defaults, options || {});
+    return Object.assign(defaults, options);
 };
 
 /**
