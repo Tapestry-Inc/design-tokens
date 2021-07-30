@@ -2,8 +2,8 @@
  * Runs build for each brand.
  */
 const StyleDictionary = require('style-dictionary');
-const createConfig = require('./config');
-const registrations = require('./register');
+const createConfig = require('./create-config');
+const registrations = require('./register.config');
 const { brands, paths } = require('../../constants');
 const log = require(`${paths.scripts.lib}log`)('style-dictionary');
 

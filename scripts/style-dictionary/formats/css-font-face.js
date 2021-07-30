@@ -27,6 +27,24 @@ const getSources = (props) => {
     return `${locals}${delim}${srcs.join(delim)}`;
 };
 
+const propConfig = {
+    'ascent-override': {},
+    'descent-override': {},
+    'line-gap-override': {},
+    'font-display': {
+        default: 'swap',
+    },
+    'font-family': {},
+    'font-feature-settings': {},
+    'font-variation-settings': {},
+    'font-stretch': {},
+    'font-style': {},
+    'font-variant': {},
+    'font-weight': {},
+    'size-adjust': {},
+    'unicode-range': {},
+};
+
 /**
  * Creates an `@font-face` css file.
  * @param {object} object - The Style Dictionary properties object.
@@ -35,42 +53,47 @@ const getSources = (props) => {
 module.exports = ({ dictionary }) => {
     const trackURL = dictionary.properties.font.track.url.value;
     const track = trackURL ? `@import url("${trackURL}");\n` : '';
+    const configKeys = Object.keys(propConfig);
+    const configValues = Object.values(propConfig);
+    const fontGroups = Object.values(dictionary.properties.font.face);
+    const groupVariants = fontGroups.reduce((acuum, group) => {
+        acuum.push(...Object.values(group));
+        return acuum;
+    }, []);
 
-    const fonts = Object.values(dictionary.properties.font.face)
-        .map((group) => {
-            return Object.values(group)
-                .map((variation) => {
-                    const result = [
-                        `  font-family: "${variation.family.value}";`,
-                    ];
+    const rules = groupVariants.map((variant) => {
+        const variantProps = Object.assign({}, variant);
 
-                    if (variation.style)
-                        result.push(`  font-style: ${variation.style.value};`);
+        // Add any property defaults to rule
+        configKeys.forEach((key, index) => {
+            const shortKey = key.replace('font-', '');
 
-                    if (variation.weight)
-                        result.push(
-                            `  font-weight: ${variation.weight.value};`
-                        );
+            if (variantProps[key] || variantProps[shortKey]) return;
+            if (!configValues[index].default) return;
 
-                    result.push(
-                        `  font-display: ${
-                            variation.display ? variation.display.value : 'swap'
-                        };`
-                    );
+            variantProps[key] = { value: configValues[index].default };
+        });
 
-                    result.push(`  src: ${getSources(variation)};`);
+        // Build rule properties from tokens
+        const variantOptions = Object.entries(variantProps).reduce(
+            (acuum, [key, { value }]) => {
+                let propName = key;
+                const fullKey = `font-${key}`;
 
-                    if (variation['unicode-range']) {
-                        result.push(
-                            `  unicode-range: ${variation['unicode-range']};`
-                        );
-                    }
+                if (propConfig[fullKey]) propName = fullKey;
+                else if (!propConfig[key]) return acuum;
 
-                    return `@font-face {\n${result.join('\n')}\n}`;
-                })
-                .join('\n');
-        })
-        .join('\n');
+                acuum.push(`  ${propName}: ${value}`);
 
-    return `${track}${fonts}`;
+                return acuum;
+            },
+            []
+        );
+
+        variantOptions.push(`  src: ${getSources(variantProps)};`);
+
+        return `@font-face {\n${variantOptions.join(';\n')}\n}`;
+    });
+
+    return `${track}${rules.join('\n')}`;
 };

@@ -6,7 +6,7 @@ const fs = require('fs-extra');
 const { brands, paths, pkg } = require('../../constants');
 const handlebars = require('./config');
 const capitalize = require('./helpers/capitalize');
-const createConfig = require(`${paths.scripts.styleDictionary}config`);
+const createConfig = require(`${paths.scripts.styleDictionary}create-config`);
 const log = require(`${paths.scripts.lib}log`)('docs');
 
 /**

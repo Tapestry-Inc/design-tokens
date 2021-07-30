@@ -20,7 +20,7 @@
     "pkg": "node scripts/pkg",
     "tailwind": "node scripts/tailwind",
     "tokens": "node scripts/style-dictionary",
-    "test": "nyc ava --verbose",
+    "test": "nyc --reporter=lcov --reporter=text ava",
     "prepare": "husky install"
   },
   "devDependencies": {

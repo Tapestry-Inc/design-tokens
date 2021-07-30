@@ -1,8 +1,11 @@
 module.exports = {
     extends: ['eslint:recommended', 'prettier'],
     env: {
-        es2020: true,
+        es2021: true,
         node: true,
+    },
+    parserOptions: {
+        sourceType: 'module',
     },
     rules: {
         // http://eslint.org/docs/rules/#variables
