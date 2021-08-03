@@ -4,7 +4,7 @@
       "primary": {
         "normal": {
           "family": {
-            "value": "HelveticaLTPro-Ext"
+            "value": "HelveticaNeueExtended"
           },
           "style": {
             "value": "normal"
@@ -16,15 +16,15 @@
             "value": "normal"
           },
           "local": {
-            "value": ["HelveticaLTPro-Ext"]
+            "value": ["HelveticaNeueExtended"]
           },
           "woff2": {
-            "value": "https://assets.coach.com/na/fonts/Helvetica-Roman.woff2"
+            "value": "https://assets.coach.com/na/fonts/EOS/HelveticaNeueExtended.woff"
           }
         },
         "bold": {
           "family": {
-            "value": "HelveticaLTPro-Ext-Bold"
+            "value": "HelveticaNeueBoldExtended"
           },
           "style": {
             "value": "normal"
@@ -36,10 +36,10 @@
             "value": "normal"
           },
           "local": {
-            "value": ["HelveticaLTPro-Ext-Bold"]
+            "value": ["HelveticaNeueBoldExtended"]
           },
           "woff2": {
-            "value": "https://assets.coach.com/na/fonts/Helvetica-Bold.woff2"
+            "value": "https://assets.coach.com/na/fonts/EOS/HelveticaNeueBoldExtended.woff"
           }
         }
       },
