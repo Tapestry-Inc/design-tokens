@@ -18,7 +18,7 @@
           "local": {
             "value": ["HelveticaNeueExtended"]
           },
-          "woff2": {
+          "woff": {
             "value": "https://assets.coach.com/na/fonts/EOS/HelveticaNeueExtended.woff"
           }
         },
@@ -38,7 +38,7 @@
           "local": {
             "value": ["HelveticaNeueBoldExtended"]
           },
-          "woff2": {
+          "woff": {
             "value": "https://assets.coach.com/na/fonts/EOS/HelveticaNeueBoldExtended.woff"
           }
         }
