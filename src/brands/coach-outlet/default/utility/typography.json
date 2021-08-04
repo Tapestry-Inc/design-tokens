@@ -44,7 +44,7 @@
           "xs": {
             "font-family": { "value": "{font.family.primary.normal.value}" },
             "font-size": { "value": "{size.font.8.value}" },
-            "letter-spacing": { "value": "{size.letter-spacing.2.value}" },
+            "letter-spacing": { "value": "{size.letter-spacing.s.value}" },
             "line-height": { "value": "{size.line-height.2xl.value}" },
             "text-transform": { "value": "uppercase" }
           },
