@@ -15,7 +15,7 @@ const createConfig = (brand, theme, { src, build }) => {
     if (!isDefaultTheme) {
         config.include = [
             `${paths.src.root}global/**/*.json`,
-            `${paths.src.brands}default/**/*.json`,
+            `${paths.src.brands}brand/default/**/*.json`,
         ];
         config.source = [`${src}**/*.json`];
     }

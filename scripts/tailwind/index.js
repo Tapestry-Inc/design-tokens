@@ -15,7 +15,6 @@ const log = require(`${paths.scripts.lib}log`)('tailwind');
 Object.keys(brands).forEach((brand) => {
     Object.keys(brands[brand]).forEach(async (theme) => {
         const { build } = brands[brand][theme];
-
         const config = createConfig(build);
         const { plugins, ...configOptions } = config;
         const destPathCSS = `${build}utilities.css`;
@@ -38,7 +37,7 @@ Object.keys(brands).forEach((brand) => {
 
                 fs.writeFileSync(destPathCSS, result.css);
 
-                createJSON(brand, result);
+                createJSON(build, result);
 
                 fs.writeFileSync(
                     destPathConfig,

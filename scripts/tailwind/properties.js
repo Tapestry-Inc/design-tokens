@@ -15,6 +15,7 @@ const getType = (name) => {
         return acuum;
     }, `unmapped selectors (${paths.scripts.tailwind}selector-map.js)`);
 };
+
 const createProperty = (selector, decls) => {
     const name = selector.replace(/^\./, '');
     const path = name.split('-');
@@ -43,9 +44,9 @@ const createProperty = (selector, decls) => {
     };
 };
 
-const createPropertiesJSON = (brand, data) => {
+const createPropertiesJSON = (buildPath, data) => {
     const result = {};
-    const destPath = `${paths.build.root}${brand}/properties/utility.json`;
+    const destPath = `${buildPath}/properties/utility.json`;
 
     data.root.walkRules(function (rule) {
         const decls = [];
