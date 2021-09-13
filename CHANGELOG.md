@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.17.1](https://github.com/Tapestry-Inc/design-tokens/compare/v2.17.0...v2.17.1)
+
+2021-09-13
+
+- Fix: color sync with default theme ([392fed6](https://github.com/Tapestry-Inc/design-tokens/commit/392fed6)) (Dan Merfeld)
+
 ## [v2.17.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.16.0...v2.17.0)
 
 2021-09-13
