@@ -1,5 +1,12 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.17.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.16.0...v2.17.0)
+
+2021-09-13
+
+- Merge branch 'main' of github.com:Tapestry-Inc/design-tokens ([9fdf1ab](https://github.com/Tapestry-Inc/design-tokens/commit/9fdf1ab)) (Dan Merfeld)
+- Update: syncs motif theme with default theme updates ([badcc01](https://github.com/Tapestry-Inc/design-tokens/commit/badcc01)) (Dan Merfeld)
+
 ## [v2.16.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.15.1...v2.16.0)
 
 2021-09-13
