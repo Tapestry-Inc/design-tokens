@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.16.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.15.1...v2.16.0)
+
+2021-09-13
+
+- Update: adds Coach Outlet fonts ([8115757](https://github.com/Tapestry-Inc/design-tokens/commit/8115757)) (Dan Merfeld)
+
 ## [v2.15.1](https://github.com/Tapestry-Inc/design-tokens/compare/v2.15.0...v2.15.1)
 
 2021-09-11
