@@ -4,7 +4,7 @@
       "primary": {
         "normal": {
           "family": {
-            "value": "HelveticaNeueExtended"
+            "value": "HelveticaLTPro-Roman"
           },
           "style": {
             "value": "normal"
@@ -40,6 +40,66 @@
           },
           "woff": {
             "value": "https://assets.coach.com/na/fonts/EOS/HelveticaNeueBoldExtended.woff"
+          }
+        },
+        "extended-normal": {
+          "family": {
+            "value": "HelveticaNeueLTStd-Ex"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["HelveticaNeueLTStd-Ex"]
+          },
+          "woff2": {
+            "value": "https://assets.coach.com/na/fonts/EOS/HelveticaNeueLTStd-Ex.woff2"
+          }
+        },
+        "extended-bold": {
+          "family": {
+            "value": "HelveticaNeue73ExtendedBold"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["HelveticaNeue73ExtendedBold"]
+          },
+          "woff2": {
+            "value": "https://assets.coach.com/na/fonts/EOS/HelveticaNeue73ExtendedBold.woff2"
+          }
+        },
+        "condensed-bold": {
+          "family": {
+            "value": "HelveticaNeue77CondensedBold"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["HelveticaNeue77CondensedBold"]
+          },
+          "woff2": {
+            "value": "https://assets.coach.com/na/fonts/EOS/HelveticaNeue77CondensedBold.woff2"
           }
         }
       },
