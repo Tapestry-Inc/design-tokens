@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.22.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.21.0...v2.22.0)
+
+2021-09-16
+
+- Update: Changes SW icon-object-gift to new icon ([df4ef83](https://github.com/Tapestry-Inc/design-tokens/commit/df4ef83)) (Dan Merfeld)
+
 ## [v2.21.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.20.0...v2.21.0)
 
 2021-09-16
