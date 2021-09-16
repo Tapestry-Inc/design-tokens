@@ -4,7 +4,7 @@
       "primary": {
         "normal": {
           "family": {
-            "value": "FuturaBT-Bold"
+            "value": "FuturaBT-Book"
           },
           "style": {
             "value": "normal"
@@ -16,10 +16,10 @@
             "value": "normal"
           },
           "local": {
-            "value": ["FuturaBT-Bold"]
+            "value": ["FuturaBT-Book"]
           },
           "woff2": {
-            "value": "https://assets.stuartweitzman.com/na/fonts/FuturaBT-Bold.woff2"
+            "value": "https://assets.stuartweitzman.com/na/fonts/FuturaBT-Book.woff2"
           }
         },
         "medium": {
