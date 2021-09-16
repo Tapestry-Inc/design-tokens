@@ -1,5 +1,12 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.18.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.17.1...v2.18.0)
+
+2021-09-16
+
+- Update: changes SW color-primary to #FF0000 [#FF0000](https://github.com/Tapestry-Inc/design-tokens/issues/FF0000) ([c7a3abf](https://github.com/Tapestry-Inc/design-tokens/commit/c7a3abf)) (Dan Merfeld)
+- Update: changes SW icon-object-gift to new icon ([73eeacd](https://github.com/Tapestry-Inc/design-tokens/commit/73eeacd)) (Dan Merfeld)
+
 ## [v2.17.1](https://github.com/Tapestry-Inc/design-tokens/compare/v2.17.0...v2.17.1)
 
 2021-09-13
