@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.20.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.19.0...v2.20.0)
+
+2021-09-16
+
+- Update: Changes font-primary-normal font stack to FuturaBT-Bold, Helvetica, Arial, sans-serif ([3d6bc59](https://github.com/Tapestry-Inc/design-tokens/commit/3d6bc59)) (Dan Merfeld)
+
 ## [v2.19.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.18.0...v2.19.0)
 
 2021-09-16
