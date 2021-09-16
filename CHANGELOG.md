@@ -1,5 +1,12 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.25.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.24.0...v2.25.0)
+
+2021-09-16
+
+- Update: Changes font-primary-normal font stack to FuturaBT-Book, Helvetica, Arial, sans-serif ([b643593](https://github.com/Tapestry-Inc/design-tokens/commit/b643593)) (Dan Merfeld)
+- Update: Changes SW icon-object-gift to new icon ([86aa878](https://github.com/Tapestry-Inc/design-tokens/commit/86aa878)) (Dan Merfeld)
+
 ## [v2.24.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.23.0...v2.24.0)
 
 2021-09-16
