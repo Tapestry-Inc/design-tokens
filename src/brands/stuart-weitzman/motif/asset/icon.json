@@ -2,8 +2,12 @@
   "asset": {
     "icon": {
       "object": {
-        "shipping": { "value": "shipping.svg" },
-        "gift": { "value": "gift.svg" }
+        "shipping": {
+          "value": "shipping.svg"
+        },
+        "gift": {
+          "value": "gift.svg"
+        }
       }
     }
   }
