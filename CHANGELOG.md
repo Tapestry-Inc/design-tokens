@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.23.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.22.0...v2.23.0)
+
+2021-09-16
+
+- Update: Changes SW color-primary to #FF0000 [#FF0000](https://github.com/Tapestry-Inc/design-tokens/issues/FF0000) ([be73a2a](https://github.com/Tapestry-Inc/design-tokens/commit/be73a2a)) (Dan Merfeld)
+
 ## [v2.22.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.21.0...v2.22.0)
 
 2021-09-16
