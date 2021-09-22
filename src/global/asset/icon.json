@@ -51,6 +51,21 @@
         },
         "caret-down": {
           "value": "caret-down.svg"
+        },
+        "minus": {
+          "value": "minus.svg"
+        },
+        "plus": {
+          "value": "plus.svg"
+        },
+        "selected": {
+          "value": "selected.svg"
+        },
+        "step": {
+          "value": "step.svg"
+        },
+        "unselected": {
+          "value": "unselected.svg"
         }
       },
       "social": {
@@ -153,9 +168,27 @@
         },
         "calendar": {
           "value": "calendar.svg"
+        },
+        "chat": {
+          "value": "chat.svg"
+        },
+        "lock": {
+          "value": "lock.svg"
+        },
+        "early-access": {
+          "value": "early-access.svg"
+        },
+        "gift": {
+          "value": "gift.svg"
+        },
+        "shipping": {
+          "value": "shipping.svg"
         }
       },
       "navigation": {
+        "account": {
+          "value": "account.svg"
+        },
         "search": {
           "value": "search.svg"
         },
@@ -177,8 +210,11 @@
         "bag-3digit": {
           "value": "bag-3digit.svg"
         },
-        "account": {
-          "value": "account.svg"
+        "bag-3digit-white": {
+          "value": "bag-3digit-white.svg"
+        },
+        "bag-white": {
+          "value": "bag-white.svg"
         }
       },
       "form": {
@@ -190,6 +226,9 @@
         },
         "error": {
           "value": "error.svg"
+        },
+        "icon-info-outlined": {
+          "value": "icon-info-outlined.svg"
         }
       },
       "flag": {
