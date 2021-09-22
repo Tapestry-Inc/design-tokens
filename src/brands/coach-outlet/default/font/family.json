@@ -23,11 +23,6 @@
           "value": "{font.face.secondary.normal.family.value}, serif"
         }
       }
-    },
-    "secondary": {
-      "normal": {
-        "value": "{font.face.secondary.normal.family.value}, serif"
-      }
     }
   }
 }
