@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.26.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.25.0...v2.26.0)
+
+2021-09-22
+
+- Update: adds icons to global set ([c4713c8](https://github.com/Tapestry-Inc/design-tokens/commit/c4713c8)) (Dan Merfeld)
+
 ## [v2.25.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.24.0...v2.25.0)
 
 2021-09-16
