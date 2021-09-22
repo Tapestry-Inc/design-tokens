@@ -250,21 +250,12 @@
           "value": "default.svg"
         }
       },
-      "credit": {
+      "partner": {
         "affirm": {
           "value": "affirm.svg"
         },
-        "amex": {
-          "value": "amex.svg"
-        },
         "apple-pay": {
           "value": "apple-pay.svg"
-        },
-        "diners-club": {
-          "value": "diners-club.svg"
-        },
-        "discover": {
-          "value": "discover.svg"
         },
         "giftnow": {
           "value": "giftnow.svg"
@@ -275,12 +266,6 @@
         "klarna": {
           "value": "klarna.svg"
         },
-        "maestro": {
-          "value": "maestro.svg"
-        },
-        "mastercard": {
-          "value": "mastercard.svg"
-        },
         "paypal-credit": {
           "value": "paypal-credit.svg"
         },
@@ -289,6 +274,23 @@
         },
         "shoprunner": {
           "value": "shoprunner.svg"
+        }
+      },
+      "credit": {
+        "amex": {
+          "value": "amex.svg"
+        },
+        "diners-club": {
+          "value": "diners-club.svg"
+        },
+        "discover": {
+          "value": "discover.svg"
+        },
+        "maestro": {
+          "value": "maestro.svg"
+        },
+        "mastercard": {
+          "value": "mastercard.svg"
         },
         "sofort": {
           "value": "sofort.svg"
