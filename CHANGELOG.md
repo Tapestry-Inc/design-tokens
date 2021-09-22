@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.28.2](https://github.com/Tapestry-Inc/design-tokens/compare/v2.28.1...v2.28.2)
+
+2021-09-22
+
+- Fix: resource link and local name for CO fonts ([a5bcd48](https://github.com/Tapestry-Inc/design-tokens/commit/a5bcd48)) (Dan Merfeld)
+
 ## [v2.28.1](https://github.com/Tapestry-Inc/design-tokens/compare/v2.28.0...v2.28.1)
 
 2021-09-22
