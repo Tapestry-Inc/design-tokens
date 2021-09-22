@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.28.1](https://github.com/Tapestry-Inc/design-tokens/compare/v2.28.0...v2.28.1)
+
+2021-09-22
+
+- Fix: fixes CO fonts ([02d3b6a](https://github.com/Tapestry-Inc/design-tokens/commit/02d3b6a)) (Dan Merfeld)
+
 ## [v2.28.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.27.0...v2.28.0)
 
 2021-09-22
