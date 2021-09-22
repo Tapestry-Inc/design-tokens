@@ -6,6 +6,15 @@
       },
       "s": {
         "value": "1px"
+      },
+      "m": {
+        "value": "2px"
+      },
+      "l": {
+        "value": "4px"
+      },
+      "xl": {
+        "value": "8px"
       }
     }
   }
