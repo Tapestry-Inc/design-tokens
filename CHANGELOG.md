@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.28.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.27.0...v2.28.0)
+
+2021-09-22
+
+- Update: adds missing spacing and border width values ([af1c87a](https://github.com/Tapestry-Inc/design-tokens/commit/af1c87a)) (Dan Merfeld)
+
 ## [v2.27.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.26.0...v2.27.0)
 
 2021-09-22
