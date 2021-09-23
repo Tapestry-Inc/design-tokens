@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.28.3](https://github.com/Tapestry-Inc/design-tokens/compare/v2.28.2...v2.28.3)
+
+2021-09-23
+
+- Fix: line-height and letter-spacing values for Coach and SW ([ef64a35](https://github.com/Tapestry-Inc/design-tokens/commit/ef64a35)) (Dan Merfeld)
+
 ## [v2.28.2](https://github.com/Tapestry-Inc/design-tokens/compare/v2.28.1...v2.28.2)
 
 2021-09-22
