@@ -1,0 +1,55 @@
+{
+  "border": {
+    "border-color": {
+      "primary": {
+        "value": "{color.primary.value}"
+      },
+      "secondary": {
+        "value": "{color.secondary.value}"
+      },
+      "white": {
+        "value": "{color.white.value}"
+      },
+      "black": {
+        "value": "{color.black.value}"
+      },
+      "neutral": {
+        "base": {
+          "value": "{color.neutral.base.value}"
+        },
+        "light": {
+          "value": "{color.neutral.light.value}"
+        },
+        "dark": {
+          "value": "{color.neutral.dark.value}"
+        }
+      },
+      "error": {
+        "primary": {
+          "value": "{color.error.primary.value}"
+        }
+      },
+      "inactive": {
+        "value": "{color.inactive.value}"
+      },
+      "scrim": {
+        "light": {
+          "value": "{color.scrim.light.value}"
+        },
+        "dark": {
+          "value": "{color.scrim.dark.value}"
+        }
+      },
+      "standout": {
+        "primary": {
+          "value": "{color.standout.primary.value}"
+        }
+      },
+      "success": {
+        "primary": {
+          "value": "{color.success.primary.value}"
+        }
+      }
+    }
+  }
+}

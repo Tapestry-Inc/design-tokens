@@ -1,0 +1,26 @@
+{
+  "border": {
+    "border-color": {
+      "cool": {
+        "grey": {
+          "value": "{color.cool.grey.value}"
+        }
+      },
+      "error": {
+        "secondary": {
+          "value": "{color.error.secondary.value}"
+        }
+      },
+      "standout": {
+        "secondary": {
+          "value": "{color.standout.secondary.value}"
+        }
+      },
+      "success": {
+        "secondary": {
+          "value": "{color.success.secondary.value}"
+        }
+      }
+    }
+  }
+}

@@ -33,7 +33,7 @@ module.exports = {
         },
         {
             type: 'border-color',
-            matcher: /^border-/,
+            matcher: /^border-color/,
         },
     ],
     font: [
