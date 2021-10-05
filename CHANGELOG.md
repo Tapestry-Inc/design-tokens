@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.29.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.28.3...v2.29.0)
+
+2021-10-05
+
+- Update: adds border color tokens (#54) [#54](https://github.com/Tapestry-Inc/design-tokens/issues/54) ([e992628](https://github.com/Tapestry-Inc/design-tokens/commit/e992628)) (Dan Merfeld)
+
 ## [v2.28.3](https://github.com/Tapestry-Inc/design-tokens/compare/v2.28.2...v2.28.3)
 
 2021-09-23
