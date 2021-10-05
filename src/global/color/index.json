@@ -1,27 +1,53 @@
 {
   "color": {
-    "primary": { "value": "#000001" },
-    "secondary": { "value": "#fffffe" },
-    "white": { "value": "#ffffff" },
-    "black": { "value": "#000000" },
+    "primary": {
+      "value": "#000001"
+    },
+    "secondary": {
+      "value": "#fffffe"
+    },
+    "white": {
+      "value": "#ffffff"
+    },
+    "black": {
+      "value": "#000000"
+    },
     "neutral": {
-      "base": { "value": "#575757" },
-      "light": { "value": "#f7f7f7" },
-      "dark": { "value": "#2e2e2e" }
+      "base": {
+        "value": "#575757"
+      },
+      "light": {
+        "value": "#f7f7f7"
+      },
+      "dark": {
+        "value": "#2e2e2e"
+      }
     },
     "error": {
-      "primary": { "value": "#dd191f" }
+      "primary": {
+        "value": "#dd191f"
+      }
     },
-    "inactive": { "value": "#d8d8d8" },
+    "inactive": {
+      "value": "#d8d8d8"
+    },
     "scrim": {
-      "light": { "value": "rgba(255, 255, 255, 0.5)" },
-      "dark": { "value": "rgba(0, 0, 0, 0.8)" }
+      "light": {
+        "value": "rgba(255, 255, 255, 0.5)"
+      },
+      "dark": {
+        "value": "rgba(0, 0, 0, 0.8)"
+      }
     },
     "standout": {
-      "primary": { "value": "#001489" }
+      "primary": {
+        "value": "#001489"
+      }
     },
     "success": {
-      "primary": { "value": "#22863a" }
+      "primary": {
+        "value": "#22863a"
+      }
     }
   }
 }

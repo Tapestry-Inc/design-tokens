@@ -114,6 +114,15 @@ const createConfig = (brand, theme, { src, build }) => {
                     format: 'json/properties',
                 },
                 {
+                    destination: 'border-color.json',
+                    format: 'json/properties',
+                    filter: {
+                        attributes: {
+                            type: 'border-color',
+                        },
+                    },
+                },
+                {
                     destination: 'border-radius.json',
                     format: 'json/properties',
                     filter: {
@@ -137,15 +146,6 @@ const createConfig = (brand, theme, { src, build }) => {
                     filter: {
                         attributes: {
                             type: 'breakpoint',
-                        },
-                    },
-                },
-                {
-                    destination: 'border-radius.json',
-                    format: 'json/properties',
-                    filter: {
-                        attributes: {
-                            type: 'border-radius',
                         },
                     },
                 },

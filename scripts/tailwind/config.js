@@ -6,6 +6,7 @@ const fs = require('fs-extra');
 const pluginLineHeight = require('./plugins/line-height');
 const pluginLetterSpacing = require('./plugins/letter-spacing');
 const pluginBorderRadius = require('./plugins/border-radius');
+const pluginBorderColor = require('./plugins/border-color');
 const pluginUtilityTypography = require('./plugins/utility-typography');
 const parseProperties = require('./helpers/parse-properties');
 
@@ -20,6 +21,12 @@ const createConfig = (buildPath) => {
             },
             borderWidth: {
                 ...parseProperties(props, { type: 'border-width' }),
+            },
+            borderColor: {
+                ...parseProperties(props, {
+                    category: 'color',
+                    type: 'border-color',
+                }),
             },
             boxShadow: {
                 ...parseProperties(props, {
@@ -65,6 +72,7 @@ const createConfig = (buildPath) => {
             pluginBorderRadius(
                 parseProperties(props, { type: 'border-radius' })
             ),
+            pluginBorderColor(parseProperties(props, { type: 'border-color' })),
             pluginLineHeight(parseProperties(props, { type: 'line-height' })),
             pluginLetterSpacing(
                 parseProperties(props, { type: 'letter-spacing' })
