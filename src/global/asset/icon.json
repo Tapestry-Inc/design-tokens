@@ -230,8 +230,8 @@
         "error": {
           "value": "error.svg"
         },
-        "icon-info-outlined": {
-          "value": "icon-info-outlined.svg"
+        "info-outlined": {
+          "value": "info-outlined.svg"
         }
       },
       "flag": {
