@@ -1,5 +1,12 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.30.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.29.0...v2.30.0)
+
+2021-10-06
+
+- Update: changes Coach primary color to #0000FF [#0000](https://github.com/Tapestry-Inc/design-tokens/issues/0000) ([d2e9507](https://github.com/Tapestry-Inc/design-tokens/commit/d2e9507)) (Dan Merfeld)
+- Dan/border color (#55) [#55](https://github.com/Tapestry-Inc/design-tokens/issues/55) ([8293163](https://github.com/Tapestry-Inc/design-tokens/commit/8293163)) (Dan Merfeld)
+
 ## [v2.29.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.28.3...v2.29.0)
 
 2021-10-05
