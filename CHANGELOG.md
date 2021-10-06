@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.31.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.30.0...v2.31.0)
+
+2021-10-06
+
+- Update: renames form icon info outlined ([7d44cf1](https://github.com/Tapestry-Inc/design-tokens/commit/7d44cf1)) (Dan Merfeld)
+
 ## [v2.30.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.29.0...v2.30.0)
 
 2021-10-06
