@@ -25,6 +25,9 @@
         }
       },
       "utility": {
+        "zoom": {
+          "value": "zoom.svg"
+        },
         "close": {
           "value": "close.svg"
         },
@@ -260,9 +263,6 @@
         "giftnow": {
           "value": "giftnow.svg"
         },
-        "jcb": {
-          "value": "jcb.svg"
-        },
         "klarna": {
           "value": "klarna.svg"
         },
@@ -285,6 +285,15 @@
         },
         "discover": {
           "value": "discover.svg"
+        },
+        "giftnow": {
+          "value": "giftnow.svg"
+        },
+        "jcb": {
+          "value": "jcb.svg"
+        },
+        "klarna": {
+          "value": "klarna.svg"
         },
         "maestro": {
           "value": "maestro.svg"
