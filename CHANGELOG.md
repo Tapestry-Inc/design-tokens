@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.32.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.31.0...v2.32.0)
+
+2021-10-06
+
+- Update: Changes Coach primary color to #000001 [#000001](https://github.com/Tapestry-Inc/design-tokens/issues/000001) ([73a5574](https://github.com/Tapestry-Inc/design-tokens/commit/73a5574)) (Dan Merfeld)
+
 ## [v2.31.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.30.0...v2.31.0)
 
 2021-10-06
