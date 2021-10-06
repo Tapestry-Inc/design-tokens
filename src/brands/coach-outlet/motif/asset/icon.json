@@ -2,9 +2,6 @@
   "asset": {
     "icon": {
       "utility": {
-        "zoom": {
-          "value": "zoom.svg"
-        },
         "plus": {
           "value": "plus.svg"
         },
@@ -30,6 +27,9 @@
         },
         "lock": {
           "value": "lock.svg"
+        },
+        "unlock": {
+          "value": "unlock.svg"
         },
         "gift": {
           "value": "gift.svg"
