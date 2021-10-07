@@ -1,0 +1,70 @@
+{
+  "font": {
+    "face": {
+      "primary": {
+        "normal": {
+          "family": {
+            "value": "HelveticaLTPro-Roman"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["HelveticaLTPro-Roman"]
+          },
+          "woff2": {
+            "value": "https://assets.coach.com/na/fonts/Helvetica-Roman.woff2"
+          }
+        },
+        "bold": {
+          "family": {
+            "value": "HelveticaLTPro-Bold"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["HelveticaLTPro-Bold"]
+          },
+          "woff2": {
+            "value": "https://assets.coach.com/na/fonts/Helvetica-Bold.woff2"
+          }
+        }
+      },
+      "secondary": {
+        "normal": {
+          "family": {
+            "value": "BemboMTPro-Regular"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["BemboMTPro-Regular"]
+          },
+          "woff2": {
+            "value": "https://assets.coach.com/na/fonts/BemboMTPro-Regular.woff2"
+          }
+        }
+      }
+    }
+  }
+}

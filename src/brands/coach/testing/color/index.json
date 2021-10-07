@@ -1,0 +1,56 @@
+{
+  "color": {
+    "primary": {
+      "value": "#ffcccc"
+    },
+    "secondary": {
+      "value": "#ffe6cc"
+    },
+    "white": {
+      "value": "#ffffcc"
+    },
+    "black": {
+      "value": "#e6ffcc"
+    },
+    "neutral": {
+      "base": {
+        "value": "#ccffcc"
+      },
+      "light": {
+        "value": "#ccffe6"
+      },
+      "dark": {
+        "value": "#ccffff"
+      }
+    },
+    "error": {
+      "primary": {
+        "value": "#cce6ff"
+      }
+    },
+    "inactive": {
+      "value": "#e6ccff"
+    },
+    "scrim": {
+      "light": {
+        "value": "rgba()"
+      },
+      "dark": {
+        "value": "rgba()"
+      }
+    },
+    "standout": {
+      "primary": {
+        "value": "#"
+      }
+    },
+    "success": {
+      "primary": {
+        "value": "#ffccff"
+      }
+    },
+    "sale": {
+      "value": "#ffcce6"
+    }
+  }
+}
