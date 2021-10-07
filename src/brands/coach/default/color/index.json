@@ -6,6 +6,9 @@
     "neutral": {
       "dark": {
         "value": "#333333"
+      },
+      "inactive": {
+        "value": "#d8d8d8"
       }
     },
     "error": {
@@ -21,6 +24,9 @@
     "standout": {
       "primary": {
         "value": "#333333"
+      },
+      "light": {
+        "value": "#edf4ff"
       }
     },
     "success": {

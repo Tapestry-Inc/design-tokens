@@ -16,6 +16,9 @@
       "base": {
         "value": "#ccffcc"
       },
+      "inactive": {
+        "value": "#ff0000"
+      },
       "light": {
         "value": "#ccffe6"
       },
@@ -33,15 +36,18 @@
     },
     "scrim": {
       "light": {
-        "value": "rgba()"
+        "value": "rgba(34,222,24,0.5)"
       },
       "dark": {
-        "value": "rgba()"
+        "value": "rgba(24,202,222,0.5)"
       }
     },
     "standout": {
       "primary": {
-        "value": "#"
+        "value": "#F765A3"
+      },
+      "light": {
+        "value": "#0B1354"
       }
     },
     "success": {
