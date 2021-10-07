@@ -34,7 +34,7 @@ Along with exporting source code (CSS, SCSS, JavaScript, etc.), properties files
 Add a new `.json` file to the proper directory. If the tokens are the same for all brands, add them to `src/global`, otherwise they should be added to `src/brands/<brand>`
 
 - The parent folder of the new JSON file should named the same as the token's `category`.
-- The JSON file should be named the same as the token's `item`.
+- The JSON file should be named the same as the token's `type`.
 
 ### Style Dictionary
 
