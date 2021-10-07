@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v2.34.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.33.0...v2.34.0)
+
+2021-10-07
+
+- Update: adds testing theme, adjusts test them colors ([ef1f4ee](https://github.com/Tapestry-Inc/design-tokens/commit/ef1f4ee)) (Dan Merfeld)
+
 ## [v2.33.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.32.0...v2.33.0)
 
 2021-10-07
