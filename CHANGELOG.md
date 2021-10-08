@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v3.0.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.34.0...v3.0.0)
+
+2021-10-08
+
+- Breaking: Changes key values for color-white and color-black, to color-white-base and color-black-base ([96cfa0d](https://github.com/Tapestry-Inc/design-tokens/commit/96cfa0d)) (Dan Merfeld)
+
 ## [v2.34.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.33.0...v2.34.0)
 
 2021-10-07
