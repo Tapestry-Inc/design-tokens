@@ -8,10 +8,14 @@
         "value": "{color.secondary.value}"
       },
       "white": {
-        "value": "{color.white.value}"
+        "base": {
+          "value": "{color.white.base.value}"
+        }
       },
       "black": {
-        "value": "{color.black.value}"
+        "base": {
+          "value": "{color.black.base.value}"
+        }
       },
       "neutral": {
         "base": {

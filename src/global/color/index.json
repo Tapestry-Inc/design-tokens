@@ -6,12 +6,6 @@
     "secondary": {
       "value": "#fffffe"
     },
-    "white": {
-      "value": "#ffffff"
-    },
-    "black": {
-      "value": "#000000"
-    },
     "neutral": {
       "base": {
         "value": "#575757"
