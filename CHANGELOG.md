@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v3.1.1](https://github.com/Tapestry-Inc/design-tokens/compare/v3.1.0...v3.1.1)
+
+2021-10-08
+
+- Fix: Issue with custom themes inheriting from default theme ([333dedb](https://github.com/Tapestry-Inc/design-tokens/commit/333dedb)) (Dan Merfeld)
+
 ## [v3.1.0](https://github.com/Tapestry-Inc/design-tokens/compare/v3.0.0...v3.1.0)
 
 2021-10-08
