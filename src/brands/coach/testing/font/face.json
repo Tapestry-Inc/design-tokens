@@ -4,7 +4,7 @@
       "primary": {
         "normal": {
           "family": {
-            "value": "HelveticaLTPro-Roman"
+            "value": "Knockout-48_Web"
           },
           "style": {
             "value": "normal"
@@ -16,15 +16,15 @@
             "value": "normal"
           },
           "local": {
-            "value": ["HelveticaLTPro-Roman"]
+            "value": ["Knockout-48_Web"]
           },
           "woff2": {
-            "value": "https://assets.coach.com/na/fonts/Helvetica-Roman.woff2"
+            "value": "https://assets.coach.com/na/fonts/EOS/Knockout-48_Web.woff2"
           }
         },
         "bold": {
           "family": {
-            "value": "HelveticaLTPro-Bold"
+            "value": "gothic-no-13-bt"
           },
           "style": {
             "value": "normal"
@@ -36,17 +36,17 @@
             "value": "normal"
           },
           "local": {
-            "value": ["HelveticaLTPro-Bold"]
+            "value": ["gothic-no-13-bt"]
           },
-          "woff2": {
-            "value": "https://assets.coach.com/na/fonts/Helvetica-Bold.woff2"
+          "ttf": {
+            "value": "https://assets.coach.com/na/fonts/EOS/gothic-no-13-bt.ttf"
           }
         }
       },
       "secondary": {
         "normal": {
           "family": {
-            "value": "BemboMTPro-Regular"
+            "value": "Knockout-49_Web"
           },
           "style": {
             "value": "normal"
@@ -58,10 +58,10 @@
             "value": "normal"
           },
           "local": {
-            "value": ["BemboMTPro-Regular"]
+            "value": ["Knockout-49_Web"]
           },
           "woff2": {
-            "value": "https://assets.coach.com/na/fonts/BemboMTPro-Regular.woff2"
+            "value": "https://assets.coach.com/na/fonts/EOS/Knockout-49_Web.woff2"
           }
         }
       }
