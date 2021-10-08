@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v3.1.0](https://github.com/Tapestry-Inc/design-tokens/compare/v3.0.0...v3.1.0)
+
+2021-10-08
+
+- Update: adds testing fonts to testing theme ([95c9ce9](https://github.com/Tapestry-Inc/design-tokens/commit/95c9ce9)) (Dan Merfeld)
+
 ## [v3.0.0](https://github.com/Tapestry-Inc/design-tokens/compare/v2.34.0...v3.0.0)
 
 2021-10-08
