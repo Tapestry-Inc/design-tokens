@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v3.1.2](https://github.com/Tapestry-Inc/design-tokens/compare/v3.1.1...v3.1.2)
+
+2021-10-11
+
+- Fix: fixes values for white 60 and white 70 ([4aeea3e](https://github.com/Tapestry-Inc/design-tokens/commit/4aeea3e)) (Dan Merfeld)
+
 ## [v3.1.1](https://github.com/Tapestry-Inc/design-tokens/compare/v3.1.0...v3.1.1)
 
 2021-10-08
