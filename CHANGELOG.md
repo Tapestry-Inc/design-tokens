@@ -1,5 +1,12 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.0.0](https://github.com/Tapestry-Inc/design-tokens/compare/v3.1.2...v4.0.0)
+
+2021-10-24
+
+- Breaking: changes key names for typography, adds new line-height token key names based on value ([0304b4e](https://github.com/Tapestry-Inc/design-tokens/commit/0304b4e)) (Dan Merfeld)
+- Dan/typography (#60) [#60](https://github.com/Tapestry-Inc/design-tokens/issues/60) ([3650fab](https://github.com/Tapestry-Inc/design-tokens/commit/3650fab)) (Dan Merfeld)
+
 ## [v3.1.2](https://github.com/Tapestry-Inc/design-tokens/compare/v3.1.1...v3.1.2)
 
 2021-10-11
