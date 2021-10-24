@@ -1,7 +1,7 @@
 {
   "font": {
     "face": {
-      "primary": {
+      "1": {
         "normal": {
           "family": {
             "value": "HelveticaLTPro-Roman"
@@ -43,7 +43,7 @@
           }
         }
       },
-      "secondary": {
+      "2": {
         "normal": {
           "family": {
             "value": "BemboMTPro-Regular"

@@ -1,7 +1,7 @@
 {
   "font": {
     "face": {
-      "primary": {
+      "1": {
         "normal": {
           "family": {
             "value": "FuturaBT-Book"
@@ -63,7 +63,7 @@
           }
         }
       },
-      "secondary": {
+      "2": {
         "normal": {
           "family": {
             "value": "HeldaneText-Regular"

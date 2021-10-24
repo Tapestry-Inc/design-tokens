@@ -1,26 +1,26 @@
 {
   "font": {
     "family": {
-      "primary": {
+      "face1": {
         "normal": {
-          "value": "{font.face.primary.normal.family.value}, Helvetica, Arial, sans-serif"
+          "value": "{font.face.1.normal.family.value}, Helvetica, Arial, sans-serif"
         },
         "bold": {
-          "value": "{font.face.primary.bold.family.value}, Helvetica, Arial, sans-serif"
+          "value": "{font.face.1.bold.family.value}, Helvetica, Arial, sans-serif"
         },
         "extended-normal": {
-          "value": "{font.face.primary.extended-normal.family.value}, Helvetica, Arial, sans-serif"
+          "value": "{font.face.1.extended-normal.family.value}, Helvetica, Arial, sans-serif"
         },
         "extended-bold": {
-          "value": "{font.face.primary.extended-bold.family.value}, Helvetica, Arial, sans-serif"
+          "value": "{font.face.1.extended-bold.family.value}, Helvetica, Arial, sans-serif"
         },
         "condensed-bold": {
-          "value": "{font.face.primary.condensed-bold.family.value}, Helvetica, Arial, sans-serif"
+          "value": "{font.face.1.condensed-bold.family.value}, Helvetica, Arial, sans-serif"
         }
       },
-      "secondary": {
+      "face2": {
         "normal": {
-          "value": "{font.face.secondary.normal.family.value}, serif"
+          "value": "{font.face.2.normal.family.value}, serif"
         }
       }
     }
