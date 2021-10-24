@@ -4,8 +4,8 @@ module.exports = (props) => {
         const utils = {};
 
         Object.values(props).forEach(({ value, attributes, path }) => {
-            const { item, subitem, state } = attributes;
-            const key = `.text-${item}-${subitem}-${state}`;
+            const { item, subitem } = attributes;
+            const key = `.text-${item}-${subitem}`;
             const prop = path.pop();
 
             if (!utils[key]) utils[key] = {};

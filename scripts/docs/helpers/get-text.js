@@ -1,10 +1,10 @@
 /**
- * Returns text example based on `state` of the utility.
+ * Returns text example based on `subitem` of the utility.
  * @param {object} attrs - The property's `attributes` object.
  * @returns {string}
  */
 module.exports = (attrs) => {
-    switch (attrs.state) {
+    switch (attrs.subitem) {
         case 'display':
             return 'This is a Headline';
 

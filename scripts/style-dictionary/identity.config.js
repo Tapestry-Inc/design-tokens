@@ -79,7 +79,10 @@ module.exports = {
     utility: {
         typography: {
             exports: {
-                vars: false,
+                vars: {
+                    scss: true,
+                    css: true,
+                },
             },
         },
     },

@@ -1,6 +1,7 @@
 const rSize = '(none|xs|s|m|l|xl|\\dxl|full)';
 const rSide = '(l|t|r|b)';
-const rLevel = '(primary|secondary)';
+const rLevel =
+    '(primary|secondary|display\\d|body\\d|eyebrow\\d|badge\\d|label\\d|cta\\d|plainbutton\\d)';
 const rColon = '\\\\:';
 
 /* 
@@ -69,13 +70,11 @@ module.exports = {
     text: [
         {
             type: 'typography-responsive',
-            matcher: new RegExp(
-                `^${rSize}${rColon}text-${rLevel}-(.+)-${rSize}`
-            ),
+            matcher: new RegExp(`^${rSize}${rColon}text-${rLevel}-${rSize}`),
         },
         {
             type: 'typography',
-            matcher: new RegExp(`^text-${rLevel}-(.+)-${rSize}`),
+            matcher: new RegExp(`^text-${rLevel}-${rSize}`),
         },
         {
             type: 'font-size',
