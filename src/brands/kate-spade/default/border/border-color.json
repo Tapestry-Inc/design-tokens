@@ -1,0 +1,37 @@
+{
+  "border": {
+    "border-color": {
+      "error": {
+        "primary": {
+          "value": "{color.error.primary.value}"
+        }
+      },
+      "standout": {
+        "primary": {
+          "value": "{color.standout.primary.value}"
+        }
+      },
+      "success": {
+        "primary": {
+          "value": "{color.success.primary.value}"
+        }
+      },
+      "teal": {
+        "dark": {
+          "value": "{color.teal.dark.value}"
+        },
+        "medium": {
+          "value": "{color.teal.medium.value}"
+        },
+        "light": {
+          "value": "{color.teal.light.value}"
+        }
+      },
+      "pink": {
+        "light": {
+          "value": "{color.pink.light.value}"
+        }
+      }
+    }
+  }
+}

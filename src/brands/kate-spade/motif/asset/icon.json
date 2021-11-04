@@ -1,0 +1,37 @@
+{
+  "asset": {
+    "icon": {
+      "navigation": {
+        "account": {
+          "value": "account.svg"
+        },
+        "bag-filled": {
+          "value": "bag-filled.svg"
+        },
+        "bag": {
+          "value": "bag.svg"
+        },
+        "favorite": {
+          "value": "favorite.svg"
+        }
+      },
+      "objects": {
+        "chat": {
+          "value": "chat.svg"
+        },
+        "spade-left": {
+          "value": "spade-left.svg"
+        },
+        "spade-right": {
+          "value": "spade-right.svg"
+        },
+        "spade": {
+          "value": "spade.svg"
+        }
+      },
+      "trufit": {
+        "value": "trufit.svg"
+      }
+    }
+  }
+}

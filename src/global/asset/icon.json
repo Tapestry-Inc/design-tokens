@@ -31,6 +31,12 @@
         "close": {
           "value": "close.svg"
         },
+        "compare-inactive": {
+          "value": "compare-inactive.svg"
+        },
+        "compare-selected": {
+          "value": "compare-selected.svg"
+        },
         "chevron-up": {
           "value": "chevron-up.svg"
         },
@@ -148,6 +154,12 @@
         }
       },
       "object": {
+        "birthday": {
+          "value": "birthday.svg"
+        },
+        "customer-service": {
+          "value": "customer-service.svg"
+        },
         "store": {
           "value": "store.svg"
         },
@@ -178,11 +190,17 @@
         "lock": {
           "value": "lock.svg"
         },
+        "offers": {
+          "value": "offers.svg"
+        },
         "early-access": {
           "value": "early-access.svg"
         },
         "gift": {
           "value": "gift.svg"
+        },
+        "returns": {
+          "value": "returns.svg"
         },
         "shipping": {
           "value": "shipping.svg"

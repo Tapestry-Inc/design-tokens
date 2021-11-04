@@ -1,0 +1,110 @@
+{
+  "font": {
+    "face": {
+      "1": {
+        "normal": {
+          "family": {
+            "value": "FuturaPT-Book"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["FuturaPT-Book"]
+          },
+          "woff2": {
+            "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Book.woff2"
+          }
+        },
+        "light": {
+          "family": {
+            "value": "FuturaPT-Light"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["FuturaPT-Light"]
+          },
+          "woff2": {
+            "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Light.woff2"
+          }
+        },
+        "medium": {
+          "family": {
+            "value": "FuturaPT-Medium"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["FuturaPT-Medium"]
+          },
+          "woff2": {
+            "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Light.woff2"
+          }
+        }
+      },
+      "2": {
+        "normal": {
+          "family": {
+            "value": "Austin-Roman-Web"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["Austin-Roman-Web"]
+          },
+          "woff2": {
+            "value": "https://assets.katespade.com/na/fonts/austin/Austin-Roman-Web.woff2"
+          }
+        },
+        "light": {
+          "family": {
+            "value": "Austin-Light-Web"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["Austin-Light-Web"]
+          },
+          "woff2": {
+            "value": "https://assets.katespade.com/na/fonts/austin/Austin-Light-Web.woff2"
+          }
+        }
+      }
+    }
+  }
+}
