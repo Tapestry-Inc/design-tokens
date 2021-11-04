@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.1.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.0.0...v4.1.0)
+
+2021-11-04
+
+- Update: adds Kate Spade tokens, updates global icon set ([7fa5a0d](https://github.com/Tapestry-Inc/design-tokens/commit/7fa5a0d)) (Dan Merfeld)
+
 ## [v4.0.0](https://github.com/Tapestry-Inc/design-tokens/compare/v3.1.2...v4.0.0)
 
 2021-10-24
