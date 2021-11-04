@@ -1,5 +1,12 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.2.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.1.0...v4.2.0)
+
+2021-11-04
+
+- Fix: incorrect name provided for truefit.svg asset ([abb4356](https://github.com/Tapestry-Inc/design-tokens/commit/abb4356)) (Dan Merfeld)
+- Update: restores truefit to object directory, renames incorrect 'objects' category to 'object' ([8ab22f5](https://github.com/Tapestry-Inc/design-tokens/commit/8ab22f5)) (Dan Merfeld)
+
 ## [v4.1.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.0.0...v4.1.0)
 
 2021-11-04
