@@ -15,7 +15,7 @@
           "value": "favorite.svg"
         }
       },
-      "objects": {
+      "object": {
         "chat": {
           "value": "chat.svg"
         },
@@ -27,10 +27,10 @@
         },
         "spade": {
           "value": "spade.svg"
+        },
+        "truefit": {
+          "value": "truefit.svg"
         }
-      },
-      "truefit": {
-        "value": "truefit.svg"
       }
     }
   }
