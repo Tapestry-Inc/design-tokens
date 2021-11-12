@@ -278,7 +278,7 @@
       "cta1": {
         "m": {
           "font-family": {
-            "value": "{font.family.face1.normal.value}"
+            "value": "{font.family.face1.medium.value}"
           },
           "font-size": {
             "value": "{size.font.14.value}"
@@ -295,7 +295,7 @@
         },
         "s": {
           "font-family": {
-            "value": "{font.family.face1.normal.value}"
+            "value": "{font.family.face1.medium.value}"
           },
           "font-size": {
             "value": "{size.font.10.value}"
@@ -336,7 +336,7 @@
             "value": "{font.family.face1.medium.value}"
           },
           "font-size": {
-            "value": "{size.font.9.value}"
+            "value": "{size.font.10.value}"
           },
           "letter-spacing": {
             "value": "{size.letter-spacing.l.value}"
