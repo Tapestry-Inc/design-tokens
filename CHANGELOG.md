@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.4.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.3.0...v4.4.0)
+
+2021-11-12
+
+- Update: updates Kate Spade 'motif' theme to match default theme ([cf6c69d](https://github.com/Tapestry-Inc/design-tokens/commit/cf6c69d)) (Dan Merfeld)
+
 ## [v4.3.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.2.0...v4.3.0)
 
 2021-11-12
