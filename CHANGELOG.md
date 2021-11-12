@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.3.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.2.0...v4.3.0)
+
+2021-11-12
+
+- Update: Kate Spade badge and cta values ([2952bf2](https://github.com/Tapestry-Inc/design-tokens/commit/2952bf2)) (Dan Merfeld)
+
 ## [v4.2.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.1.0...v4.2.0)
 
 2021-11-04
