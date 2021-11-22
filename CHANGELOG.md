@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.5.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.4.0...v4.5.0)
+
+2021-11-22
+
+- Update: consolidates colors into single json src file ([00125c9](https://github.com/Tapestry-Inc/design-tokens/commit/00125c9)) (Dan Merfeld)
+
 ## [v4.4.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.3.0...v4.4.0)
 
 2021-11-12
