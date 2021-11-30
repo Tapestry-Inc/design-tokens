@@ -1,5 +1,12 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.5.2](https://github.com/Tapestry-Inc/design-tokens/compare/v4.5.1...v4.5.2)
+
+2021-11-30
+
+- Merge branch 'main' of https://github.com/Tapestry-Inc/design-tokens ([9dbe093](https://github.com/Tapestry-Inc/design-tokens/commit/9dbe093)) (Dan Merfeld)
+- Fix: removes color-standout-light from Motif theme ([961ad3d](https://github.com/Tapestry-Inc/design-tokens/commit/961ad3d)) (Dan Merfeld)
+
 ## [v4.5.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.5.0...v4.5.1)
 
 2021-11-30
