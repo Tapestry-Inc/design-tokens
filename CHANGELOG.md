@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.5.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.5.0...v4.5.1)
+
+2021-11-30
+
+- Fix: removes color-standout-light from Coach ([bf4085a](https://github.com/Tapestry-Inc/design-tokens/commit/bf4085a)) (Dan Merfeld)
+
 ## [v4.5.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.4.0...v4.5.0)
 
 2021-11-22
