@@ -24,9 +24,6 @@
     "standout": {
       "primary": {
         "value": "#333333"
-      },
-      "light": {
-        "value": "#edf4ff"
       }
     },
     "success": {
