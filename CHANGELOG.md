@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.6.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.5.2...v4.6.0)
+
+2021-12-10
+
+- Update: Adds Futura MT Medium to KS fontset as font-face2, renames existing font-face2 to font-face3 ([5d7f7ed](https://github.com/Tapestry-Inc/design-tokens/commit/5d7f7ed)) (Dan Merfeld)
+
 ## [v4.5.2](https://github.com/Tapestry-Inc/design-tokens/compare/v4.5.1...v4.5.2)
 
 2021-11-30
