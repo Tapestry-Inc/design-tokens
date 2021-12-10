@@ -66,6 +66,28 @@
       "2": {
         "normal": {
           "family": {
+            "value": "FuturaPT-Medium"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["FuturaPT-Medium"]
+          },
+          "woff2": {
+            "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Medium.woff2"
+          }
+        }
+      },
+      "3": {
+        "normal": {
+          "family": {
             "value": "Austin-Roman-Web"
           },
           "style": {

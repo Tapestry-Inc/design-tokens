@@ -1,6 +1,9 @@
 {
   "border": {
     "border-color": {
+      "cream": {
+        "value": "{color.cream.value}"
+      },
       "error": {
         "primary": {
           "value": "{color.error.primary.value}"
@@ -14,22 +17,6 @@
       "success": {
         "primary": {
           "value": "{color.success.primary.value}"
-        }
-      },
-      "teal": {
-        "dark": {
-          "value": "{color.teal.dark.value}"
-        },
-        "medium": {
-          "value": "{color.teal.medium.value}"
-        },
-        "light": {
-          "value": "{color.teal.light.value}"
-        }
-      },
-      "pink": {
-        "light": {
-          "value": "{color.pink.light.value}"
         }
       }
     }

@@ -1,10 +1,10 @@
 {
   "color": {
     "primary": {
-      "value": "#223628"
+      "value": "#101820"
     },
     "secondary": {
-      "value": "#fceff3"
+      "value": "#ffffff"
     },
     "neutral": {
       "base": {
@@ -17,9 +17,12 @@
         "value": "#4a4a4a"
       }
     },
+    "cream": {
+      "value": "#FCF7E6"
+    },
     "error": {
       "primary": {
-        "value": "#fc7ca0"
+        "value": "#D50032"
       }
     },
     "inactive": {
@@ -35,28 +38,12 @@
     },
     "standout": {
       "primary": {
-        "value": "#f8baca"
+        "value": "#427E2B"
       }
     },
     "success": {
       "primary": {
-        "value": "#2d9d78"
-      }
-    },
-    "teal": {
-      "dark": {
-        "value": "#48756a"
-      },
-      "medium": {
-        "value": "#b5cec9"
-      },
-      "light": {
-        "value": "#e0e9e7"
-      }
-    },
-    "pink": {
-      "light": {
-        "value": "#fff8fa"
+        "value": "#427E2B"
       }
     }
   }
