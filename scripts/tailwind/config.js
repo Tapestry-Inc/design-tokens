@@ -7,6 +7,7 @@ const pluginLineHeight = require('./plugins/line-height');
 const pluginLetterSpacing = require('./plugins/letter-spacing');
 const pluginBorderRadius = require('./plugins/border-radius');
 const pluginBorderColor = require('./plugins/border-color');
+const pluginUtilityButton = require('./plugins/utility-button');
 const pluginUtilityTypography = require('./plugins/utility-typography');
 const parseProperties = require('./helpers/parse-properties');
 
@@ -77,13 +78,17 @@ const createConfig = (buildPath) => {
             pluginLetterSpacing(
                 parseProperties(props, { type: 'letter-spacing' })
             ),
+            pluginUtilityButton(
+                parseProperties(
+                    props,
+                    { category: 'utility', type: 'button' },
+                    false
+                )
+            ),
             pluginUtilityTypography(
                 parseProperties(
                     props,
-                    {
-                        category: 'utility',
-                        type: 'typography',
-                    },
+                    { category: 'utility', type: 'typography' },
                     false
                 )
             ),

@@ -17,6 +17,12 @@ Selector array: Objects are ordered by most-to-least specific match.
 */
 
 module.exports = {
+    button: [
+        {
+            type: 'button',
+            matcher: /^button-/,
+        },
+    ],
     bg: [
         {
             type: 'background-color',
