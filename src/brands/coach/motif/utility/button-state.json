@@ -3,7 +3,7 @@
     "button": {
       "primary:hover": {
         "background-color": {
-          "value": "{color.black.base.value}"
+          "value": "{color.neutral.base.value}"
         },
         "border-color": {
           "value": "{border.border-color.neutral.base.value}"
