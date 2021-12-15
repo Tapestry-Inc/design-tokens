@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.7.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.6.0...v4.7.0)
+
+2021-12-15
+
+- Update: adds button collection for coach ([456b366](https://github.com/Tapestry-Inc/design-tokens/commit/456b366)) (Dan Merfeld)
+
 ## [v4.6.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.5.2...v4.6.0)
 
 2021-12-10
