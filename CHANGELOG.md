@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.7.2](https://github.com/Tapestry-Inc/design-tokens/compare/v4.7.1...v4.7.2)
+
+2021-12-15
+
+- Fix: Coach button-primary background color for Motif theme ([68aac19](https://github.com/Tapestry-Inc/design-tokens/commit/68aac19)) (Dan Merfeld)
+
 ## [v4.7.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.7.0...v4.7.1)
 
 2021-12-15
