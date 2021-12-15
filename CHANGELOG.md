@@ -1,5 +1,12 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.7.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.7.0...v4.7.1)
+
+2021-12-15
+
+- Fix: Coach button-primary:hover background color ([00f4206](https://github.com/Tapestry-Inc/design-tokens/commit/00f4206)) (Dan Merfeld)
+- Fix: coach primary-button:hover background color ([c21ec63](https://github.com/Tapestry-Inc/design-tokens/commit/c21ec63)) (Dan Merfeld)
+
 ## [v4.7.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.6.0...v4.7.0)
 
 2021-12-15
