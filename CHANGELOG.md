@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.8.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.7.2...v4.8.0)
+
+2021-12-20
+
+- Update: local names for all brand fonts to match Figma ([d181f62](https://github.com/Tapestry-Inc/design-tokens/commit/d181f62)) (Dan Merfeld)
+
 ## [v4.7.2](https://github.com/Tapestry-Inc/design-tokens/compare/v4.7.1...v4.7.2)
 
 2021-12-15
