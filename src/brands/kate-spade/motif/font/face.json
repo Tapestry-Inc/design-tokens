@@ -16,7 +16,7 @@
             "value": "normal"
           },
           "local": {
-            "value": ["FuturaPT-Book"]
+            "value": ["Futura PT Book"]
           },
           "woff2": {
             "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Book.woff2"
@@ -36,7 +36,7 @@
             "value": "normal"
           },
           "local": {
-            "value": ["FuturaPT-Light"]
+            "value": ["Futura PT Light"]
           },
           "woff2": {
             "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Light.woff2"
@@ -56,10 +56,10 @@
             "value": "normal"
           },
           "local": {
-            "value": ["FuturaPT-Medium"]
+            "value": ["Futura PT Medium"]
           },
           "woff2": {
-            "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Light.woff2"
+            "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Medium.woff2"
           }
         }
       },
@@ -78,7 +78,7 @@
             "value": "normal"
           },
           "local": {
-            "value": ["FuturaPT-Medium"]
+            "value": ["Futura PT Medium"]
           },
           "woff2": {
             "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Medium.woff2"
@@ -100,7 +100,7 @@
             "value": "normal"
           },
           "local": {
-            "value": ["Austin-Roman-Web"]
+            "value": ["Austin Roman"]
           },
           "woff2": {
             "value": "https://assets.katespade.com/na/fonts/austin/Austin-Roman-Web.woff2"
@@ -120,7 +120,7 @@
             "value": "normal"
           },
           "local": {
-            "value": ["Austin-Light-Web"]
+            "value": ["Austin Roman Light"]
           },
           "woff2": {
             "value": "https://assets.katespade.com/na/fonts/austin/Austin-Light-Web.woff2"

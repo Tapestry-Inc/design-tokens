@@ -4,20 +4,32 @@
       "value": "#000001"
     },
     "neutral": {
-      "dark": { "value": "#333333" }
+      "dark": {
+        "value": "#333333"
+      }
     },
     "error": {
-      "primary": { "value": "#ee0011" }
+      "primary": {
+        "value": "#ee0011"
+      }
     },
     "scrim": {
-      "dark": { "value": "rgba(0, 0, 0, 0.75)" }
+      "dark": {
+        "value": "rgba(0, 0, 0, 0.75)"
+      }
     },
     "standout": {
-      "primary": { "value": "#333333" }
+      "primary": {
+        "value": "#333333"
+      }
     },
     "success": {
-      "primary": { "value": "#2d9d78" }
+      "primary": {
+        "value": "#2d9d78"
+      }
     },
-    "sale": { "value": "#CC0000" }
+    "sale": {
+      "value": "#CC0000"
+    }
   }
 }

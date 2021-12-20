@@ -16,7 +16,7 @@
             "value": "normal"
           },
           "local": {
-            "value": ["HelveticaLTPro-Roman"]
+            "value": ["Helvetica LT Pro Roman"]
           },
           "woff2": {
             "value": "https://assets.coach.com/na/fonts/Helvetica-Roman.woff2"
@@ -36,7 +36,7 @@
             "value": "normal"
           },
           "local": {
-            "value": ["HelveticaLTPro-Bold"]
+            "value": ["Helvetica LT Pro Bold"]
           },
           "woff2": {
             "value": "https://assets.coach.com/na/fonts/Helvetica-Bold.woff2"
@@ -58,7 +58,7 @@
             "value": "normal"
           },
           "local": {
-            "value": ["BemboMTPro-Regular"]
+            "value": ["Bembo MT Pro Regular"]
           },
           "woff2": {
             "value": "https://assets.coach.com/na/fonts/BemboMTPro-Regular.woff2"

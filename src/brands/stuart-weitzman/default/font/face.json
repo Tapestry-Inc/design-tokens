@@ -16,7 +16,7 @@
             "value": "normal"
           },
           "local": {
-            "value": ["FuturaBT-Book"]
+            "value": ["FuturaBT Book"]
           },
           "woff2": {
             "value": "https://assets.stuartweitzman.com/na/fonts/FuturaBT-Book.woff2"
@@ -36,7 +36,7 @@
             "value": "normal"
           },
           "local": {
-            "value": ["FuturaBT-Medium"]
+            "value": ["FuturaBT Medium"]
           },
           "woff2": {
             "value": "https://assets.stuartweitzman.com/na/fonts/FuturaBT-Medium.woff2"
@@ -56,7 +56,7 @@
             "value": "normal"
           },
           "local": {
-            "value": ["FuturaBT-Bold"]
+            "value": ["FuturaBT Bold"]
           },
           "woff2": {
             "value": "https://assets.stuartweitzman.com/na/fonts/FuturaBT-Bold.woff2"
@@ -78,7 +78,7 @@
             "value": "normal"
           },
           "local": {
-            "value": ["HeldaneText-Regular"]
+            "value": ["Heldane Text Regular"]
           },
           "woff2": {
             "value": "https://assets.stuartweitzman.com/na/fonts/HeldaneText-Regular.woff2"
