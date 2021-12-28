@@ -353,10 +353,27 @@
           "text-transform": {
             "value": "uppercase"
           }
+        },
+        "xs": {
+          "font-family": {
+            "value": "{font.family.face1.medium.value}"
+          },
+          "font-size": {
+            "value": "{size.font.10.value}"
+          },
+          "letter-spacing": {
+            "value": "{size.letter-spacing.xl.value}"
+          },
+          "line-height": {
+            "value": "{size.line-height.xs.value}"
+          },
+          "text-transform": {
+            "value": "uppercase"
+          }
         }
       },
       "eyebrow1": {
-        "m": {
+        "l": {
           "font-family": {
             "value": "{font.family.face1.normal.value}"
           },
@@ -367,10 +384,27 @@
             "value": "{size.letter-spacing.l.value}"
           },
           "line-height": {
-            "value": "{size.line-height.135.value}"
+            "value": "{size.line-height.l.value}"
           },
           "text-transform": {
             "value": "uppercase"
+          },
+          "m": {
+            "font-family": {
+              "value": "{font.family.face1.normal.value}"
+            },
+            "font-size": {
+              "value": "{size.font.10.value}"
+            },
+            "letter-spacing": {
+              "value": "{size.letter-spacing.l.value}"
+            },
+            "line-height": {
+              "value": "{size.line-height.135.value}"
+            },
+            "text-transform": {
+              "value": "uppercase"
+            }
           }
         }
       },
@@ -390,6 +424,22 @@
           },
           "text-transform": {
             "value": "uppercase"
+          }
+        }
+      },
+      "label1": {
+        "m": {
+          "font-family": {
+            "value": "{font.family.face1.medium.value}"
+          },
+          "font-size": {
+            "value": "{size.font.12.value}"
+          },
+          "letter-spacing": {
+            "value": "{size.letter-spacing.l.value}"
+          },
+          "line-height": {
+            "value": "{size.line-height.l.value}"
           }
         }
       }
