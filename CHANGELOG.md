@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.9.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.8.0...v4.9.0)
+
+2021-12-28
+
+- Update: adds ruler icon, updates KS typography ([6b1c14c](https://github.com/Tapestry-Inc/design-tokens/commit/6b1c14c)) (Dan Merfeld)
+
 ## [v4.8.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.7.2...v4.8.0)
 
 2021-12-20
