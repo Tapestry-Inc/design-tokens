@@ -49,6 +49,12 @@ module.exports = {
             matcher: /^font-/,
         },
     ],
+    input: [
+        {
+            type: 'input',
+            matcher: /^input-/,
+        },
+    ],
     'line-height': [
         {
             type: 'line-height',

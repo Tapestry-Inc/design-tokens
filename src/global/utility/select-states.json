@@ -1,0 +1,21 @@
+{
+  "utility": {
+    "input": {
+      "select.error": {
+        "border-color": {
+          "value": "{border.border-color.error.primary.value}"
+        }
+      },
+      "select:focus": {
+        "border-color": {
+          "value": "{border.border-color.black.base.value}"
+        }
+      },
+      "select:disabled": {
+        "background-color": {
+          "value": "{color.neutral.light.value}"
+        }
+      }
+    }
+  }
+}
