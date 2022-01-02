@@ -1,5 +1,12 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.10.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.9.0...v4.10.0)
+
+2022-01-02
+
+- Merge branch 'main' of https://github.com/Tapestry-Inc/design-tokens ([4f6418d](https://github.com/Tapestry-Inc/design-tokens/commit/4f6418d)) (Dan Merfeld)
+- Update: adds button collections, text input, textarea, and select for all brands ([99a0bb0](https://github.com/Tapestry-Inc/design-tokens/commit/99a0bb0)) (Dan Merfeld)
+
 ## [v4.9.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.8.0...v4.9.0)
 
 2021-12-28
