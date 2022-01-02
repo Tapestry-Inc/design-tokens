@@ -35,10 +35,10 @@
         "padding": {
           "value": "0.6rem"
         },
-        "-webkit-appearance": {
+        "-moz-appearance": {
           "value": "none"
         },
-        "-moz-appearance": {
+        "-webkit-appearance": {
           "value": "none"
         }
       }
