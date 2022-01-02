@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.11.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.10.0...v4.11.0)
+
+2022-01-02
+
+- Update: adds text input, textarea, and select collections for all brands ([ca04349](https://github.com/Tapestry-Inc/design-tokens/commit/ca04349)) (Dan Merfeld)
+
 ## [v4.10.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.9.0...v4.10.0)
 
 2022-01-02
