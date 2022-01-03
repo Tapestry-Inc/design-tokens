@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.12.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.11.0...v4.12.0)
+
+2022-01-03
+
+- Update: adds button icon to all brands ([757a2c5](https://github.com/Tapestry-Inc/design-tokens/commit/757a2c5)) (Dan Merfeld)
+
 ## [v4.11.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.10.0...v4.11.0)
 
 2022-01-02
