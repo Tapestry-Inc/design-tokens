@@ -1,0 +1,27 @@
+{
+  "utility": {
+    "button": {
+      "icon svg": {
+        "width": {
+          "value": "auto"
+        },
+        "display": {
+          "value": "inline-block"
+        },
+        "padding": {
+          "value": "0 1rem"
+        }
+      },
+      "icon svg:first-of-type": {
+        "padding-left": {
+          "value": "0"
+        }
+      },
+      "icon svg:last-of-type": {
+        "padding-right": {
+          "value": "0"
+        }
+      }
+    }
+  }
+}
