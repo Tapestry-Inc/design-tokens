@@ -1,25 +1,36 @@
 {
   "utility": {
     "button": {
+      "icon": {
+        "padding-left": {
+          "value": "1rem"
+        },
+        "padding-right": {
+          "value": "1rem"
+        }
+      },
       "icon svg": {
         "width": {
           "value": "auto"
         },
         "display": {
           "value": "inline-block"
-        },
-        "padding": {
-          "value": "0 1rem"
         }
       },
-      "icon svg:first-of-type": {
+      "icon svg.left": {
         "padding-left": {
           "value": "0"
+        },
+        "padding-right": {
+          "value": "0.5rem"
         }
       },
-      "icon svg:last-of-type": {
+      "icon svg.right": {
         "padding-right": {
           "value": "0"
+        },
+        "padding-left": {
+          "value": "0.5rem"
         }
       }
     }

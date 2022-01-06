@@ -9,6 +9,22 @@
           "value": "{border.border-color.neutral.base.value}"
         }
       },
+      "primary:disabled": {
+        "background-color": {
+          "value": "{color.inactive.value}"
+        },
+        "border-color": {
+          "value": "{border.border-color.inactive.value}"
+        }
+      },
+      "primary:focus": {
+        "border-color": {
+          "value": "{border.border-color.white.base.value}"
+        },
+        "outline": {
+          "value": "{border.border-width.s.value} solid {border.border-color.black.base.value}"
+        }
+      },
       "secondary:hover": {
         "background-color": {
           "value": "{color.black.base.value}"
