@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.13.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.12.0...v4.13.0)
+
+2022-01-06
+
+- Update: adds eyebrow1-m and updates display1 to match display2 for kate spade ([43581d1](https://github.com/Tapestry-Inc/design-tokens/commit/43581d1)) (Dan Merfeld)
+
 ## [v4.12.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.11.0...v4.12.0)
 
 2022-01-03
