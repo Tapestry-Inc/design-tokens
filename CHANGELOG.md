@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.13.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.13.0...v4.13.1)
+
+2022-01-06
+
+- Fix: fixes issue that prevented eyebrow1-m from showing in kate spade ([ad05814](https://github.com/Tapestry-Inc/design-tokens/commit/ad05814)) (Dan Merfeld)
+
 ## [v4.13.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.12.0...v4.13.0)
 
 2022-01-06
