@@ -388,23 +388,23 @@
           },
           "text-transform": {
             "value": "uppercase"
+          }
+        },
+        "m": {
+          "font-family": {
+            "value": "{font.family.face1.normal.value}"
           },
-          "m": {
-            "font-family": {
-              "value": "{font.family.face1.normal.value}"
-            },
-            "font-size": {
-              "value": "{size.font.10.value}"
-            },
-            "letter-spacing": {
-              "value": "{size.letter-spacing.l.value}"
-            },
-            "line-height": {
-              "value": "{size.line-height.135.value}"
-            },
-            "text-transform": {
-              "value": "uppercase"
-            }
+          "font-size": {
+            "value": "{size.font.10.value}"
+          },
+          "letter-spacing": {
+            "value": "{size.letter-spacing.l.value}"
+          },
+          "line-height": {
+            "value": "{size.line-height.135.value}"
+          },
+          "text-transform": {
+            "value": "uppercase"
           }
         }
       },
