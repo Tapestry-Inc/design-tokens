@@ -1,5 +1,12 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.13.2](https://github.com/Tapestry-Inc/design-tokens/compare/v4.13.1...v4.13.2)
+
+2022-01-06
+
+- Merge branch 'main' of https://github.com/Tapestry-Inc/design-tokens ([3334ed3](https://github.com/Tapestry-Inc/design-tokens/commit/3334ed3)) (Dan Merfeld)
+- Fix: button icon classes for proper alignment ([e20aa00](https://github.com/Tapestry-Inc/design-tokens/commit/e20aa00)) (Dan Merfeld)
+
 ## [v4.13.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.13.0...v4.13.1)
 
 2022-01-06
