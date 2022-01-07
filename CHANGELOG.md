@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.13.4](https://github.com/Tapestry-Inc/design-tokens/compare/v4.13.3...v4.13.4)
+
+2022-01-07
+
+- Fix: updates font call fast.fonts.net to https on all brands ([4221490](https://github.com/Tapestry-Inc/design-tokens/commit/4221490)) (Dan Merfeld)
+
 ## [v4.13.3](https://github.com/Tapestry-Inc/design-tokens/compare/v4.13.2...v4.13.3)
 
 2022-01-07
