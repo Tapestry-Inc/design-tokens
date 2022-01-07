@@ -38,6 +38,14 @@
         "color": {
           "value": "{color.white.base.value}"
         }
+      },
+      "secondary:focus": {
+        "border-color": {
+          "value": "{border.border-color.black.base.value}"
+        },
+        "outline": {
+          "value": "{border.border-width.s.value} solid {border.border-color.black.base.value}"
+        }
       }
     }
   }
