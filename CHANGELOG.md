@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.13.3](https://github.com/Tapestry-Inc/design-tokens/compare/v4.13.2...v4.13.3)
+
+2022-01-07
+
+- Fix: udpates secondary focus on buttons for all brands ([3ef0313](https://github.com/Tapestry-Inc/design-tokens/commit/3ef0313)) (Dan Merfeld)
+
 ## [v4.13.2](https://github.com/Tapestry-Inc/design-tokens/compare/v4.13.1...v4.13.2)
 
 2022-01-06
