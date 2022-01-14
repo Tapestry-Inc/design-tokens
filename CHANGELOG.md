@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.14.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.13.4...v4.14.0)
+
+2022-01-14
+
+- Update: adds toggle, radio, and checkbox input collections ([7b5698d](https://github.com/Tapestry-Inc/design-tokens/commit/7b5698d)) (Dan Merfeld)
+
 ## [v4.13.4](https://github.com/Tapestry-Inc/design-tokens/compare/v4.13.3...v4.13.4)
 
 2022-01-07
