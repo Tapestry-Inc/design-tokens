@@ -3,10 +3,10 @@
     "button": {
       "icon": {
         "padding-left": {
-          "value": "1rem"
+          "value": "1rem !important"
         },
         "padding-right": {
-          "value": "1rem"
+          "value": "1rem !important"
         }
       },
       "icon svg": {
@@ -17,7 +17,7 @@
           "value": "inline-block"
         }
       },
-      "icon svg.left": {
+      "icon svg:nth-of-type(1)": {
         "padding-left": {
           "value": "0"
         },
@@ -25,7 +25,7 @@
           "value": "0.5rem"
         }
       },
-      "icon svg.right": {
+      "icon svg:nth-of-type(2)": {
         "padding-right": {
           "value": "0"
         },

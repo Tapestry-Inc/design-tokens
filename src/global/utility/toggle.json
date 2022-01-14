@@ -1,0 +1,123 @@
+{
+  "utility": {
+    "input": {
+      "toggle": {
+        "position": {
+          "value": "relative"
+        },
+        "display": {
+          "value": "inline-block"
+        },
+        "width": {
+          "value": "60px"
+        },
+        "height": {
+          "value": "34px"
+        },
+        "margin-bottom": {
+          "value": "0"
+        },
+        "margin-right": {
+          "value": "{size.spacing.4.value}"
+        }
+      },
+      "toggle input": {
+        "opacity": {
+          "value": "0"
+        },
+        "width": {
+          "value": "0"
+        },
+        "height": {
+          "value": "0"
+        }
+      },
+      "toggle input:checked + span.slider": {
+        "background-color": {
+          "value": "{color.primary.value}"
+        }
+      },
+      "toggle span.slider.round": {
+        "border-radius": {
+          "value": "34px"
+        },
+        "position": {
+          "value": "absolute"
+        },
+        "cursor": {
+          "value": "pointer"
+        },
+        "top": {
+          "value": "0"
+        },
+        "left": {
+          "value": "0"
+        },
+        "bottom": {
+          "value": "0"
+        },
+        "right": {
+          "value": "0"
+        },
+        "background-color": {
+          "value": "{color.grey.20.value}"
+        },
+        "transition": {
+          "value": ".4s"
+        },
+        "-webkit-transition": {
+          "value": ".4s"
+        },
+        "-moz-transition": {
+          "value": ".4s"
+        },
+        "-ms-transition": {
+          "value": ".4s"
+        }
+      },
+      "toggle span.slider.round:before": {
+        "position": {
+          "value": "absolute"
+        },
+        "content": {
+          "value": "''"
+        },
+        "height": {
+          "value": "26px"
+        },
+        "width": {
+          "value": "26px"
+        },
+        "left": {
+          "value": "4px"
+        },
+        "bottom": {
+          "value": "4px"
+        },
+        "border-radius": {
+          "value": "50%"
+        },
+        "transition": {
+          "value": ".4s"
+        },
+        "-webkit-transition": {
+          "value": ".4s"
+        },
+        "-moz-transition": {
+          "value": ".4s"
+        },
+        "-ms-transition": {
+          "value": ".4s"
+        },
+        "background-color": {
+          "value": "{color.white.base.value}"
+        }
+      },
+      "toggle input:checked span.slider:before": {
+        "position": {
+          "transform": "translateX(26px)"
+        }
+      }
+    }
+  }
+}

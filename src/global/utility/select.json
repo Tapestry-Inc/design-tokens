@@ -40,6 +40,9 @@
         },
         "-webkit-appearance": {
           "value": "none"
+        },
+        "-ms-appearance": {
+          "value": "none"
         }
       }
     }

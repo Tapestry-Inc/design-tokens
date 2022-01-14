@@ -12,7 +12,7 @@
           "value": "{border.border-width.m.value}"
         },
         "border-radius": {
-          "value": "{border.border-radius.none.value}"
+          "value": "{border.border-radius.xs.value}"
         },
         "border-style": {
           "value": "solid"
@@ -41,7 +41,7 @@
           "value": "{border.border-width.s.value}"
         },
         "border-radius": {
-          "value": "{border.border-radius.none.value}"
+          "value": "{border.border-radius.xs.value}"
         },
         "border-style": {
           "value": "solid"

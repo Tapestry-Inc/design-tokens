@@ -1,0 +1,34 @@
+{
+  "utility": {
+    "input": {
+      "checkbox input:checked ~ .checkmark": {
+        "background-color": {
+          "value": "{color.black.base.value}"
+        }
+      },
+      "checkbox.error": {
+        "color": {
+          "value": "{color.error.primary.value}"
+        }
+      },
+      "checkbox.error input ~ .checkmark": {
+        "border-color": {
+          "value": "{color.error.primary.value}"
+        }
+      },
+      "checkbox:focus input ~ .checkmark": {
+        "border-color": {
+          "value": "{color.inactive.value}"
+        }
+      },
+      "checkbox input:disabled ~ .checkmark": {
+        "border-color": {
+          "value": "{color.inactive.value}"
+        },
+        "background-color": {
+          "value": "{color.neutral.light.value}"
+        }
+      }
+    }
+  }
+}

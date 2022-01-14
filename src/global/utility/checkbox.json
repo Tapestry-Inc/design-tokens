@@ -1,0 +1,122 @@
+{
+  "utility": {
+    "input": {
+      "checkbox": {
+        "display": {
+          "value": "block"
+        },
+        "cursor": {
+          "value": "pointer"
+        },
+        "position": {
+          "value": "relative"
+        },
+        "padding-left": {
+          "value": "{size.spacing.10.value}"
+        },
+        "margin-right": {
+          "value": "0"
+        },
+        "margin-bottom": {
+          "value": "{size.spacing.3.value}"
+        },
+        "margin-left": {
+          "value": "0"
+        },
+        "font-size": {
+          "value": "{size.font.20.value}"
+        },
+        "letter-spacing": {
+          "value": "{size.letter-spacing.xs.value}"
+        },
+        "line-height": {
+          "value": "{size.line-height.2xl.value}"
+        },
+        "color": {
+          "value": "{color.black.base.value}"
+        },
+        "user-select": {
+          "value": "none"
+        },
+        "-webkit-user-select": {
+          "value": "none"
+        },
+        "-moz-user-select": {
+          "value": "none"
+        },
+        "-ms-user-select": {
+          "value": "none"
+        }
+      },
+      "checkbox:after": {
+        "content": {
+          "value": "''"
+        },
+        "position": {
+          "value": "absolute"
+        },
+        "display": {
+          "value": "none"
+        }
+      },
+      "checkbox input": {
+        "position": {
+          "value": "absolute"
+        },
+        "opacity": {
+          "value": "0"
+        },
+        "cursor": {
+          "value": "pointer"
+        },
+        "height": {
+          "value": "0"
+        },
+        "width": {
+          "value": "0"
+        },
+        "box-sizing": {
+          "value": "border-box"
+        },
+        "padding": {
+          "value": "0"
+        },
+        "margin": {
+          "value": "0"
+        }
+      },
+      "checkbox .checkmark:after": {
+        "content": {
+          "value": "''"
+        },
+        "position": {
+          "value": "absolute"
+        },
+        "left": {
+          "value": "9px"
+        },
+        "top": {
+          "value": "5px"
+        },
+        "width": {
+          "value": "6px"
+        },
+        "height": {
+          "value": "10px"
+        },
+        "border-width": {
+          "value": "0 {border.border-width.m.value} {border.border-width.m.value} 0"
+        },
+        "border-style": {
+          "value": "solid"
+        },
+        "border-color": {
+          "value": "{color.white.base.value}"
+        },
+        "transform": {
+          "value": "rotate(45deg)"
+        }
+      }
+    }
+  }
+}
