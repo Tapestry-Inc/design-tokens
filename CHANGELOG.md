@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.14.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.14.0...v4.14.1)
+
+2022-01-16
+
+- Fix: collection fixes for checkbox, radio, and toggle inputs ([e8b4567](https://github.com/Tapestry-Inc/design-tokens/commit/e8b4567)) (Dan Merfeld)
+
 ## [v4.14.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.13.4...v4.14.0)
 
 2022-01-14
