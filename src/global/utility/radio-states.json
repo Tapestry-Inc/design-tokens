@@ -1,12 +1,14 @@
 {
   "utility": {
     "input": {
-      "radio": {
-        "border-color": {
-          "value": "{color.error.value}"
-        },
+      "radio.error": {
         "color": {
-          "value": "{color.error.value"
+          "value": "{color.error.primary.value}"
+        }
+      },
+      "radio.error input": {
+        "border-color": {
+          "value": "{color.error.primary.value}"
         }
       }
     }

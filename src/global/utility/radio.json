@@ -2,6 +2,32 @@
   "utility": {
     "input": {
       "radio": {
+        "display": {
+          "value": "flex"
+        },
+        "flex-basis": {
+          "value": "auto"
+        },
+        "align-items": {
+          "value": "center"
+        },
+        "color": {
+          "value": "{color.black.base.value}"
+        },
+        "font-family": {
+          "value": "{font.family.face1.normal.value}"
+        },
+        "font-size": {
+          "value": "{size.font.16.value}"
+        },
+        "letter-spacing": {
+          "value": "{size.letter-spacing.xs.value}"
+        },
+        "line-height": {
+          "value": "{size.line-height.2xl.value}"
+        }
+      },
+      "radio input": {
         "width": {
           "value": "24px"
         },
@@ -41,17 +67,43 @@
         "border-color": {
           "value": "{border.border-color.inactive.value}"
         },
-        "apperance": {
+        "appearance": {
           "value": "none"
         },
-        "-webkit-apperance": {
+        "-webkit-appearance": {
           "value": "none"
         },
-        "-moz-apperance": {
+        "-moz-appearance": {
           "value": "none"
         },
-        "-ms-apperance": {
+        "-ms-appearance": {
           "value": "none"
+        }
+      },
+      "radio input:checked:after": {
+        "content": {
+          "value": "''"
+        },
+        "width": {
+          "value": "12px"
+        },
+        "height": {
+          "value": "12px"
+        },
+        "background-color": {
+          "value": "{color.black.base.value}"
+        },
+        "border-radius": {
+          "value": "100%"
+        },
+        "position": {
+          "value": "absolute"
+        },
+        "top": {
+          "value": "5px"
+        },
+        "left": {
+          "value": "5px"
         }
       }
     }

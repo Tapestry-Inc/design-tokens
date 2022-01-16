@@ -85,6 +85,38 @@
           "value": "0"
         }
       },
+      "checkbox .checkmark": {
+        "position": {
+          "value": "absolute"
+        },
+        "top": {
+          "value": "0"
+        },
+        "left": {
+          "value": "0"
+        },
+        "height": {
+          "value": "25px"
+        },
+        "width": {
+          "value": "25px"
+        },
+        "background-color": {
+          "value": "{color.white.base.value}"
+        },
+        "border-color": {
+          "value": "{color.black.base.value}"
+        },
+        "border-width": {
+          "value": "{border.border-width.s.value}"
+        },
+        "border-radius": {
+          "value": "{border.border-radius.none.value}"
+        },
+        "border-style": {
+          "value": "solid"
+        }
+      },
       "checkbox .checkmark:after": {
         "content": {
           "value": "''"

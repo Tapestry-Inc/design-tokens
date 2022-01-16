@@ -113,9 +113,9 @@
           "value": "{color.white.base.value}"
         }
       },
-      "toggle input:checked span.slider:before": {
-        "position": {
-          "transform": "translateX(26px)"
+      "toggle input:checked ~ span.slider:before": {
+        "transform": {
+          "value": "translateX(26px)"
         }
       }
     }
