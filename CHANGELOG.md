@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.14.2](https://github.com/Tapestry-Inc/design-tokens/compare/v4.14.1...v4.14.2)
+
+2022-01-22
+
+- Fix: Kate Spade text display 1 & 2 font sizes ([bf97870](https://github.com/Tapestry-Inc/design-tokens/commit/bf97870)) (Dan Merfeld)
+
 ## [v4.14.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.14.0...v4.14.1)
 
 2022-01-16
