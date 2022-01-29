@@ -1,5 +1,12 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.15.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.14.3...v4.15.0)
+
+2022-01-29
+
+- Fix: location, search, and gift icons kate spade ([caef680](https://github.com/Tapestry-Inc/design-tokens/commit/caef680)) (Dan Merfeld)
+- Update: removes testing theme for Coach ([b965a41](https://github.com/Tapestry-Inc/design-tokens/commit/b965a41)) (Dan Merfeld)
+
 ## [v4.14.3](https://github.com/Tapestry-Inc/design-tokens/compare/v4.14.2...v4.14.3)
 
 2022-01-22
