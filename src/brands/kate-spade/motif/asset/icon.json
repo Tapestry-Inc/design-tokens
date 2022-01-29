@@ -13,11 +13,20 @@
         },
         "favorite": {
           "value": "favorite.svg"
+        },
+        "location": {
+          "value": "location.svg"
+        },
+        "search": {
+          "value": "search.svg"
         }
       },
       "object": {
         "chat": {
           "value": "chat.svg"
+        },
+        "gift": {
+          "value": "gift.svg"
         },
         "spade-left": {
           "value": "spade-left.svg"
