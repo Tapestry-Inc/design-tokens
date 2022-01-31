@@ -11,6 +11,9 @@
         "bag": {
           "value": "bag.svg"
         },
+        "favorite-fill": {
+          "value": "favorite-fill.svg"
+        },
         "favorite": {
           "value": "favorite.svg"
         },
