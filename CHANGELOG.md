@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.15.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.15.0...v4.15.1)
+
+2022-01-31
+
+- Fix: kate spade favorite icon ([69f81d2](https://github.com/Tapestry-Inc/design-tokens/commit/69f81d2)) (Dan Merfeld)
+
 ## [v4.15.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.14.3...v4.15.0)
 
 2022-01-29
