@@ -78,6 +78,177 @@
         "margin": {
           "value": "0"
         }
+      },
+      "paypal.button-l": {
+        "height": {
+          "value": "48px"
+        },
+        "padding-top": {
+          "value": "1rem"
+        },
+        "padding-right": {
+          "value": "5.75rem"
+        },
+        "padding-bottom": {
+          "value": "1.5rem"
+        },
+        "padding-left": {
+          "value": "1rem"
+        },
+        "background-position": {
+          "value": "105px 16px"
+        },
+        "font-size": {
+          "value": "0.875rem"
+        }
+      },
+      "paypal.button-m": {
+        "height": {
+          "value": "40px"
+        },
+        "padding-top": {
+          "value": "0.8125rem"
+        },
+        "padding-right": {
+          "value": "5.25rem"
+        },
+        "padding-bottom": {
+          "value": "0.8125rem"
+        },
+        "padding-left": {
+          "value": "1rem"
+        },
+        "background-position": {
+          "value": "88px 12px"
+        },
+        "font-size": {
+          "value": "0.75rem"
+        }
+      },
+      "paypal.button-s": {
+        "height": {
+          "value": "30px"
+        },
+        "padding-top": {
+          "value": "0.594rem"
+        },
+        "padding-right": {
+          "value": "5.03125rem"
+        },
+        "padding-bottom": {
+          "value": "0.594rem"
+        },
+        "padding-left": {
+          "value": "0.78rem"
+        },
+        "background-position": {
+          "value": "76px 8px"
+        },
+        "font-size": {
+          "value": "0.625rem"
+        }
+      },
+      "edit.button-l": {
+        "height": {
+          "value": "48px"
+        },
+        "padding-top": {
+          "value": "1rem"
+        },
+        "padding-right": {
+          "value": "1.5rem"
+        },
+        "padding-bottom": {
+          "value": "1rem"
+        },
+        "padding-left": {
+          "value": "1.5rem"
+        },
+        "font-size": {
+          "value": "0.875rem"
+        }
+      },
+      "edit.button-l svg": {
+        "margin-top": {
+          "value": "0"
+        },
+        "margin-right": {
+          "value": "0.6rem"
+        },
+        "margin-bottom": {
+          "value": "0"
+        },
+        "margin-left": {
+          "value": "0.375rem"
+        }
+      },
+      "edit.button-m": {
+        "height": {
+          "value": "40px"
+        },
+        "padding-top": {
+          "value": "0.8125rem"
+        },
+        "padding-right": {
+          "value": "1rem"
+        },
+        "padding-bottom": {
+          "value": "0.8125rem"
+        },
+        "padding-left": {
+          "value": "1rem"
+        },
+        "font-size": {
+          "value": "0.75rem"
+        }
+      },
+      "edit.button-m svg": {
+        "margin-top": {
+          "value": "0"
+        },
+        "margin-right": {
+          "value": "0.25rem"
+        },
+        "margin-bottom": {
+          "value": "0"
+        },
+        "margin-left": {
+          "value": "0.125rem"
+        }
+      },
+      "edit.button-s": {
+        "height": {
+          "value": "30px"
+        },
+        "padding-top": {
+          "value": "0.594rem"
+        },
+        "padding-right": {
+          "value": "0.78rem"
+        },
+        "padding-bottom": {
+          "value": "0.594rem"
+        },
+        "padding-left": {
+          "value": "0.78rem"
+        },
+        "font-size": {
+          "value": "0.625rem"
+        }
+      },
+      "edit.button-s svg": {
+        "margin-top": {
+          "value": "0"
+        },
+        "margin-right": {
+          "value": "0.125rem"
+        },
+        "margin-bottom": {
+          "value": "0"
+        },
+        "margin-left": {
+          "value": "0.125rem"
+        }
       }
     }
   }
