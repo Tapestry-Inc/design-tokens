@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.18.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.17.0...v4.18.0)
+
+2022-02-03
+
+- Update: Sync Kate Spade motif theme with default theme ([427e3b9](https://github.com/Tapestry-Inc/design-tokens/commit/427e3b9)) (Dan Merfeld)
+
 ## [v4.17.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.16.0...v4.17.0)
 
 2022-02-03
