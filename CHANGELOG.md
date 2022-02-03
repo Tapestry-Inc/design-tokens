@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.16.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.15.1...v4.16.0)
+
+2022-02-03
+
+- Update: adds giftnow, paypal, and edit button collections ([9c6fd6b](https://github.com/Tapestry-Inc/design-tokens/commit/9c6fd6b)) (Dan Merfeld)
+
 ## [v4.15.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.15.0...v4.15.1)
 
 2022-01-31
