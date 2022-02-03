@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.17.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.16.0...v4.17.0)
+
+2022-02-03
+
+- Update: Kate Spade font-face1 and font-face2 set to Austin ([c2906e7](https://github.com/Tapestry-Inc/design-tokens/commit/c2906e7)) (Dan Merfeld)
+
 ## [v4.16.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.15.1...v4.16.0)
 
 2022-02-03
