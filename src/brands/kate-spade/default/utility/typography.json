@@ -342,7 +342,7 @@
             "value": "{font.family.face1.medium.value}"
           },
           "font-size": {
-            "value": "{size.font.10.value}"
+            "value": "{size.font.12.value}"
           },
           "letter-spacing": {
             "value": "{size.letter-spacing.xl.value}"
