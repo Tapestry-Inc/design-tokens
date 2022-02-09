@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.18.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.18.0...v4.18.1)
+
+2022-02-09
+
+- Fix: Kate Spade font-face1 and font-face2 set back to Futura ([82518eb](https://github.com/Tapestry-Inc/design-tokens/commit/82518eb)) (Dan Merfeld)
+
 ## [v4.18.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.17.0...v4.18.0)
 
 2022-02-03
