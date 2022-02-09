@@ -4,7 +4,7 @@
       "1": {
         "normal": {
           "family": {
-            "value": "Austin-Roman-Web"
+            "value": "FuturaPT-Book"
           },
           "style": {
             "value": "normal"
@@ -16,15 +16,15 @@
             "value": "normal"
           },
           "local": {
-            "value": ["Austin Roman"]
+            "value": ["Futura PT Book"]
           },
           "woff2": {
-            "value": "https://assets.katespade.com/na/fonts/austin/Austin-Roman-Web.woff2"
+            "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Book.woff2"
           }
         },
         "light": {
           "family": {
-            "value": "Austin-Light-Web"
+            "value": "FuturaPT-Light"
           },
           "style": {
             "value": "normal"
@@ -36,15 +36,15 @@
             "value": "normal"
           },
           "local": {
-            "value": ["Austin Roman Light"]
+            "value": ["Futura PT Light"]
           },
           "woff2": {
-            "value": "https://assets.katespade.com/na/fonts/austin/Austin-Light-Web.woff2"
+            "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Light.woff2"
           }
         },
         "medium": {
           "family": {
-            "value": "Austin-Medium-Web"
+            "value": "FuturaPT-Medium"
           },
           "style": {
             "value": "normal"
@@ -56,17 +56,17 @@
             "value": "normal"
           },
           "local": {
-            "value": ["Austin Medium"]
+            "value": ["Futura PT Medium"]
           },
           "woff2": {
-            "value": "https://assets.katespade.com/na/fonts/austin/Austin-Medium-Web.woff2"
+            "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Medium.woff2"
           }
         }
       },
       "2": {
         "normal": {
           "family": {
-            "value": "Austin-Roman-Web"
+            "value": "FuturaPT-Medium"
           },
           "style": {
             "value": "normal"
@@ -78,10 +78,10 @@
             "value": "normal"
           },
           "local": {
-            "value": ["Austin Roman"]
+            "value": ["Futura PT Medium"]
           },
           "woff2": {
-            "value": "https://assets.katespade.com/na/fonts/austin/Austin-Roman-Web.woff2"
+            "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Medium.woff2"
           }
         }
       },
