@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.18.2](https://github.com/Tapestry-Inc/design-tokens/compare/v4.18.1...v4.18.2)
+
+2022-02-10
+
+- Fix: sets cta1-s to 12px ([6c1da24](https://github.com/Tapestry-Inc/design-tokens/commit/6c1da24)) (Dan Merfeld)
+
 ## [v4.18.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.18.0...v4.18.1)
 
 2022-02-09
