@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.19.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.18.2...v4.19.0)
+
+2022-02-11
+
+- Update: changed Kate Spade Primary Color value ([fadaee9](https://github.com/Tapestry-Inc/design-tokens/commit/fadaee9)) (Dan Merfeld)
+
 ## [v4.18.2](https://github.com/Tapestry-Inc/design-tokens/compare/v4.18.1...v4.18.2)
 
 2022-02-10
