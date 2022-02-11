@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.20.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.19.0...v4.20.0)
+
+2022-02-11
+
+- Update: Reverts Kate Spade primary color ([d3cb768](https://github.com/Tapestry-Inc/design-tokens/commit/d3cb768)) (Dan Merfeld)
+
 ## [v4.19.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.18.2...v4.19.0)
 
 2022-02-11
