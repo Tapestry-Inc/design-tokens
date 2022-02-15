@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.21.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.20.0...v4.21.0)
+
+2022-02-15
+
+- Update: adds tumblr icon to global icon set ([31ed4f4](https://github.com/Tapestry-Inc/design-tokens/commit/31ed4f4)) (Dan Merfeld)
+
 ## [v4.20.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.19.0...v4.20.0)
 
 2022-02-11
