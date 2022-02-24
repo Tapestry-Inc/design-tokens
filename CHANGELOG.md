@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.21.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.21.0...v4.21.1)
+
+2022-02-24
+
+- Fix: updates Kate Spade account, bag, location, and search icons ([3ecae5d](https://github.com/Tapestry-Inc/design-tokens/commit/3ecae5d)) (Dan Merfeld)
+
 ## [v4.21.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.20.0...v4.21.0)
 
 2022-02-15
