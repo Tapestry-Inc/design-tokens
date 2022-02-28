@@ -385,9 +385,6 @@
           },
           "line-height": {
             "value": "{size.line-height.l.value}"
-          },
-          "text-transform": {
-            "value": "uppercase"
           }
         },
         "m": {
@@ -402,9 +399,6 @@
           },
           "line-height": {
             "value": "{size.line-height.135.value}"
-          },
-          "text-transform": {
-            "value": "uppercase"
           }
         }
       },
