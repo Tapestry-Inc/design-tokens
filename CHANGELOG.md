@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.22.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.21.1...v4.22.0)
+
+2022-02-28
+
+- Update: removes text-transform removed from all eyebrow text for all brands ([7d2eef5](https://github.com/Tapestry-Inc/design-tokens/commit/7d2eef5)) (Dan Merfeld)
+
 ## [v4.21.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.21.0...v4.21.1)
 
 2022-02-24
