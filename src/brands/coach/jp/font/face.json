@@ -1,0 +1,70 @@
+{
+  "font": {
+    "face": {
+      "1": {
+        "normal": {
+          "family": {
+            "value": "'Noto Serif JP'"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["NotoSerifJP-Regular"]
+          },
+          "woff2": {
+            "value": "https://fonts.gstatic.com/s/notoserifjp/v19/xn7mYHs72GKoTvER4Gn3b5eMXNukZEY1FdvPydaYCaeub8TUnmzwwRURhX8K-w.0.woff2"
+          }
+        },
+        "bold": {
+          "family": {
+            "value": "'NotoSerifJP-Bold'"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "bold"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["NotoSerifJP-Bold"]
+          },
+          "woff2": {
+            "value": "https://fonts.gstatic.com/s/notoserifjp/v19/xn77YHs72GKoTvER4Gn3b5eMZGKLRksfVcfFm6jzaayhetbfpHvw-BABj2pvl_OzbQ.0.woff2"
+          }
+        }
+      },
+      "2": {
+        "normal": {
+          "family": {
+            "value": "'BIZ UDGothic'"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["BIZUDGothic-Regular"]
+          },
+          "woff2": {
+            "value": "https://fonts.gstatic.com/s/notosansjp/v40/-F62fjtqLzI2JPCgQBnw7HFowwII2lcnk-AFfrgQrvWXpdFg3KXxAMsKMbdN.0.woff2"
+          }
+        }
+      }
+    }
+  }
+}

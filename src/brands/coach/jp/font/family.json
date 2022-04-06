@@ -1,0 +1,19 @@
+{
+  "font": {
+    "family": {
+      "face1": {
+        "normal": {
+          "value": "{font.face.1.normal.family.value}, Roboto, Arial, serif"
+        },
+        "bold": {
+          "value": "{font.face.1.bold.family.value}, Roboto, Arial, serif"
+        }
+      },
+      "face2": {
+        "normal": {
+          "value": "{font.face.2.normal.family.value}, sans-serif"
+        }
+      }
+    }
+  }
+}
