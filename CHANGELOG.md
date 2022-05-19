@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.23.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.22.0...v4.23.0)
+
+2022-05-19
+
+- New: Coach Retail Japan Theme (#66) [#66](https://github.com/Tapestry-Inc/design-tokens/issues/66) ([d03b5ea](https://github.com/Tapestry-Inc/design-tokens/commit/d03b5ea)) (p-musi)
+
 ## [v4.22.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.21.1...v4.22.0)
 
 2022-02-28
