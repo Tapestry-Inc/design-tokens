@@ -1,0 +1,43 @@
+{
+  "font": {
+    "face": {
+      "1": {
+        "normal": {
+          "family": {
+            "value": "Source Han Sans Regular"
+          },
+          "local": {
+            "value": ["SourceHanSans-Regular"]
+          },
+          "woff2": {
+            "value": "https://assets.coach.com/jp/fonts/SourceHanSans-Regular.woff2"
+          }
+        },
+        "bold": {
+          "family": {
+            "value": "Source Han Sans Heavy"
+          },
+          "local": {
+            "value": ["SourceHanSans-Heavy"]
+          },
+          "woff2": {
+            "value": "https://assets.coach.com/jp/fonts/SourceHanSans-Heavy.woff2"
+          }
+        }
+      },
+      "2": {
+        "normal": {
+          "family": {
+            "value": "Source Han Serif Regular"
+          },
+          "local": {
+            "value": ["SourceHanSerif-Regular"]
+          },
+          "woff2": {
+            "value": "https://assets.coach.com/jp/fonts/SourceHanSerif-Regular.woff2"
+          }
+        }
+      }
+    }
+  }
+}

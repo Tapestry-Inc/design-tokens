@@ -1,0 +1,166 @@
+{
+  "utility": {
+    "typography": {
+      "display1": {
+        "xs": {
+          "line-height": {
+            "value": "{size.line-height.l.value}"
+          }
+        },
+        "s": {
+          "line-height": {
+            "value": "{size.line-height.l.value}"
+          }
+        },
+        "m": {
+          "line-height": {
+            "value": "{size.line-height.m.value}"
+          }
+        },
+        "l": {
+          "line-height": {
+            "value": "{size.line-height.m.value}"
+          }
+        },
+        "xl": {
+          "line-height": {
+            "value": "{size.line-height.m.value}"
+          }
+        },
+        "2xl": {
+          "line-height": {
+            "value": "{size.line-height.m.value}"
+          }
+        }
+      },
+      "display2": {
+        "xs": {
+          "line-height": {
+            "value": "{size.line-height.l.value}"
+          }
+        },
+        "s": {
+          "line-height": {
+            "value": "{size.line-height.m.value}"
+          }
+        },
+        "m": {
+          "letter-spacing": {
+            "value": "{size.letter-spacing.s.value}"
+          },
+          "line-height": {
+            "value": "{size.line-height.m.value}"
+          }
+        },
+        "l": {
+          "letter-spacing": {
+            "value": "{size.letter-spacing.s.value}"
+          },
+          "line-height": {
+            "value": "{size.line-height.m.value}"
+          }
+        },
+        "xl": {
+          "letter-spacing": {
+            "value": "{size.letter-spacing.s.value}"
+          },
+          "line-height": {
+            "value": "{size.line-height.m.value}"
+          }
+        },
+        "2xl": {
+          "line-height": {
+            "value": "{size.line-height.m.value}"
+          }
+        }
+      },
+      "body1": {
+        "xs": {
+          "font-size": {
+            "value": "{size.font.10.value}"
+          },
+          "letter-spacing": {
+            "value": "{size.letter-spacing.l.value}"
+          }
+        },
+        "s": {
+          "letter-spacing": {
+            "value": "{size.letter-spacing.m.value}"
+          },
+          "line-height": {
+            "value": "{size.line-height.2xl.value}"
+          }
+        },
+        "m": {
+          "letter-spacing": {
+            "value": "{size.letter-spacing.m.value}"
+          },
+          "line-height": {
+            "value": "{size.line-height.2xl.value}"
+          }
+        },
+        "l": {
+          "letter-spacing": {
+            "value": "{size.letter-spacing.m.value}"
+          },
+          "line-height": {
+            "value": "{size.line-height.xl.value}"
+          }
+        }
+      },
+      "body2": {
+        "s": {
+          "font-size": {
+            "value": "{size.font.12.value}"
+          },
+          "letter-spacing": {
+            "value": "{size.letter-spacing.m.value}"
+          },
+          "line-height": {
+            "value": "{size.line-height.2xl.value}"
+          }
+        },
+        "m": {
+          "font-size": {
+            "value": "{size.font.14.value}"
+          },
+          "letter-spacing": {
+            "value": "{size.letter-spacing.m.value}"
+          }
+        },
+        "l": {
+          "letter-spacing": {
+            "value": "{size.letter-spacing.m.value}"
+          }
+        }
+      },
+      "label1": {
+        "m": {
+          "letter-spacing": {
+            "value": "{size.letter-spacing.xl.value}"
+          },
+          "line-height": {
+            "value": "{size.line-height.s.value}"
+          }
+        }
+      },
+      "cta1": {
+        "l": {
+          "letter-spacing": {
+            "value": "{size.letter-spacing.2xl.value}"
+          }
+        },
+        "m": {
+          "letter-spacing": {
+            "value": "{size.letter-spacing.2xl.value}"
+          }
+        },
+        "s": {
+          "letter-spacing": {
+            "value": "{size.letter-spacing.2xl.value}"
+          }
+        }
+      }
+    }
+  }
+}
