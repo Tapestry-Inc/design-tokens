@@ -4,37 +4,150 @@
       "1": {
         "normal": {
           "family": {
-            "value": "Source Han Sans Regular"
+            "value": "Yu Gothic Medium"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
           },
           "local": {
-            "value": ["SourceHanSans-Regular"]
+            "value": ["Yu Gothic"]
           },
           "woff2": {
-            "value": "https://assets.coach.com/jp/fonts/SourceHanSans-Regular.woff2"
+            "value": "/"
           }
         },
         "bold": {
           "family": {
-            "value": "Source Han Sans Heavy"
+            "value": "Yu Gothic Bold"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
           },
           "local": {
-            "value": ["SourceHanSans-Heavy"]
+            "value": ["Yu Gothic Bold"]
           },
           "woff2": {
-            "value": "https://assets.coach.com/jp/fonts/SourceHanSans-Heavy.woff2"
+            "value": "/"
           }
         }
       },
       "2": {
         "normal": {
           "family": {
-            "value": "Source Han Serif Regular"
+            "value": "Yu Mincho Medium"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
           },
           "local": {
-            "value": ["SourceHanSerif-Regular"]
+            "value": ["Yu Mincho"]
           },
           "woff2": {
-            "value": "https://assets.coach.com/jp/fonts/SourceHanSerif-Regular.woff2"
+            "value": "/"
+          }
+        }
+      },
+      "3": {
+        "normal": {
+          "family": {
+            "value": "Hiragino Kaku Gothic Pro Medium"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["Hiragino Kaku Gothic Pro W3"]
+          },
+          "woff2": {
+            "value": "/"
+          }
+        },
+        "bold": {
+          "family": {
+            "value": "Hiragino Kaku Gothic Pro Bold"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["Hiragino Kaku Gothic Pro W6"]
+          },
+          "woff2": {
+            "value": "/"
+          }
+        }
+      },
+      "4": {
+        "normal": {
+          "family": {
+            "value": "Hiragino Mincho Pro Medium"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["Hiragino Mincho Pro W3"]
+          },
+          "woff2": {
+            "value": "/"
+          }
+        }
+      },
+      "5": {
+        "bold": {
+          "family": {
+            "value": "Neue Helvetica Bold"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["NeueHelvetica75Bold"]
+          },
+          "woff2": {
+            "value": "https://assets.coach.com/jp/fonts/NeueHelvetica75Bold.woff2"
           }
         }
       }
