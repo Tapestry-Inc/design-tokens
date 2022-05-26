@@ -1,0 +1,24 @@
+{
+  "font": {
+    "family": {
+      "face1": {
+        "normal": {
+          "value": "{font.face.1.normal.family.value}, {font.face.3.normal.family.value}, Helvetica, Arial, sans-serif"
+        },
+        "bold": {
+          "value": "{font.face.1.bold.family.value}, {font.face.3.bold.family.value}, Helvetica, Arial, sans-serif"
+        }
+      },
+      "face2": {
+        "normal": {
+          "value": "{font.face.2.normal.family.value}, {font.face.4.normal.family.value}, serif"
+        }
+      },
+      "face3": {
+        "bold": {
+          "value": "{font.face.5.bold.family.value}, Helvetica, Arial, sans-serif"
+        }
+      }
+    }
+  }
+}
