@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.24.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.23.0...v4.24.0)
+
+2022-05-26
+
+- New: Coach Japan Web Safe Fonts (#67) [#67](https://github.com/Tapestry-Inc/design-tokens/issues/67) ([de65481](https://github.com/Tapestry-Inc/design-tokens/commit/de65481)) (p-musi)
+
 ## [v4.23.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.22.0...v4.23.0)
 
 2022-05-19
