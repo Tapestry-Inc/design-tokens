@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.25.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.24.0...v4.25.0)
+
+2022-06-01
+
+- New: Coach Outlet Japan & Coach Japan Updates (#68) [#68](https://github.com/Tapestry-Inc/design-tokens/issues/68) ([3e6a6ff](https://github.com/Tapestry-Inc/design-tokens/commit/3e6a6ff)) (p-musi)
+
 ## [v4.24.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.23.0...v4.24.0)
 
 2022-05-26
