@@ -15,8 +15,8 @@
         }
       },
       "face3": {
-        "bold": {
-          "value": "{font.face.5.bold.family.value}, Helvetica, Arial, sans-serif"
+        "extended-bold": {
+          "value": "{font.face.5.extended-bold.family.value}, Helvetica, Arial, sans-serif"
         }
       }
     }

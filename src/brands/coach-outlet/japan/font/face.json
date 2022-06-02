@@ -130,9 +130,9 @@
         }
       },
       "5": {
-        "bold": {
+        "extended-bold": {
           "family": {
-            "value": "Neue Helvetica Bold"
+            "value": "Neue Helvetica Extended Bold"
           },
           "style": {
             "value": "normal"
@@ -144,10 +144,10 @@
             "value": "normal"
           },
           "local": {
-            "value": ["NeueHelvetica75Bold"]
+            "value": ["NeueHelvetica73ExtendedBold"]
           },
           "woff2": {
-            "value": "https://assets.coach.com/jp/fonts/NeueHelvetica75Bold.woff2"
+            "value": "https://assets.coach.com/jp/fonts/NeueHelvetica73ExtendedBold.woff2"
           }
         }
       }
