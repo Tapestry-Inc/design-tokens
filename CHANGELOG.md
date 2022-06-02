@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.25.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.25.0...v4.25.1)
+
+2022-06-02
+
+- Fix: Coach Outlet Japan Extended Bold Font (#69) [#69](https://github.com/Tapestry-Inc/design-tokens/issues/69) ([648cc27](https://github.com/Tapestry-Inc/design-tokens/commit/648cc27)) (p-musi)
+
 ## [v4.25.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.24.0...v4.25.0)
 
 2022-06-01
