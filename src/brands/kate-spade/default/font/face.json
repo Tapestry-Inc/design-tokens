@@ -4,7 +4,7 @@
       "1": {
         "normal": {
           "family": {
-            "value": "Futura Now Var Regular"
+            "value": "FuturaNowTextRegular"
           },
           "style": {
             "value": "normal"
@@ -44,7 +44,7 @@
         },
         "medium": {
           "family": {
-            "value": "Futura Now Var Headline Medium"
+            "value": "FuturaNowHeadlineMedium"
           },
           "style": {
             "value": "normal"
@@ -88,7 +88,7 @@
       "3": {
         "normal": {
           "family": {
-            "value": "New Baskerville ITC Pro"
+            "value": "ITCNewBaskervilleRoman"
           },
           "style": {
             "value": "normal"
