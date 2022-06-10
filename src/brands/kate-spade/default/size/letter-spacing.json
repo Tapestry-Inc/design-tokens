@@ -1,0 +1,24 @@
+{
+  "size": {
+    "letter-spacing": {
+      "xs": {
+        "value": "0px"
+      },
+      "s": {
+        "value": "0.2px"
+      },
+      "m": {
+        "value": "0.4px"
+      },
+      "l": {
+        "value": "0.8px"
+      },
+      "xl": {
+        "value": "1px"
+      },
+      "2xl": {
+        "value": "1.25px"
+      }
+    }
+  }
+}
