@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.26.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.25.1...v4.26.0)
+
+2022-06-10
+
+- Update: minor kate spade changes added (#70) [#70](https://github.com/Tapestry-Inc/design-tokens/issues/70) ([68914fb](https://github.com/Tapestry-Inc/design-tokens/commit/68914fb)) (ejazsidhu-systems)
+
 ## [v4.25.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.25.0...v4.25.1)
 
 2022-06-02
