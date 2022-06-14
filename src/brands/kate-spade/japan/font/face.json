@@ -1,0 +1,176 @@
+{
+  "font": {
+    "face": {
+      "1": {
+        "normal": {
+          "family": {
+            "value": "Yu Gothic Medium"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["Yu Gothic"]
+          },
+          "woff2": {
+            "value": "/"
+          }
+        },
+        "bold": {
+          "family": {
+            "value": "Yu Gothic Bold"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["Yu Gothic Bold"]
+          },
+          "woff2": {
+            "value": "/"
+          }
+        },
+        "medium": {
+          "family": {
+            "value": "FuturaNowHeadlineMedium"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["Futura Now Var Headline Medium"]
+          },
+          "woff2": {
+            "value": "https://assets.katespade.com/na/fonts/FuturaNowHeadlineMedium.woff2"
+          }
+        }
+      },
+      "2": {
+        "normal": {
+          "family": {
+            "value": "Yu Mincho Medium"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["Yu Mincho"]
+          },
+          "woff2": {
+            "value": "/"
+          }
+        }
+      },
+      "3": {
+        "normal": {
+          "family": {
+            "value": "Hiragino Kaku Gothic Pro Medium"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["Hiragino Kaku Gothic Pro W3"]
+          },
+          "woff2": {
+            "value": "/"
+          }
+        },
+        "bold": {
+          "family": {
+            "value": "Hiragino Kaku Gothic Pro Bold"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["Hiragino Kaku Gothic Pro W6"]
+          },
+          "woff2": {
+            "value": "/"
+          }
+        }
+      },
+      "4": {
+        "normal": {
+          "family": {
+            "value": "Hiragino Mincho Pro Medium"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["Hiragino Mincho Pro W3"]
+          },
+          "woff2": {
+            "value": "/"
+          }
+        }
+      },
+      "5": {
+        "extended-bold": {
+          "family": {
+            "value": "Neue Helvetica Extended Bold"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["NeueHelvetica73ExtendedBold"]
+          },
+          "woff2": {
+            "value": "https://assets.coach.com/jp/fonts/NeueHelvetica73ExtendedBold.woff2"
+          }
+        }
+      }
+    }
+  }
+}
