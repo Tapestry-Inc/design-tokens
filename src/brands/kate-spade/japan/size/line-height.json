@@ -1,0 +1,42 @@
+{
+  "size": {
+    "line-height": {
+      "xs": {
+        "value": "{size.line-height.100.value}"
+      },
+      "s": {
+        "value": "{size.line-height.115.value}"
+      },
+      "m": {
+        "value": "{size.line-height.125.value}"
+      },
+      "l": {
+        "value": "{size.line-height.135.value}"
+      },
+      "xl": {
+        "value": "{size.line-height.150.value}"
+      },
+      "2xl": {
+        "value": "{size.line-height.175.value}"
+      },
+      "100": {
+        "value": "1"
+      },
+      "115": {
+        "value": "1.15"
+      },
+      "125": {
+        "value": "1.25"
+      },
+      "135": {
+        "value": "1.35"
+      },
+      "150": {
+        "value": "1.5"
+      },
+      "175": {
+        "value": "1.75"
+      }
+    }
+  }
+}
