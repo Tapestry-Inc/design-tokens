@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.27.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.26.0...v4.27.0)
+
+2022-06-21
+
+- Update: KS JP Theme and Outlet JP Font Clean Up (#73) [#73](https://github.com/Tapestry-Inc/design-tokens/issues/73) ([78c76a3](https://github.com/Tapestry-Inc/design-tokens/commit/78c76a3)) (ejaz-tapestry)
+
 ## [v4.26.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.25.1...v4.26.0)
 
 2022-06-10
