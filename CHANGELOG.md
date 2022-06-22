@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.28.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.27.0...v4.28.0)
+
+2022-06-22
+
+- Update: updated display-3 in typography.json for KS JP (#74) [#74](https://github.com/Tapestry-Inc/design-tokens/issues/74) ([18aeaca](https://github.com/Tapestry-Inc/design-tokens/commit/18aeaca)) (ejaz-tapestry)
+
 ## [v4.27.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.26.0...v4.27.0)
 
 2022-06-21
