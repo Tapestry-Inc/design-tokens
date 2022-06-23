@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.28.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.28.0...v4.28.1)
+
+2022-06-23
+
+- Fix: Reverting Font Size Removals (#75) [#75](https://github.com/Tapestry-Inc/design-tokens/issues/75) ([54dffba](https://github.com/Tapestry-Inc/design-tokens/commit/54dffba)) (Patrick Musi)
+
 ## [v4.28.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.27.0...v4.28.0)
 
 2022-06-22
