@@ -1,0 +1,30 @@
+{
+  "size": {
+    "line-height": {
+      "xs": {
+        "value": "{size.line-height.115.value}"
+      },
+      "m": {
+        "value": "{size.line-height.125.value}"
+      },
+      "l": {
+        "value": "{size.line-height.135.value}"
+      },
+      "2xl": {
+        "value": "{size.line-height.150.value}"
+      },
+      "115": {
+        "value": "1.15"
+      },
+      "125": {
+        "value": "1.25"
+      },
+      "135": {
+        "value": "1.35"
+      },
+      "150": {
+        "value": "1.5"
+      }
+    }
+  }
+}

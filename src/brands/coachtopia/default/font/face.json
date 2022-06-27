@@ -1,0 +1,48 @@
+{
+  "font": {
+    "face": {
+      "1": {
+        "medium": {
+          "family": {
+            "value": "Helvetica Now Display Medium"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["Helvetica Now Display Medium"]
+          },
+          "woff2": {
+            "value": "/"
+          }
+        },
+        "extrabold": {
+          "family": {
+            "value": "Helvetica Now Text Extra Bold"
+          },
+          "style": {
+            "value": "normal"
+          },
+          "weight": {
+            "value": "normal"
+          },
+          "stretch": {
+            "value": "normal"
+          },
+          "local": {
+            "value": ["Helvetica Now Text Extra Bold"]
+          },
+          "woff2": {
+            "value": ""
+          }
+        }
+      }
+    }
+  }
+}
