@@ -3,9 +3,6 @@
     "typography": {
       "display2": {
         "xs": {
-          "font-family": {
-            "value": "{font.family.face2.normal.value}"
-          },
           "font-size": {
             "value": "{size.font.16.value}"
           },
@@ -17,9 +14,6 @@
           }
         },
         "s": {
-          "font-family": {
-            "value": "{font.family.face2.normal.value}"
-          },
           "font-size": {
             "value": "{size.font.20.value}"
           },
