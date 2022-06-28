@@ -15,6 +15,9 @@
           "stretch": {
             "value": "normal"
           },
+          "variation-settings": {
+            "value": "'wght' 500, 'wdth' 100, 'opsz' 30"
+          },
           "local": {
             "value": ["Helvetica Now Display Medium"]
           },
@@ -34,6 +37,9 @@
           },
           "stretch": {
             "value": "normal"
+          },
+          "variation-settings": {
+            "value": "'wght' 800, 'wdth' 100, 'opsz' 12"
           },
           "local": {
             "value": ["Helvetica Now Text Extra Bold"]
