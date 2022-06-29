@@ -4,7 +4,7 @@
       "display1": {
         "2xl": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.72.value}"
@@ -18,7 +18,7 @@
         },
         "xl": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.52.value}"
@@ -32,7 +32,7 @@
         },
         "l": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.44.value}"
@@ -46,7 +46,7 @@
         },
         "m": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.36.value}"
@@ -60,7 +60,7 @@
         },
         "s": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.24.value}"
@@ -74,7 +74,7 @@
         },
         "xs": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.20.value}"
@@ -90,7 +90,7 @@
       "display2": {
         "2xl": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.72.value}"
@@ -104,7 +104,7 @@
         },
         "xl": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.52.value}"
@@ -118,7 +118,7 @@
         },
         "l": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.44.value}"
@@ -132,7 +132,7 @@
         },
         "m": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.36.value}"
@@ -146,7 +146,7 @@
         },
         "s": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.24.value}"
@@ -160,7 +160,7 @@
         },
         "xs": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.20.value}"
@@ -264,7 +264,7 @@
       "body3": {
         "xl": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.20.value}"
@@ -278,7 +278,7 @@
         },
         "l": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.16.value}"
@@ -292,7 +292,7 @@
         },
         "m": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.14.value}"
@@ -306,7 +306,7 @@
         },
         "s": {
           "font-family": {
-            "value": "{font.family.face3.normal.value}"
+            "value": "{font.family.face2.normal.value}"
           },
           "font-size": {
             "value": "{size.font.12.value}"
