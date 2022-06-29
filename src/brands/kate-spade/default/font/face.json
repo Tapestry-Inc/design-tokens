@@ -15,7 +15,9 @@
           "stretch": {
             "value": "normal"
           },
-          "variation-settings": "'wght' 400, 'wdth' 100, 'opsz' 12",
+          "variation-settings": {
+            "value": "'wght' 400, 'wdth' 100, 'opsz' 12"
+          },
           "local": {
             "value": ["Futura Now Var Regular"]
           },
@@ -36,7 +38,9 @@
           "stretch": {
             "value": "normal"
           },
-          "variation-settings": "'wght' 500, 'wdth' 100, 'opsz' 24",
+          "variation-settings": {
+            "value": "'wght' 500, 'wdth' 100, 'opsz' 24"
+          },
           "local": {
             "value": ["Futura Now Var Headline Medium"]
           },
