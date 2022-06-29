@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.29.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.28.1...v4.29.0)
+
+2022-06-29
+
+- Update: Toro-38098 ks na face file update (#78) [#78](https://github.com/Tapestry-Inc/design-tokens/issues/78) ([ad1465a](https://github.com/Tapestry-Inc/design-tokens/commit/ad1465a)) (ejaz-tapestry)
+
 ## [v4.28.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.28.0...v4.28.1)
 
 2022-06-23
