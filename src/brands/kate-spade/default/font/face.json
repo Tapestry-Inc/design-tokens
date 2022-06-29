@@ -15,31 +15,12 @@
           "stretch": {
             "value": "normal"
           },
+          "variation-settings": "'wght' 400, 'wdth' 100, 'opsz' 12",
           "local": {
             "value": ["Futura Now Var Regular"]
           },
           "woff2": {
             "value": "https://assets.katespade.com/na/fonts/FuturaNowTextRegular.woff2"
-          }
-        },
-        "light": {
-          "family": {
-            "value": "FuturaPT-Light"
-          },
-          "style": {
-            "value": "normal"
-          },
-          "weight": {
-            "value": "normal"
-          },
-          "stretch": {
-            "value": "normal"
-          },
-          "local": {
-            "value": ["Futura PT Light"]
-          },
-          "woff2": {
-            "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Light.woff2"
           }
         },
         "medium": {
@@ -55,6 +36,7 @@
           "stretch": {
             "value": "normal"
           },
+          "variation-settings": "'wght' 500, 'wdth' 100, 'opsz' 24",
           "local": {
             "value": ["Futura Now Var Headline Medium"]
           },
@@ -64,28 +46,6 @@
         }
       },
       "2": {
-        "normal": {
-          "family": {
-            "value": "FuturaPT-Medium"
-          },
-          "style": {
-            "value": "normal"
-          },
-          "weight": {
-            "value": "normal"
-          },
-          "stretch": {
-            "value": "normal"
-          },
-          "local": {
-            "value": ["Futura PT Medium"]
-          },
-          "woff2": {
-            "value": "https://assets.katespade.com/na/fonts/futura/FuturaPT-Medium.woff2"
-          }
-        }
-      },
-      "3": {
         "normal": {
           "family": {
             "value": "ITCNewBaskervilleRoman"
@@ -104,26 +64,6 @@
           },
           "woff2": {
             "value": "https://assets.katespade.com/na/fonts/ITCNewBaskervilleRoman.woff2"
-          }
-        },
-        "light": {
-          "family": {
-            "value": "Austin-Light-Web"
-          },
-          "style": {
-            "value": "normal"
-          },
-          "weight": {
-            "value": "normal"
-          },
-          "stretch": {
-            "value": "normal"
-          },
-          "local": {
-            "value": ["Austin Roman Light"]
-          },
-          "woff2": {
-            "value": "https://assets.katespade.com/na/fonts/austin/Austin-Light-Web.woff2"
           }
         }
       }
