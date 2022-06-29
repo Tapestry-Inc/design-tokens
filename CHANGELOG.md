@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.30.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.29.0...v4.30.0)
+
+2022-06-29
+
+- Update: minor font update TORO-36870 (#79) [#79](https://github.com/Tapestry-Inc/design-tokens/issues/79) ([2d35d2d](https://github.com/Tapestry-Inc/design-tokens/commit/2d35d2d)) (ejaz-tapestry)
+
 ## [v4.29.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.28.1...v4.29.0)
 
 2022-06-29
