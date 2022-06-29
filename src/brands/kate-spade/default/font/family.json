@@ -5,9 +5,6 @@
         "normal": {
           "value": "{font.face.1.normal.family.value}, Helvetica, Arial, sans-serif"
         },
-        "light": {
-          "value": "{font.face.1.light.family.value}, Helvetica, Arial, sans-serif"
-        },
         "medium": {
           "value": "{font.face.1.medium.family.value}, Helvetica, Arial, sans-serif"
         }
@@ -15,14 +12,6 @@
       "face2": {
         "normal": {
           "value": "{font.face.2.normal.family.value}, Helvetica, Arial, sans-serif"
-        }
-      },
-      "face3": {
-        "normal": {
-          "value": "{font.face.3.normal.family.value}, serif"
-        },
-        "light": {
-          "value": "{font.face.3.light.family.value}, serif"
         }
       }
     }
