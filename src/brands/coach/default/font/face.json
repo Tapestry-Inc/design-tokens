@@ -22,7 +22,7 @@
             "value": ["Helvetica Now Var"]
           },
           "woff2": {
-            "value": "update me"
+            "value": "https://assets.coach.com/na/fonts/helvetica-now-regular.woff2"
           }
         },
         "bold": {
@@ -45,7 +45,7 @@
             "value": ["Helvetica Now Var"]
           },
           "woff2": {
-            "value": "update me"
+            "value": "https://assets.coach.com/na/fonts/helvetica-now-regular.woff2"
           }
         }
       },
@@ -67,7 +67,7 @@
             "value": ["Bembo MT Pro Regular"]
           },
           "woff2": {
-            "value": "https://assets.coach.com/na/fonts/BemboMTPro-Regular.woff2"
+            "value": "https://assets.coach.com/na/fonts/bembo-regular.woff2"
           }
         }
       }
