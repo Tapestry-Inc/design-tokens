@@ -2,10 +2,10 @@
   "font": {
     "family": {
       "face1": {
-        "normal": {
+        "medium": {
           "value": "{font.face.1.medium.family.value}, Helvetica, Arial, sans-serif"
         },
-        "bold": {
+        "extrabold": {
           "value": "{font.face.1.extrabold.family.value}, Helvetica, Arial, sans-serif"
         }
       }
