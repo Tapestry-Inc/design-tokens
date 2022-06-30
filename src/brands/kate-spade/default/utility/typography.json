@@ -220,7 +220,7 @@
       "body2": {
         "l": {
           "font-family": {
-            "value": "{font.family.face2.normal.value}"
+            "value": "{font.family.face1.medium.value}"
           },
           "font-size": {
             "value": "{size.font.16.value}"
@@ -234,7 +234,7 @@
         },
         "m": {
           "font-family": {
-            "value": "{font.family.face2.normal.value}"
+            "value": "{font.family.face1.medium.value}"
           },
           "font-size": {
             "value": "{size.font.14.value}"
@@ -248,7 +248,7 @@
         },
         "s": {
           "font-family": {
-            "value": "{font.family.face2.normal.value}"
+            "value": "{font.family.face1.medium.value}"
           },
           "font-size": {
             "value": "{size.font.12.value}"
@@ -262,20 +262,6 @@
         }
       },
       "body3": {
-        "xl": {
-          "font-family": {
-            "value": "{font.family.face2.normal.value}"
-          },
-          "font-size": {
-            "value": "{size.font.20.value}"
-          },
-          "letter-spacing": {
-            "value": "{size.letter-spacing.xs.value}"
-          },
-          "line-height": {
-            "value": "{size.line-height.140.value}"
-          }
-        },
         "l": {
           "font-family": {
             "value": "{font.family.face2.normal.value}"
