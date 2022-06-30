@@ -20,9 +20,6 @@
           },
           "local": {
             "value": ["Helvetica Now Display Medium"]
-          },
-          "woff2": {
-            "value": "/"
           }
         },
         "extrabold": {
@@ -43,9 +40,6 @@
           },
           "local": {
             "value": ["Helvetica Now Text Extra Bold"]
-          },
-          "woff2": {
-            "value": ""
           }
         }
       }
