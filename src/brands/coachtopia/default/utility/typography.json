@@ -252,7 +252,7 @@
       "badge1": {
         "xs": {
           "font-family": {
-            "value": "{font.family.face1.extraextrabold.value}"
+            "value": "{font.family.face1.extrabold.value}"
           },
           "font-size": {
             "value": "{size.font.10.value}"
@@ -271,7 +271,7 @@
       "label1": {
         "m": {
           "font-family": {
-            "value": "{font.family.face1.extraextrabold.value}"
+            "value": "{font.family.face1.extrabold.value}"
           },
           "font-size": {
             "value": "{size.font.12.value}"
@@ -290,7 +290,7 @@
       "cta1": {
         "m": {
           "font-family": {
-            "value": "{font.family.face1.extraextrabold.value}"
+            "value": "{font.family.face1.extrabold.value}"
           },
           "font-size": {
             "value": "{size.font.14.value}"

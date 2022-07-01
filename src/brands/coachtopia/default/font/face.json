@@ -4,7 +4,7 @@
       "1": {
         "medium": {
           "family": {
-            "value": "Helvetica Now Display Medium"
+            "value": "Helvetica Now"
           },
           "style": {
             "value": "normal"
@@ -16,15 +16,18 @@
             "value": "normal"
           },
           "variation-settings": {
-            "value": "'wght' 500, 'wdth' 100, 'opsz' 30"
+            "value": "'wght' 500, 'wdth' 100, 'opsz' 12"
           },
           "local": {
-            "value": ["Helvetica Now Display Medium"]
+            "value": ["Helvetica Now"]
+          },
+          "woff2": {
+            "value": "https://assets.coach.com/coachtopia/fonts/helvetica-now-variable-roman.woff2"
           }
         },
         "extrabold": {
           "family": {
-            "value": "Helvetica Now Text Extra Bold"
+            "value": "Helvetica Now"
           },
           "style": {
             "value": "normal"
@@ -36,10 +39,13 @@
             "value": "normal"
           },
           "variation-settings": {
-            "value": "'wght' 800, 'wdth' 100, 'opsz' 12"
+            "value": "'wght' 800, 'wdth' 96, 'opsz' 26"
           },
           "local": {
-            "value": ["Helvetica Now Text Extra Bold"]
+            "value": ["Helvetica Now"]
+          },
+          "woff2": {
+            "value": "https://assets.coach.com/coachtopia/fonts/helvetica-now-variable-roman.woff2"
           }
         }
       }
