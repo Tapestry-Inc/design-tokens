@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.34.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.33.0...v4.34.0)
+
+2022-07-07
+
+- New: TORO-35839 major Coachtopia brand added (#76) [#76](https://github.com/Tapestry-Inc/design-tokens/issues/76) ([57f6c86](https://github.com/Tapestry-Inc/design-tokens/commit/57f6c86)) (ejaz-tapestry)
+
 ## [v4.33.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.32.0...v4.33.0)
 
 2022-07-07
