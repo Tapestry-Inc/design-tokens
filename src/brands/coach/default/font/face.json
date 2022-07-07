@@ -27,7 +27,7 @@
         },
         "bold": {
           "family": {
-            "value": "HelveticaNowVar"
+            "value": "HelveticaLTProBold"
           },
           "style": {
             "value": "normal"
@@ -42,7 +42,7 @@
             "value": "'wght' 700, 'wdth' 95, 'opsz' 18"
           },
           "local": {
-            "value": ["Helvetica Now Var"]
+            "value": ["Helvetica LT Pro Bold"]
           },
           "woff2": {
             "value": "https://assets.coach.com/na/fonts/helvetica-now-regular.woff2"
