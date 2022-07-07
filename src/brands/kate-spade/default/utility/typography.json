@@ -262,6 +262,20 @@
         }
       },
       "body3": {
+        "xl": {
+          "font-family": {
+            "value": "{font.family.face2.normal.value}"
+          },
+          "font-size": {
+            "value": "{size.font.20.value}"
+          },
+          "letter-spacing": {
+            "value": "{size.letter-spacing.xs.value}"
+          },
+          "line-height": {
+            "value": "{size.line-height.140.value}"
+          }
+        },
         "l": {
           "font-family": {
             "value": "{font.family.face2.normal.value}"
