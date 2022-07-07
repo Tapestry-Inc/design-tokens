@@ -1,0 +1,11 @@
+{
+  "effect": {
+    "box": {
+      "shadow": {
+        "ltr": {
+          "value": "0px -5px 10px -1px rgba(0, 0, 0, 0.05),\n-6px 0px 10px -5px rgba(0, 0, 0, 0.05),  \n6px 0px 10px -5px rgba(0, 0, 0, 0.05)"
+        }
+      }
+    }
+  }
+}
