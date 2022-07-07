@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.32.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.31.0...v4.32.0)
+
+2022-07-07
+
+- Update: icons added in KS_J (#82) [#82](https://github.com/Tapestry-Inc/design-tokens/issues/82) ([4e679f7](https://github.com/Tapestry-Inc/design-tokens/commit/4e679f7)) (ejaz-tapestry)
+
 ## [v4.31.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.30.0...v4.31.0)
 
 2022-07-06
