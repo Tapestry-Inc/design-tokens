@@ -292,7 +292,7 @@
       "eyebrow1": {
         "m": {
           "font-family": {
-            "value": "{font.family.face1.normal.value}"
+            "value": "{font.family.face1.medium.value}"
           },
           "font-size": {
             "value": "{size.font.10.value}"
@@ -306,7 +306,7 @@
         },
         "l": {
           "font-family": {
-            "value": "{font.family.face1.normal.value}"
+            "value": "{font.family.face1.medium.value}"
           },
           "font-size": {
             "value": "{size.font.12.value}"
@@ -322,7 +322,7 @@
       "badge1": {
         "xs": {
           "font-family": {
-            "value": "{font.family.face1.bold.value}"
+            "value": "{font.family.face1.extrabold.value}"
           },
           "font-size": {
             "value": "{size.font.10.value}"
@@ -341,7 +341,7 @@
       "label1": {
         "m": {
           "font-family": {
-            "value": "{font.family.face1.bold.value}"
+            "value": "{font.family.face1.extrabold.value}"
           },
           "font-size": {
             "value": "{size.font.12.value}"
