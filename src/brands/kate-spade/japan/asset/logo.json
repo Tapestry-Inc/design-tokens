@@ -1,0 +1,21 @@
+{
+  "asset": {
+    "logo": {
+      "favicon": {
+        "value": "favicon.svg"
+      },
+      "monogram-black": {
+        "value": "monogram-black.svg"
+      },
+      "monogram-white": {
+        "value": "monogram-white.svg"
+      },
+      "primary-black": {
+        "value": "primary-black.svg"
+      },
+      "primary-white": {
+        "value": "primary-white.svg"
+      }
+    }
+  }
+}

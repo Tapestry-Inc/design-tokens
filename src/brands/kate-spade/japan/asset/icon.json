@@ -1,0 +1,52 @@
+{
+  "asset": {
+    "icon": {
+      "navigation": {
+        "account": {
+          "value": "account.svg"
+        },
+        "bag-filled": {
+          "value": "bag-filled.svg"
+        },
+        "bag": {
+          "value": "bag.svg"
+        },
+        "favorite-fill": {
+          "value": "favorite-fill.svg"
+        },
+        "favorite": {
+          "value": "favorite.svg"
+        },
+        "location": {
+          "value": "location.svg"
+        },
+        "search": {
+          "value": "search.svg"
+        }
+      },
+      "object": {
+        "chat": {
+          "value": "chat.svg"
+        },
+        "gift": {
+          "value": "gift.svg"
+        },
+        "spade-left": {
+          "value": "spade-left.svg"
+        },
+        "spade-right": {
+          "value": "spade-right.svg"
+        },
+        "spade": {
+          "value": "spade.svg"
+        },
+        "truefit": {
+          "value": "truefit.svg"
+        },
+        "line": {
+          "value": "KSJ_line.svg"
+        }
+      }
+    }
+  }
+}
