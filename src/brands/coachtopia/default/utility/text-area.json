@@ -1,0 +1,11 @@
+{
+  "utility": {
+    "input": {
+      "textarea": {
+        "font-family": {
+          "value": "{font.family.face1.medium.value}"
+        }
+      }
+    }
+  }
+}

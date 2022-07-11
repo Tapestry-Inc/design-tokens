@@ -1,5 +1,41 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.34.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.33.0...v4.34.0)
+
+2022-07-07
+
+- New: TORO-35839 major Coachtopia brand added (#76) [#76](https://github.com/Tapestry-Inc/design-tokens/issues/76) ([57f6c86](https://github.com/Tapestry-Inc/design-tokens/commit/57f6c86)) (ejaz-tapestry)
+
+## [v4.33.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.32.0...v4.33.0)
+
+2022-07-07
+
+- Update: Toro 38098 ks na face file update (#80) [#80](https://github.com/Tapestry-Inc/design-tokens/issues/80) ([f3f6e61](https://github.com/Tapestry-Inc/design-tokens/commit/f3f6e61)) (ejaz-tapestry)
+
+## [v4.32.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.31.0...v4.32.0)
+
+2022-07-07
+
+- Update: icons added in KS_J (#82) [#82](https://github.com/Tapestry-Inc/design-tokens/issues/82) ([4e679f7](https://github.com/Tapestry-Inc/design-tokens/commit/4e679f7)) (ejaz-tapestry)
+
+## [v4.31.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.30.0...v4.31.0)
+
+2022-07-06
+
+- Update: minor coach trak file URL updated to Https TORO-38585 (#81) [#81](https://github.com/Tapestry-Inc/design-tokens/issues/81) ([600c411](https://github.com/Tapestry-Inc/design-tokens/commit/600c411)) (ejaz-tapestry)
+
+## [v4.30.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.29.0...v4.30.0)
+
+2022-06-29
+
+- Update: minor font update TORO-36870 (#79) [#79](https://github.com/Tapestry-Inc/design-tokens/issues/79) ([2d35d2d](https://github.com/Tapestry-Inc/design-tokens/commit/2d35d2d)) (ejaz-tapestry)
+
+## [v4.29.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.28.1...v4.29.0)
+
+2022-06-29
+
+- Update: Toro-38098 ks na face file update (#78) [#78](https://github.com/Tapestry-Inc/design-tokens/issues/78) ([ad1465a](https://github.com/Tapestry-Inc/design-tokens/commit/ad1465a)) (ejaz-tapestry)
+
 ## [v4.28.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.28.0...v4.28.1)
 
 2022-06-23

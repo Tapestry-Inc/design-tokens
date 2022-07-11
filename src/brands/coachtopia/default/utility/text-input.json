@@ -1,0 +1,11 @@
+{
+  "utility": {
+    "input": {
+      "text": {
+        "font-family": {
+          "value": "{font.family.face1.medium.value}"
+        }
+      }
+    }
+  }
+}
