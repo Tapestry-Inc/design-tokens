@@ -347,7 +347,7 @@
         }
       },
       "cta1": {
-        "l": {
+        "m": {
           "font-family": {
             "value": "{font.family.face1.normal.value}"
           },
@@ -364,7 +364,7 @@
             "value": "uppercase"
           }
         },
-        "m": {
+        "s": {
           "font-family": {
             "value": "{font.family.face1.normal.value}"
           },
@@ -381,7 +381,7 @@
             "value": "uppercase"
           }
         },
-        "s": {
+        "xs": {
           "font-family": {
             "value": "{font.family.face1.normal.value}"
           },
