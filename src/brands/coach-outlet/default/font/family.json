@@ -13,9 +13,6 @@
         },
         "extended-bold": {
           "value": "{font.face.1.extended-bold.family.value}, Helvetica, Arial, sans-serif"
-        },
-        "condensed-bold": {
-          "value": "{font.face.1.condensed-bold.family.value}, Helvetica, Arial, sans-serif"
         }
       },
       "face2": {

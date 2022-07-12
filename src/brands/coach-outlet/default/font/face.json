@@ -15,6 +15,9 @@
           "stretch": {
             "value": "normal"
           },
+          "variation-settings": {
+            "value": "'wght' 400, 'wdth' 97, 'opsz' 20"
+          },
           "local": {
             "value": ["Helvetica LT Pro Roman"]
           },
@@ -37,6 +40,9 @@
           },
           "local": {
             "value": ["Helvetica LT Pro Bold"]
+          },
+          "variation-settings": {
+            "value": "'wght' 700, 'wdth' 95, 'opsz' 18"
           },
           "woff": {
             "value": "https://assets.coach.com/na/fonts/Helvetica-Bold.woff2"
