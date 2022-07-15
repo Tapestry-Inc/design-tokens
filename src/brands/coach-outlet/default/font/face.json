@@ -21,7 +21,7 @@
           "local": {
             "value": ["Helvetica Now Var"]
           },
-          "woff": {
+          "woff2": {
             "value": "https://assets.coach.com/na/fonts/helvetica-now-regular.woff2"
           }
         },
