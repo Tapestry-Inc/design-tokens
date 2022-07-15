@@ -13,6 +13,14 @@
         "normal": {
           "value": "{font.face.2.normal.family.value}, Baskerville, Georgia, serif"
         }
+      },
+      "face3": {
+        "normal": {
+          "value": "{font.face.2.normal.family.value}, serif"
+        },
+        "light": {
+          "value": "{font.face.2.normal.family.value}, serif"
+        }
       }
     }
   }

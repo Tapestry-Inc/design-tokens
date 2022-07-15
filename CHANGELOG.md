@@ -1,5 +1,18 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.36.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.35.0...v4.36.0)
+
+2022-07-15
+
+- Update: font-face3 added back TORO-38098 (#87) [#87](https://github.com/Tapestry-Inc/design-tokens/issues/87) ([3bd21d8](https://github.com/Tapestry-Inc/design-tokens/commit/3bd21d8)) (ejaz-tapestry)
+
+## [v4.35.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.34.0...v4.35.0)
+
+2022-07-15
+
+- Update: TORO-35939 coach outlet na (#86) [#86](https://github.com/Tapestry-Inc/design-tokens/issues/86) ([7527888](https://github.com/Tapestry-Inc/design-tokens/commit/7527888)) (ejaz-tapestry)
+- Toro 36870 coach NA updates (#83) [#83](https://github.com/Tapestry-Inc/design-tokens/issues/83) ([dca597d](https://github.com/Tapestry-Inc/design-tokens/commit/dca597d)) (ejaz-tapestry)
+
 ## [v4.34.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.33.0...v4.34.0)
 
 2022-07-07
