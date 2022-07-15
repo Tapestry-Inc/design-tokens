@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.36.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.35.0...v4.36.0)
+
+2022-07-15
+
+- Update: font-face3 added back TORO-38098 (#87) [#87](https://github.com/Tapestry-Inc/design-tokens/issues/87) ([3bd21d8](https://github.com/Tapestry-Inc/design-tokens/commit/3bd21d8)) (ejaz-tapestry)
+
 ## [v4.35.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.34.0...v4.35.0)
 
 2022-07-15
