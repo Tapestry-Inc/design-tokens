@@ -70,48 +70,6 @@
             "value": "https://assets.katespade.com/na/fonts/ITCNewBaskervilleRoman.woff2"
           }
         }
-      },
-      "3": {
-        "normal": {
-          "family": {
-            "value": "ITCNewBaskervilleRoman"
-          },
-          "style": {
-            "value": "normal"
-          },
-          "weight": {
-            "value": "normal"
-          },
-          "stretch": {
-            "value": "normal"
-          },
-          "local": {
-            "value": ["New Baskerville ITC Pro"]
-          },
-          "woff2": {
-            "value": "https://assets.katespade.com/na/fonts/ITCNewBaskervilleRoman.woff2"
-          }
-        },
-        "light": {
-          "family": {
-            "value": "ITCNewBaskervilleRoman"
-          },
-          "style": {
-            "value": "normal"
-          },
-          "weight": {
-            "value": "normal"
-          },
-          "stretch": {
-            "value": "normal"
-          },
-          "local": {
-            "value": ["New Baskerville ITC Pro"]
-          },
-          "woff2": {
-            "value": "https://assets.katespade.com/na/fonts/ITCNewBaskervilleRoman.woff2"
-          }
-        }
       }
     }
   }

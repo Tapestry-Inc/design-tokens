@@ -16,10 +16,10 @@
       },
       "face3": {
         "normal": {
-          "value": "{font.face.3.normal.family.value}, serif"
+          "value": "{font.face.2.normal.family.value}, serif"
         },
         "light": {
-          "value": "{font.face.3.light.family.value}, serif"
+          "value": "{font.face.2.normal.family.value}, serif"
         }
       }
     }
