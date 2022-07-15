@@ -18,7 +18,7 @@
           "local": {
             "value": ["Helvetica LT Pro Roman"]
           },
-          "woff": {
+          "woff2": {
             "value": "https://assets.coach.com/na/fonts/Helvetica-Roman.woff2"
           }
         },
@@ -38,7 +38,7 @@
           "local": {
             "value": ["Helvetica LT Pro Bold"]
           },
-          "woff": {
+          "woff2": {
             "value": "https://assets.coach.com/na/fonts/Helvetica-Bold.woff2"
           }
         },
