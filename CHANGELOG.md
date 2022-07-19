@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.37.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.36.0...v4.37.0)
+
+2022-07-15
+
+- Update: missing value for line height and letter psacing are added TORO-39718 (#90) [#90](https://github.com/Tapestry-Inc/design-tokens/issues/90) ([e0aaaec](https://github.com/Tapestry-Inc/design-tokens/commit/e0aaaec)) (Patrick Musi)
+
 ## [v4.36.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.35.0...v4.36.0)
 
 2022-07-15
