@@ -15,6 +15,9 @@
           "stretch": {
             "value": "normal"
           },
+          "variation-settings": {
+            "value": "normal"
+          },
           "local": {
             "value": ["Yu Gothic"]
           },
@@ -33,6 +36,9 @@
             "value": "normal"
           },
           "stretch": {
+            "value": "normal"
+          },
+          "variation-settings": {
             "value": "normal"
           },
           "local": {
