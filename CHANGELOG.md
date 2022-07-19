@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.37.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.37.0...v4.37.1)
+
+2022-07-19
+
+- Fix: Toro 39777 fix all japan themes (#89) [#89](https://github.com/Tapestry-Inc/design-tokens/issues/89) ([aea0807](https://github.com/Tapestry-Inc/design-tokens/commit/aea0807)) (ejaz-tapestry)
+
 ## [v4.37.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.36.0...v4.37.0)
 
 2022-07-15
