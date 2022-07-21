@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.40.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.39.0...v4.40.0)
+
+2022-07-21
+
+- Update: surpise logo added inti KS NA TORO-37363 (#97) [#97](https://github.com/Tapestry-Inc/design-tokens/issues/97) ([f716dcf](https://github.com/Tapestry-Inc/design-tokens/commit/f716dcf)) (ejaz-tapestry)
+
 ## [v4.39.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.38.0...v4.39.0)
 
 2022-07-21
