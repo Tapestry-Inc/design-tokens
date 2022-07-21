@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.42.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.41.0...v4.42.0)
+
+2022-07-21
+
+- Update: font face changes done for KS JP TORO-38778 (#93) [#93](https://github.com/Tapestry-Inc/design-tokens/issues/93) ([0c6c7c9](https://github.com/Tapestry-Inc/design-tokens/commit/0c6c7c9)) (ejaz-tapestry)
+
 ## [v4.41.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.40.0...v4.41.0)
 
 2022-07-21
