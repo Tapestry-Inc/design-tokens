@@ -65,7 +65,7 @@
             "value": ["Helvetica Neue LT Pro 53 Extended"]
           },
           "woff2": {
-            "value": "https://assets.coach.com/na/fonts/EOS/HelveticaNeueLTStd-Ex.woff2"
+            "value": "https://assets.coach.com/na/fonts/neue_helvetica_53_extended.woff2"
           }
         },
         "extended-bold": {
@@ -85,7 +85,7 @@
             "value": ["Helvetica Neue LT Pro 73 Bold Extended"]
           },
           "woff2": {
-            "value": "https://assets.coach.com/na/fonts/EOS/HelveticaNeue73ExtendedBold.woff2"
+            "value": "https://assets.coach.com/na/fonts/neue_helvetica_73_extended_bold.woff2"
           }
         },
         "condensed-bold": {
@@ -105,7 +105,7 @@
             "value": ["Helvetica Neue LT Pro 77 Bold Condensed"]
           },
           "woff2": {
-            "value": "https://assets.coach.com/na/fonts/EOS/HelveticaNeue77CondensedBold.woff2"
+            "value": "https://assets.coach.com/na/fonts/neue_helvetica_77_condensed_bold.woff2"
           }
         }
       },
