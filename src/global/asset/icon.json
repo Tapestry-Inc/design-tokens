@@ -110,6 +110,9 @@
         },
         "facebook": {
           "value": "facebook.svg"
+        },
+        "line": {
+          "value": "line.svg"
         }
       },
       "review": {
