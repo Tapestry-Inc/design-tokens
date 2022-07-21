@@ -15,6 +15,9 @@
       },
       "primary-white": {
         "value": "primary-white.svg"
+      },
+      "surprise": {
+        "value": "surprise.svg"
       }
     }
   }
