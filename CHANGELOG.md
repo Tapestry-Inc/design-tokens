@@ -1,5 +1,17 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.39.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.38.0...v4.39.0)
+
+2022-07-21
+
+- Update: font URL updated TORO-40456 (#94) [#94](https://github.com/Tapestry-Inc/design-tokens/issues/94) ([0bc7de0](https://github.com/Tapestry-Inc/design-tokens/commit/0bc7de0)) (ejaz-tapestry)
+
+## [v4.38.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.37.1...v4.38.0)
+
+2022-07-21
+
+- Update: line icon adde to global folder TORO-40438 (#92) [#92](https://github.com/Tapestry-Inc/design-tokens/issues/92) ([3f7cf37](https://github.com/Tapestry-Inc/design-tokens/commit/3f7cf37)) (ejaz-tapestry)
+
 ## [v4.37.1](https://github.com/Tapestry-Inc/design-tokens/compare/v4.37.0...v4.37.1)
 
 2022-07-19
