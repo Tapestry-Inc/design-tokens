@@ -1,5 +1,11 @@
 # Changelog | Tapestry Design Tokens
 
+## [v4.41.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.40.0...v4.41.0)
+
+2022-07-21
+
+- Update: avatar icon added to KS NA TORO-39742 (#95) [#95](https://github.com/Tapestry-Inc/design-tokens/issues/95) ([5d42ddd](https://github.com/Tapestry-Inc/design-tokens/commit/5d42ddd)) (ejaz-tapestry)
+
 ## [v4.40.0](https://github.com/Tapestry-Inc/design-tokens/compare/v4.39.0...v4.40.0)
 
 2022-07-21
