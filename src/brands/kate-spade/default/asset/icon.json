@@ -42,6 +42,9 @@
         },
         "truefit": {
           "value": "truefit.svg"
+        },
+        "avatar": {
+          "value": "avatar.svg"
         }
       }
     }
